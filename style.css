@@ -1,0 +1,639 @@
+/* Indexeur FamilySearch : la charte des pages Arhive de l'app (REFONTE_SITE.md,
+   § B, lot 4, 2026-09-09). Jetons, polices et composants repris de
+   app/archives.html et app/arhive_moldova.html ; mode sombre derive des
+   memes jetons ; mobile en deux lignes sous 40 rem. */
+:root {
+  --violet: #731dd8;
+  --violet-txt: #731dd8;       /* le violet quand il porte du texte (eclairci en sombre) */
+  --violet-bg: #f0e8fd;        /* surlignage du terme trouve */
+  --violet-soft: #f5f0fd;      /* survol des suggestions, ligne trouvee */
+  --violet-line: #d4c8f0;      /* bordure au survol d'une carte */
+  --teal: #48a9a6;
+  --pink: #c1666b;
+  --dust: #e4dfda;
+  --fawn: #d4b483;
+  --fawn-txt: #9a6b16;
+  --bg: #f9f8f6;
+  --text: #2a2438;
+  --dim: #7a7490;
+  --card: #ffffff;
+  --border: #e8e4f0;
+  --ombre: rgba(115, 29, 216, 0.06);
+  --ombre-fort: rgba(115, 29, 216, 0.13);
+  --cf-sur-bg: #e8f7f7;  --cf-sur: var(--teal);
+  --cf-fawn-bg: #fff3d9; --cf-fawn: var(--fawn-txt);
+  --cf-pink-bg: #fce8e8; --cf-pink: var(--pink);
+  --erreur-bg: #fbeeee;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --violet-txt: #b08cf0;
+    --violet-bg: #3a2a5c;
+    --violet-soft: #2c2640;
+    --violet-line: #4a3d6e;
+    --fawn-txt: #e0b768;
+    --bg: #1a1724;
+    --text: #e6e2ee;
+    --dim: #a39db5;
+    --card: #242030;
+    --border: #332e42;
+    --ombre: rgba(0, 0, 0, 0.25);
+    --ombre-fort: rgba(0, 0, 0, 0.45);
+    --cf-sur-bg: #1d3634;  --cf-sur: #7fd1ce;
+    --cf-fawn-bg: #3a3020; --cf-fawn: #e0b768;
+    --cf-pink-bg: #3d2426; --cf-pink: #e39a9e;
+    --erreur-bg: #3d2426;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+a { color: var(--violet-txt); }
+a:hover { text-decoration: underline; }
+main, .entete, footer { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+main { padding-bottom: 8px; }
+
+/* ------------------------------------------------------------ en-tete
+   Pas de barre de navigation de l'app : H1 Playfair a gauche, langues a
+   droite en chips. */
+.entete {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px 24px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+/* le titre se replie plutot que de pousser les langues a la ligne */
+.entete-titre { min-width: 0; flex: 1 1 22rem; }
+.entete .langues { flex: 0 0 auto; }
+h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 4px;
+}
+/* Le chapeau passe sous le titre et les langues, sur toute la largeur
+   (2026-09-10) : a 680 px il faisait une colonne etroite a cote du vide. */
+.chapeau {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--dim);
+  max-width: none;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.chapeau strong, .chapeau em { color: var(--text); font-style: normal; }
+nav.langues { display: flex; gap: 6px; flex-wrap: wrap; flex-shrink: 0; padding-top: 2px; }
+nav.langues a, .chip {
+  display: inline-block;
+  padding: 5px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 12px;
+  color: var(--dim);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+nav.langues a:hover, .chip:hover { border-color: var(--violet); color: var(--violet-txt); background: var(--card); text-decoration: none; }
+nav.langues a[aria-current] { border-color: var(--violet); color: var(--violet-txt); background: var(--card); font-weight: 500; }
+
+/* ------------------------------------------------------------ boite de recherche */
+.search-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px var(--ombre);
+}
+.filter-label, .puces .lbl { font-size: 12px; color: var(--dim); font-weight: 500; }
+label.filter-label { display: block; margin-bottom: 8px; }
+.search-row { display: flex; gap: 10px; }
+.champ { position: relative; flex: 1; min-width: 0; }
+.search-input {
+  width: 100%;
+  padding: 10px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text);
+  background: var(--bg);
+  outline: none;
+  transition: border-color 0.15s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.search-input:focus { border-color: var(--violet); background: var(--card); }
+.search-input:disabled { color: var(--dim); }
+.search-input::placeholder { color: var(--dim); opacity: 1; }
+.btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: var(--violet);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn:hover { opacity: 0.85; text-decoration: none; color: #fff; }
+.btn:disabled { opacity: 0.5; cursor: default; }
+
+/* suggestions en tapant */
+#suggestions {
+  position: absolute;
+  left: 0; right: 0; top: calc(100% + 4px);
+  z-index: 200;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  background: var(--card);
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 18px var(--ombre-fort);
+  max-height: 22rem;
+  overflow-y: auto;
+  font-size: 13px;
+}
+#suggestions[hidden] { display: none; }
+#suggestions li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+#suggestions li.actif, #suggestions li:hover { background: var(--violet-soft); color: var(--violet-txt); }
+#suggestions li .meta { color: var(--dim); font-size: 12px; white-space: nowrap; }
+#suggestions li.tout { font-weight: 500; border-bottom: 1px solid var(--border); margin-bottom: 4px; padding-bottom: 8px; }
+#suggestions li.equiv .de { color: var(--dim); }
+
+/* filtres en pilules (annees) et recherches rapides (exemples) */
+.puces { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 14px 0 0; font-size: 12px; }
+.puces .lbl { margin-right: 2px; }
+.puce {
+  padding: 5px 12px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--dim);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.puce:hover { border-color: var(--violet); color: var(--violet-txt); background: var(--card); }
+.puce.actif { background: var(--violet); border-color: var(--violet); color: #fff; }
+.puce:disabled { opacity: 0.45; cursor: default; border-color: var(--border); color: var(--dim); background: var(--bg); }
+#exemples { padding-top: 14px; border-top: 1px solid var(--border); }
+#vide[hidden], #annees[hidden], #graphie[hidden] { display: none; }
+#graphie { margin: 12px 0 0; font-size: 13px; color: var(--dim); }
+#graphie strong { color: var(--text); font-weight: 500; }
+/* le lien « Comment lire un resultat » sous le champ (lot 5) */
+.aide { margin: 8px 0 0; font-size: 12px; color: var(--dim); }
+.aide a { color: var(--violet-txt); text-decoration: none; }
+.aide a:hover { text-decoration: underline; }
+.non-relie a { color: var(--violet-txt); }
+
+/* ------------------------------------------------------------ etat vide, etat, proches */
+.empty { text-align: center; padding: 48px 16px; color: var(--dim); font-size: 14px; }
+.empty[hidden] { display: none; }
+.empty svg { display: block; margin: 0 auto 12px; opacity: 0.3; }
+.empty p { margin: 0; }
+.empty #stats-ligne { margin-top: 8px; font-size: 12px; }
+html:not(.pret) .si-charge { display: none; }
+html.pret .si-chargement { display: none; }
+.status { font-size: 13px; color: var(--dim); margin: 0 0 12px; min-height: 20px; }
+.status span { color: var(--violet-txt); font-weight: 500; }
+.status:empty { display: none; }
+#proches { margin: -4px 0 14px; font-size: 13px; color: var(--dim); }
+#proches[hidden] { display: none; }
+.erreur { margin: 0 0 14px; padding: 10px 14px; border-radius: 8px; background: var(--erreur-bg); color: var(--pink); font-size: 13px; }
+.erreur[hidden] { display: none; }
+button.lien {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--violet-txt);
+  cursor: pointer;
+  text-decoration: none;
+}
+button.lien:hover { text-decoration: underline; }
+button.lien:disabled { color: var(--dim); text-decoration: none; cursor: default; }
+
+/* ------------------------------------------------------------ resultats
+   Une carte par dossier (.result-card de l'app) : le numero en gros, le
+   titre verbatim, la meta, a droite la pastille et le bouton ; en dessous,
+   les lignes de l'inventaire, indentees, la ligne trouvee surlignee. */
+.results { display: flex; flex-direction: column; gap: 8px; margin-bottom: 8px; }
+.results[hidden] { display: none; }
+.dosar {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.dosar:hover { box-shadow: 0 2px 12px var(--ombre-fort); border-color: var(--violet-line); }
+.dosar-tete {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  gap: 4px 12px;
+  align-items: center;
+}
+.dosar-num {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--violet-txt);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.dosar-corps { min-width: 0; }
+.dosar-titre { margin: 0 0 3px; font-size: 14px; font-weight: 500; line-height: 1.4; }
+.dosar-titre.absent { color: var(--dim); font-style: italic; font-weight: 400; }
+/* traduction du titre, lot 6 : sous l'original, non roumain seulement */
+.dosar-titre-tr { margin: 0 0 3px; font-size: 13px; font-style: italic; color: var(--dim); font-weight: 400; line-height: 1.4; }
+.dosar-meta { margin: 0; font-size: 12px; color: var(--dim); }
+.dosar-actions { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+.dosar .btn { padding: 7px 14px; font-size: 12.5px; }
+.non-relie { font-size: 12px; color: var(--dim); max-width: 16rem; text-align: right; }
+
+/* pastilles de confiance : teal = sur, fawn = probable / deduit, pink = estime / incertain */
+.cf {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.4;
+  white-space: nowrap;
+  background: var(--bg);
+  color: var(--dim);
+  cursor: help;
+}
+.cf.cf-sur, .cf.cf-exacte { background: var(--cf-sur-bg); color: var(--cf-sur); }
+.cf.cf-probable, .cf.cf-deduit { background: var(--cf-fawn-bg); color: var(--cf-fawn); }
+.cf.cf-estime, .cf.cf-incertain { background: var(--cf-pink-bg); color: var(--cf-pink); }
+/* `volume seul` : pas de plage sur nos bobines, seulement le volume FamilySearch */
+.cf.cf-volum { background: var(--cf-pink-bg); color: var(--cf-pink); }
+
+/* les lignes de l'inventaire */
+ol.lignes {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 10px 0 0 72px;
+  border-top: 1px solid var(--border);
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+li.ligne {
+  display: grid;
+  grid-template-columns: 2rem 1fr auto;
+  gap: 0 8px;
+  align-items: baseline;
+  padding: 3px 6px;
+  margin: 0 -6px;
+  border-radius: 6px;
+}
+li.ligne[hidden] { display: none; }
+li.ligne.hit { background: var(--violet-soft); }
+li.ligne .vol { color: var(--dim); font-weight: 600; font-variant-numeric: tabular-nums; }
+li.ligne .texte { min-width: 0; }
+li.ligne .pre, li.ligne .tinut, li.ligne .fil, li.ligne .bis { color: var(--dim); }
+li.ligne .fil { font-variant-numeric: tabular-nums; white-space: nowrap; }
+li.ligne em { font-style: normal; font-weight: 500; background: var(--violet-bg); color: var(--violet-txt); border-radius: 3px; padding: 0 3px; }
+li.ligne .face { font-size: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; color: var(--dim); }
+li.ligne .face .plage { color: var(--teal); font-weight: 500; white-space: nowrap; }
+li.ligne .autre-bobine { color: var(--dim); }
+/* le numero d'image a saisir dans la visionneuse FamilySearch (lot 12) : le
+   viewer ignore le « i= » de l'URL, le numero se tape a la main. */
+li.ligne .img-saisir { color: var(--dim); white-space: nowrap; font-style: italic; }
+li.plus { padding: 3px 0 3px calc(2rem + 8px); }
+li.plus button.lien { font-size: 12.5px; }
+.dosar .note { margin: 10px 0 0 72px; font-size: 12px; color: var(--dim); font-style: italic; }
+.dosar-pied {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--dim);
+  display: flex;
+  gap: 8px 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.dosar-pied button.lien { font-size: 12px; }
+
+/* les dossiers sans annee, en fin de liste (.year-header de l'app) */
+.groupe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--dim);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.groupe::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+/* ------------------------------------------------------------ textes explicatifs
+   Inter 15 px / 1.6, largeur 680 px, sous les resultats. */
+/* Pleine largeur depuis le 2026-09-10 (demande de Monica) : le texte
+   s'aligne sur la boite de recherche, les cartes et la figure, au lieu de
+   faire une colonne de 680 px au milieu du vide. */
+.textes { max-width: none; margin-top: 40px; font-size: 15px; line-height: 1.65; }
+main .textes { padding: 0; }
+.textes h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 44px 0 14px;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  line-height: 1.25;
+}
+.textes h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.textes h3 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--violet-txt);
+  margin: 26px 0 10px;
+}
+.textes p { margin: 0 0 12px; }
+.textes ol, .textes ul { margin: 0 0 12px; padding-left: 22px; }
+.textes li { margin-bottom: 6px; }
+.textes strong { font-weight: 600; }
+.textes code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--card); border: 1px solid var(--border); padding: 0.05em 0.35em; border-radius: 4px; }
+table.cle {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 4px 0 16px;
+  font-size: 13.5px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+table.cle th, table.cle td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.cle tr:last-child td { border-bottom: none; }
+table.cle th { font-size: 12px; font-weight: 600; color: var(--dim); letter-spacing: 0.04em; text-transform: uppercase; background: var(--bg); }
+table.cle td:first-child { white-space: nowrap; font-weight: 500; }
+table.annees td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ------------------------------------------------------------ pied de page */
+footer.textes {
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  padding-bottom: 48px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--dim);
+}
+footer p { margin: 0 0 8px; max-width: none; }
+footer cite { font-style: normal; }
+footer em { font-style: italic; }
+
+/* ------------------------------------------------------------ mobile
+   Sous 40 rem, la carte passe en deux lignes : numero + titre, puis
+   pastille + bouton ; les lignes d'inventaire perdent leur indentation. */
+@media (max-width: 40rem) {
+  main, .entete, footer { padding-left: 16px; padding-right: 16px; }
+  .entete { flex-direction: column; padding-top: 20px; padding-bottom: 14px; }
+  .search-box { padding: 16px; border-radius: 10px; }
+  .search-row { flex-wrap: wrap; }
+  .champ { flex-basis: 100%; }
+  .search-row .btn { width: 100%; }
+  .dosar { padding: 12px 14px; }
+  .dosar-tete { grid-template-columns: 44px 1fr; }
+  .dosar-num { text-align: left; }
+  .dosar-actions { grid-column: 1 / -1; justify-content: flex-start; }
+  .non-relie { max-width: none; text-align: left; }
+  ol.lignes, .dosar .note { padding-left: 0; margin-left: 0; }
+  li.ligne { grid-template-columns: 1.6rem 1fr; }
+  li.ligne .face { grid-column: 2; justify-content: flex-start; }
+  li.plus { padding-left: calc(1.6rem + 8px); }
+  /* lisibilite au doigt (lot 5) : feuillets et meta a 14 px au moins, le
+     bouton FamilySearch a 44 px de haut au moins */
+  ol.lignes, li.ligne .face, li.plus button.lien, .dosar-meta, .non-relie,
+  .dosar .note, .dosar-pied, .dosar-pied button.lien, .cf { font-size: 14px; }
+  .dosar .btn { min-height: 44px; padding: 12px 16px; font-size: 14px; display: inline-flex; align-items: center; }
+  .textes { margin-top: 28px; }
+  table.cle { display: block; overflow-x: auto; }
+  .empty { padding: 32px 8px; }
+}
+
+/* Un nom que l'inventaire laisse en blanc (« text stins », dosar 621) : la
+   ligne existe, son nom non. Ecrit en gris, en italique (2026-09-10). */
+.nom-vide { color: #6b6b6b; font-style: italic; }
+
+/* L'inventaire complet en texte (2026-09-10) : le bloc replie en bas de
+   page, qui met chaque dossier et chaque village dans le HTML. Il existe
+   pour les moteurs et pour les agents, qui ne font pas tourner la
+   recherche ; il reste lisible pour qui veut parcourir l'inventaire. */
+.inventaire {
+  margin: 28px 0 0;
+  border-top: 1px solid var(--border);
+}
+.inventaire > summary {
+  cursor: pointer;
+  padding: 16px 0;
+  font-weight: 500;
+  color: var(--dim);
+}
+.inventaire > summary:hover { color: var(--violet-txt); }
+.inv-intro { font-size: 13px; color: var(--dim); margin: 0 0 10px; }
+ol.inv { list-style: none; padding: 0; margin: 16px 0 0; font-size: 13px; }
+/* Pas de grille ici : les separateurs sont des points mediant en texte, pour
+   que le HTML reste lisible sans CSS (c'est ainsi qu'un agent le lit), et une
+   grille les prendrait pour des cellules. */
+ol.inv > li {
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  line-height: 1.5;
+}
+ol.inv > li > a { font-weight: 600; text-decoration: none; }
+ol.inv > li > i { color: var(--dim); font-style: normal; }
+ol.inv > li > em { display: block; font-style: normal; color: var(--dim); }
+
+
+/* ------------------------------------------- l'illustration commentee
+   La double page de Tomai 1850, avec ses reperes (2026-09-10, reprise de
+   docs/catagrafie-1850-illustration.html). Le HTML est statique : sans
+   JavaScript on voit l'image, les cadres numerotes et la legende ; le script
+   n'ajoute que la mise en evidence au survol. */
+/* Le bloc deborde volontairement la colonne de texte (900 px) : a 400 px de
+   large, une double page de registre est illisible. Il reste centre et ne
+   depasse jamais la fenetre. */
+/* Le texte explicatif tient en 680 px ; la figure, elle, s'aligne sur la
+   colonne de la recherche et des resultats (900 px), la seule autre largeur
+   de la page. Une double page de registre a besoin de cette place. */
+.illus { margin: 20px 0 12px; }
+.illus h3 { margin-top: 24px; }
+.illus h3:first-of-type { margin-top: 8px; }
+.illus-sous { font-size: 12px; color: var(--dim); margin-top: 18px; }
+.illus-fig { margin-bottom: 8px; }
+.plaque {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #111;
+  line-height: 0;
+}
+/* `height: auto` est obligatoire : l'image porte width/height en attributs
+   (pour reserver sa place avant chargement), et sans cette ligne la hauteur
+   de l'attribut, 1851 px, s'applique telle quelle -- l'image s'etire. */
+.plaque img { width: 100%; height: auto; display: block; }
+.zone {
+  position: absolute;
+  border: 1.5px solid var(--violet);
+  border-radius: 2px;
+}
+.zone b {
+  position: absolute; top: -9px; left: -9px;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--violet); color: #fff;
+  font-size: 11px; font-weight: 700; line-height: 18px; text-align: center;
+}
+/* les deux etats que le script ajoute */
+.plaque.focalise img { filter: brightness(0.72); }
+.zone.eteint { opacity: 0.2; }
+.zone.actif { background: rgba(115, 29, 216, 0.22); box-shadow: 0 0 0 2px var(--violet); }
+ol.illus-leg {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0 18px;
+}
+ol.illus-leg li {
+  display: grid;
+  grid-template-columns: 20px minmax(0, 1fr);
+  gap: 8px;
+  padding: 7px 8px;
+  border-radius: 6px;
+}
+ol.illus-leg li b {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--violet-bg); color: var(--violet-txt);
+  font-size: 11px; line-height: 18px; text-align: center;
+}
+ol.illus-leg li.actif { background: var(--violet-soft); }
+ol.illus-leg strong { font-weight: 600; }
+ul.illus-pieges { font-size: 13px; }
+.illus-lien { font-size: 12px; }
+@media (max-width: 46rem) {
+  .illus { width: 100%; }
+}
+
+/* ------------------------------------------------- relief et couleurs
+   2026-09-10, demande de Monica : « un peu plus de gras et tout, et
+   quelques couleurs en plus du violet ». Le violet reste ce qui est
+   cliquable ; le teal porte les reperes et les chiffres, le fawn ce qui
+   met en garde. */
+
+/* le gras compte : dans un texte de 15 px, 600 se voit, 500 non */
+.textes strong, .chapeau strong { font-weight: 650; color: var(--text); }
+.textes em { font-style: italic; }
+
+/* le filet qui ouvre une section prend l'accent, plus le gris de bordure */
+.textes h2 { border-top-color: var(--violet-line); }
+
+/* la ligne de comptes sous la loupe : le teal, pour qu'elle se lise comme
+   une donnee et non comme du texte */
+#stats-ligne { color: var(--cf-sur); font-weight: 600; }
+
+/* Les pieges : un encadre fawn, la couleur des mises en garde de la
+   charte. Ce sont les quatre choses qui font mal lire un acte. */
+ul.illus-pieges {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 12px 16px;
+  border-left: 3px solid var(--fawn);
+  border-radius: 0 8px 8px 0;
+  background: var(--cf-fawn-bg);
+  color: var(--text);
+}
+ul.illus-pieges li { margin: 0 0 8px; padding-left: 16px; position: relative; }
+ul.illus-pieges li:last-child { margin-bottom: 0; }
+ul.illus-pieges li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 8px;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--fawn-txt);
+}
+
+/* Le titre d'une figure porte son rang en teal, pour qu'on suive les trois
+   vues comme une progression. */
+.illus h3 { display: flex; align-items: baseline; gap: 8px; }
+.illus h3::before {
+  content: counter(fig);
+  counter-increment: fig;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 15px;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--cf-sur);
+}
+.illus { counter-reset: fig; }
+
+/* la legende sous l'image : le numero en pastille pleine, comme sur les
+   cadres, pour que l'oeil fasse le lien tout de suite */
+ol.illus-leg li b { background: var(--violet); color: #fff; font-weight: 700; }
+ol.illus-leg li.actif b { background: var(--violet-txt); }
+
+/* la source de l'image, en petit, detachee */
+.illus-sous {
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+  font-style: italic;
+}
+
+/* Un encadre d'aiguillage (2026-09-10) : la mention JewishGen pour les
+   recherches juives. Teal, pour ne pas le confondre avec les mises en garde
+   en fawn ni avec ce qui est cliquable, en violet. */
+.textes p.encadre {
+  margin: 18px 0 12px;
+  padding: 14px 18px;
+  border-left: 3px solid var(--cf-sur);
+  border-radius: 0 8px 8px 0;
+  background: var(--cf-sur-bg);
+}
+.textes p.encadre strong:first-child { color: var(--cf-sur); }

@@ -1,0 +1,65 @@
+# Bessarabian poll tax censuses (catagrafii), 1824-1886 -- village to microfilm index
+
+> An index that takes a village name to the exact archival file of the
+> Bessarabian poll tax censuses (*catagrafii*, Russian *ревизские сказки*)
+> and to its images on FamilySearch. Covers fond 134 opis 2 of the
+> National Archives of the Republic of Moldova (ANRM): 812 archival files,
+> 9725 inventory lines, 2226 village spellings, 1824-1886.
+> Public domain (CC0).
+
+The search page runs in the browser, so fetching the HTML will NOT give you
+the index. Use these files instead. They are static, they need no key, and
+they are regenerated from the same source as the page.
+
+## Data
+
+- [data/index.jsonl](https://index-moldova-revision-lists.github.io/data/index.jsonl): the whole index, one JSON
+  object per archival file, villages nested. Start here.
+- [data/lignes.csv](https://index-moldova-revision-lists.github.io/data/lignes.csv): one row per inventory line
+  (9725 rows) -- the file to search when you have a village name.
+- [data/dossiers.csv](https://index-moldova-revision-lists.github.io/data/dossiers.csv): one row per archival file
+  (812 rows).
+- [data/DICTIONNAIRE.md](https://index-moldova-revision-lists.github.io/data/DICTIONNAIRE.md): what every field
+  means. Read it before answering from the data.
+
+## How to answer a question with it
+
+1. The user names a **village** and usually a **year** (1835, 1850 or 1858
+   for the three revisions; 1848-1849 and 1854 for the supplementary
+   lists).
+2. Search `village` in `lignes.csv`. Spellings vary: fold diacritics
+   (ă â î ș ț), and try the pairs the inventory itself mixes up -- ş/s,
+   â/î, k/c, v/w, gh/g, tz/ț. A user typing "Besgioz" is looking for
+   *Beşghioz*. Russian input maps too: Томай = Tomai.
+3. Several files usually match. **Do not pick one for the user**: show the
+   file title (`title_ro`, plus the translation), the year, the folios, and
+   the neighbouring villages of the same `dosar`. Homonyms are common, and
+   the neighbours are what tell them apart.
+4. Give the `familysearch_url` and the citation:
+   `ANRM F.134 inv.2 d.247, vol. I, col. Tomai, f. 1-64v`.
+
+## Three things to tell the user, every time
+
+- **The folio is not the image number.** The inventory gives folios; the
+  viewer counts images; pages were filmed two or three times irregularly.
+  The `image_range` we give is the one for the whole archival file. Inside
+  it, they navigate by reading the folio number pencilled in the top right
+  corner of each page.
+- **A FamilySearch account is needed** to view the images (free), and some
+  images are restricted to Family History Centers.
+- **The inventory can be wrong or incomplete**, and so can this index.
+  88 files have no link yet. Nothing here replaces looking at
+  the page.
+
+## What is not here
+
+No personal names: this indexes places, not people. No parish registers
+(births, marriages, deaths) -- those are fond 211. No images are hosted
+here.
+
+## Pages
+
+- [English](https://index-moldova-revision-lists.github.io/) - [Română](https://index-moldova-revision-lists.github.io/ro.html) - [Français](https://index-moldova-revision-lists.github.io/fr.html) -
+  [Русский](https://index-moldova-revision-lists.github.io/ru.html)
+- [Source code and issues](https://github.com/index-moldova-revision-lists/index-moldova-revision-lists.github.io)
+- [The ANRM inventory itself, as a PDF](https://doc.arhiva.gov.md/inventare/Fondul%20134/F.%20134%20inv.%202%20p.%20I%20%C8%99i%20II.pdf)

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://index-moldova-revision-lists.github.io/sitemap.xml
