@@ -50,7 +50,7 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.5;
   background: var(--bg);
@@ -63,7 +63,7 @@ main, .entete, footer { max-width: 900px; margin: 0 auto; padding: 0 24px; }
 main { padding-bottom: 8px; }
 
 /* ------------------------------------------------------------ en-tete
-   Pas de barre de navigation de l'app : H1 Playfair a gauche, langues a
+   Pas de barre de navigation de l'app : H1 Literata a gauche, langues a
    droite en chips. */
 .entete {
   display: flex;
@@ -78,7 +78,7 @@ main { padding-bottom: 8px; }
 .entete-titre { min-width: 0; flex: 1 1 22rem; }
 .entete .langues { flex: 0 0 auto; }
 h1 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Literata', Georgia, serif;
   font-size: 22px;
   font-weight: 600;
   line-height: 1.25;
@@ -367,14 +367,14 @@ li.plus button.lien { font-size: 12.5px; }
 .groupe::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 
 /* ------------------------------------------------------------ textes explicatifs
-   Inter 15 px / 1.6, largeur 680 px, sous les resultats. */
+   Source Sans 15 px / 1.6, largeur 680 px, sous les resultats. */
 /* Pleine largeur depuis le 2026-09-10 (demande de Monica) : le texte
    s'aligne sur la boite de recherche, les cartes et la figure, au lieu de
    faire une colonne de 680 px au milieu du vide. */
 .textes { max-width: none; margin-top: 40px; font-size: 15px; line-height: 1.65; }
 main .textes { padding: 0; }
 .textes h2 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Literata", Georgia, serif;
   font-size: 21px;
   font-weight: 600;
   margin: 44px 0 14px;
@@ -606,7 +606,7 @@ ul.illus-pieges li::before {
 .illus h3::before {
   content: counter(fig);
   counter-increment: fig;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Literata", Georgia, serif;
   font-size: 15px;
   text-transform: none;
   letter-spacing: 0;
