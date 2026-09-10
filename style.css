@@ -432,6 +432,9 @@ footer em { font-style: italic; }
 @media (max-width: 40rem) {
   main, .entete, footer { padding-left: 16px; padding-right: 16px; }
   .entete { flex-direction: column; padding-top: 20px; padding-bottom: 14px; }
+  /* en colonne, le `flex: 1 1 22rem` du titre s'applique a la HAUTEUR et
+     creusait un trou de ~270 px sous le H1 (constate le 2026-09-10) */
+  .entete-titre { flex: 0 0 auto; }
   .search-box { padding: 16px; border-radius: 10px; }
   .search-row { flex-wrap: wrap; }
   .champ { flex-basis: 100%; }
