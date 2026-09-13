@@ -564,13 +564,15 @@
      le viewer reste sur la premiere vue). `lig.ark` porte l'ark moissonne pour
      cette image ; on garde les cc/wc du lien du dossier et on met « i= » a
      n-1, comme le fait le viewer lui-meme. */
-  function lienFSVue(fsPartie, ark, n, libelle) {
-    var suffixe = fsPartie.indexOf("?") >= 0 ? fsPartie.slice(fsPartie.indexOf("?")) : "";
+  /* Depuis le 2026-09-13, `lig.ark` porte l'ark de l'image SUIVI des cc/wc de
+     son propre volume (« 3:1:XXXX?cc=...&wc=... ») : un dossier coupe en deux
+     volumes FamilySearch n'a pas le meme wc pour toutes ses lignes. */
+  function lienFSVue(ark, n, libelle) {
     var a = el("a", "plage", libelle);
-    a.href = FS + ark + suffixe.replace(/([?&])i=\d+/, "$1i=" + (n - 1));
+    a.href = FS + ark.replace("?", "?i=" + (n - 1) + "&");
     a.target = "_blank";
     a.rel = "noopener";
-    a.title = T.fs_titre || "";
+    a.title = T.fsVue || T.fs_titre || "";
     return a;
   }
 
@@ -626,29 +628,19 @@
        le numero serait faux de deux cents vues : on n'affiche que le
        feuillet. La plage reste dans donnees.json et en base. */
     var fsDos = D.col.fs[DOS_DE[k]];
-    var estimee = L.i && L.i[k] && fsDos;
-    if (L.plage[k] && (estimee || !fsDos)) {
+    /* Decision du 2026-09-10, appliquee le 2026-09-13 : plus aucun numero
+       estime. `L.i` n'existe que pour une ligne sondee (le feuillet a ete lu
+       sur cette vue), toujours avec l'ark de l'image : le lien est definitif. */
+    if (L.i && L.i[k] && L.ark && L.ark[k]) {
+      var faceV = el("span", "face");
+      faceV.appendChild(lienFSVue(L.ark[k], L.i[k], "→ " + fmt("imgVue", { n: nombre(L.i[k]) })));
+      li.appendChild(faceV);
+    } else if (L.plage[k] && !fsDos) {
       var face = el("span", "face");
-      var texteImg = "→ " + (T.imgs || "images") + " " + plageAff(L.plage[k]);
-      var ark = estimee && L.ark && L.ark[k];
-      if (ark) {
-        /* on a l'ark de la vue : la plage devient cliquable, et le numero a
-           saisir n'a plus lieu d'etre -- le clic ouvre directement l'image. */
-        face.appendChild(lienFSVue(fsDos, ark, L.i[k], texteImg));
-      } else {
-        face.appendChild(el("span", "plage", texteImg));
-        if (estimee) face.appendChild(numeroASaisir(L.i[k]));
-      }
+      face.appendChild(el("span", "plage", "→ " + (T.imgs || "images") + " " + plageAff(L.plage[k])));
       /* « (sur une autre bobine NNNN) » retire le 2026-09-10 : le lien mene
          deja au bon endroit, le numero de bobine ne sert qu'a nous. */
       var p = pastille(L.cf[k]);
-      /* la marge se dit avec le vocabulaire deja en place (§ A3, lot 8) :
-         la meme pastille de confiance, dont l'info-bulle gagne une phrase
-         quand l'image ouverte est une estimation (bobines mises bout a
-         bout) plutot qu'une nouvelle etiquette. */
-      if (estimee && p) {
-        p.title = (p.title ? p.title + " " : "") + (T.imgEstimee || "");
-      }
       if (p) face.appendChild(p);
       li.appendChild(face);
     }
