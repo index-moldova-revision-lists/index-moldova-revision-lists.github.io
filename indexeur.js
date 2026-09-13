@@ -576,6 +576,48 @@
     return a;
   }
 
+  /* Pouce haut / bas sur le lien vers la vue (2026-09-13, demande de Monica) :
+     le visiteur dit si l'image ouverte porte le bon feuillet. Le vote part en
+     evenement GoatCounter, sans cookie ni donnee personnelle :
+     « avis-lien/ok|ko/<dosar>/f<feuillet>/v<vue> », lisible sur le tableau de
+     bord imrl.goatcounter.com. Un vote par ligne et par navigateur
+     (localStorage, facultatif : s'il manque, le vote part quand meme). */
+  function avisLien(k) {
+    var L = D.lig, dos = D.col.dosar[DOS_DE[k]];
+    var cle = "avis|" + dos + "|" + L.fa[k] + "|" + L.i[k];
+    var box = el("span", "avis");
+    var merci = function () {
+      box.textContent = "";
+      box.appendChild(el("span", "avis-merci", t("avisMerci")));
+    };
+    /* discret : rien ne s'affiche tant que le visiteur n'a pas ouvert le lien
+       (c'est seulement la qu'il peut juger), et plus rien une fois vote */
+    box.hidden = true;
+    var deja = null;
+    try { deja = localStorage.getItem(cle); } catch (e) { deja = null; }
+    if (deja) { box.dataset.vote = "1"; return box; }
+    box.appendChild(el("span", "avis-q", t("avisQ")));
+    [["ok", "👍", "avisOui"], ["ko", "👎", "avisNon"]].forEach(function (v) {
+      var b = el("button", "avis-btn", v[1]);
+      b.type = "button";
+      b.title = T[v[2]] || "";
+      b.setAttribute("aria-label", T[v[2]] || v[0]);
+      b.addEventListener("click", function (ev) {
+        ev.stopPropagation();
+        if (window.goatcounter && window.goatcounter.count) {
+          window.goatcounter.count({
+            path: "avis-lien/" + v[0] + "/" + dos + "/f" + L.fa[k] + "/v" + L.i[k],
+            title: L.nom[k], event: true
+          });
+        }
+        try { localStorage.setItem(cle, v[0]); } catch (e) { /* navigateur sans stockage */ }
+        merci();
+      });
+      box.appendChild(b);
+    });
+    return box;
+  }
+
   function numeroASaisir(n) {
     var sp = el("span", "img-saisir", fmt("imgSaisir", { n: nombre(n) }));
     sp.title = T.imgEstimee || "";
@@ -633,7 +675,13 @@
        sur cette vue), toujours avec l'ark de l'image : le lien est definitif. */
     if (L.i && L.i[k] && L.ark && L.ark[k]) {
       var faceV = el("span", "face");
-      faceV.appendChild(lienFSVue(L.ark[k], L.i[k], "→ " + fmt("imgVue", { n: nombre(L.i[k]) })));
+      var avis = avisLien(k);
+      var lienV = lienFSVue(L.ark[k], L.i[k], "→ " + fmt("imgVue", { n: nombre(L.i[k]) }));
+      lienV.addEventListener("click", function () {
+        if (avis.dataset.vote !== "1") avis.hidden = false;
+      });
+      faceV.appendChild(lienV);
+      faceV.appendChild(avis);
       li.appendChild(faceV);
     } else if (L.plage[k] && !fsDos) {
       var face = el("span", "face");

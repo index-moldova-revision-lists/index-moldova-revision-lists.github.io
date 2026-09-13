@@ -332,6 +332,13 @@ li.ligne em { font-style: normal; font-weight: 500; background: var(--violet-bg)
 li.ligne .face { font-size: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; color: var(--dim); }
 li.ligne .face .plage { color: var(--teal); font-weight: 500; white-space: nowrap; }
 li.ligne .autre-bobine { color: var(--dim); }
+/* pouce haut / bas sur le lien vers la vue (2026-09-13) */
+li.ligne .avis { display: inline-flex; gap: 2px; align-items: center; white-space: nowrap; }
+li.ligne .avis[hidden] { display: none; }
+li.ligne .avis-q { color: var(--dim); margin-right: 2px; }
+li.ligne .avis-btn { font: inherit; font-size: 13px; line-height: 1; background: none; border: 1px solid transparent; border-radius: 4px; padding: 1px 3px; cursor: pointer; filter: grayscale(1); opacity: .7; }
+li.ligne .avis-btn:hover, li.ligne .avis-btn:focus-visible { filter: none; opacity: 1; border-color: var(--dim); }
+li.ligne .avis-merci { color: var(--teal); font-style: italic; }
 /* le numero d'image a saisir dans la visionneuse FamilySearch (lot 12) : le
    viewer ignore le « i= » de l'URL, le numero se tape a la main. */
 li.ligne .img-saisir { color: var(--dim); white-space: nowrap; font-style: italic; }
