@@ -2517,7 +2517,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 107,I,s.,Gura Camencii,Гура-Каменчий,Iaşi,32-46,32,46,,,,,,
 107,I,s.,Gura Căinarului  (Gura Căinari),Гура-Кэинарулуй (Гура-Кэинарь),Iaşi,47-69,47,69,,,,,,
 107,I,s.,Ghizdita,Гиздица,Iaşi,70-110,70,110,,,,,,
-107,I,s.,Hăsnăşenii de Sus (Odaia Hăsnăşeni),Хэснэшений-де-Сус (Одая-Хэснэшень),Iaşi,111-113,111,113,,,,,,
+107,I,s.,Hăsnăşenii de Sus (Odaia Hăsnăşeni),Хэснэшений-де-Сус (Одая-Хэснэшень),Iaşi,111-113,111,113,,,,,189,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YYXX?i=188&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
 107,II,s.,Asnăşeni (Hăsnăşeni),Аснэшень (Хэснэшень),Iaşi,114-147,114,147,,,,,194,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YY6W?i=193&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
 107,II,s.,Drăgăneşti,Драганешты,Iaşi,148-179,148,179,,,,,,
 107,II,s.,Dărcăuţi,Дэркэуць,Iaşi,180-199,180,199,,,,,,
@@ -3005,7 +3005,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 125,I,s.,Paladea,Паладя,Hotin,1-12,1,12,,,,,,
 125,I,s.,Rucşin,Рукшин,Hotin,13-78,13,78,,,,,,
 125,I,s.,Rjavineţi,Ржавинець,Hotin,79-113,79,113,,,,,,
-125,II,s.,Ruhotin,Рухотин,Hotin,114-120,114,120,,,,,,
+125,II,s.,Ruhotin,Рухотин,Hotin,114-120,114,120,,,,,197,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-RF12?i=196&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,II,s.,Pol-Rutohin,Пол-Рутохин,Hotin,121-122,121,122,,,,,206,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-RF1D?i=205&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,II,s.,Raşcov (Raşcu),Рашков (Раску),Hotin,123-162,123,162,,,,,209,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-RFTY?i=208&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,II,s.,Revcăuţi,Ревкэуць,Hotin,163-173,163,173,,,,,,
@@ -4087,7 +4087,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 242,IV,or.,Chişinău,Кишинёв,,491-640,491,640,,,,,817,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-53VN?i=816&cc=1985804&wc=M6Z9-6Z9%3A264175701%2C264722601%2C265451701
 242,IV,s.,Peticeni,Петичены,Orhei,641-642,641,642,,,,,148,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW38?i=147&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
 242,IV,s.,Cotul Morii,Котул Морий,Chişinău,643-644,643,644,,,,,141,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW48?i=140&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
-242,IV,s.,Selişte,Селиште,Chişinău,645-646,645,646,,,,,,
+242,IV,s.,Selişte,Селиште,Chişinău,645-646,645,646,,,,,153,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW7Q?i=152&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
 242,IV,s.,Bogdanovca,Богдановка,Bender,647-648,647,648,,,,,,
 242,IV,or.,Bender,Бендеры,Bender,649-658,649,658,,,,,,
 242,IV,s.,Bîrnova,Бырнова,Soroca,659-660,659,660,,,,,,
