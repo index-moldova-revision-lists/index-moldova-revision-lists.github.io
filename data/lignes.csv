@@ -3651,7 +3651,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 204,II,or.,Bender,Бендеры,,113-211,113,211,2361986,6–217,212,sur,,
 205,,s.,Opaci,Опач,,1-2v,1,2,2361986,218–220,3,exacte,,
 205,,s.,Tănătari,Тэнэтарь,,3-5v,3,5,2361986,221–224,4,exacte,,
-205,,s.,Cobusca Veche,Кобуска Веке,,6-8,6,8,2361986 · 2361986,225–227 · 228–235,11,sur,,
+205,,s.,Cobusca Veche,Кобуска Веке,,6-8,6,8,2361986 · 2361986,225–227 · 228–235,11,sur,10,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-5KTD?i=9&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
 205,,s.,Cobusca Nouă,Кобуска Ноуэ,,9-19,9,19,2361986 · 2361986,225–227 · 228–235,11,sur,15,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-52WN?i=14&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
 205,,or.,Bender,Бендеры,,20-24v,20,24,2361986,236–247,12,exacte,,
 206,,s.,Troiţcoe,Троицкое,,1-4,1,4,,,,,,
@@ -4088,8 +4088,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 242,IV,s.,Peticeni,Петичены,Orhei,641-642,641,642,,,,,148,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW38?i=147&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
 242,IV,s.,Cotul Morii,Котул Морий,Chişinău,643-644,643,644,,,,,141,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW48?i=140&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
 242,IV,s.,Selişte,Селиште,Chişinău,645-646,645,646,,,,,153,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BW7Q?i=152&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
-242,IV,s.,Bogdanovca,Богдановка,Bender,647-648,647,648,,,,,,
-242,IV,or.,Bender,Бендеры,Bender,649-658,649,658,,,,,,
+242,IV,s.,Bogdanovca,Богдановка,Bender,647-648,647,648,,,,,156,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-BWXN?i=155&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
+242,IV,or.,Bender,Бендеры,Bender,649-658,649,658,,,,,159,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-BW8Y?i=158&cc=1985804&wc=M6Z9-FM9%3A264175701%2C264722601%2C265475801
 242,IV,s.,Bîrnova,Бырнова,Soroca,659-660,659,660,,,,,,
 242,IV,s.,Cinişeuţi,Чинишеуць,Orhei,661-662,661,662,,,,,,
 243,I,col.,Enichioi,Еникиой,,1-48v,1,48,,,,,,
@@ -7028,7 +7028,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 593,II,s.,Sîngera,Сынджера,,314-330,314,330,,,,,,
 593,III,s.,Suruceni,Суручень,,331-351,331,351,,,,,,
 593,III,s.,Sociteni,Сочитень,,352-359,352,359,,,,,,
-593,III,s.,Sireţi,Сирець,,360-391,360,391,,,,,,
+593,III,s.,Sireţi,Сирець,,360-391,360,391,,,,,247,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-VGKJ?i=246&cc=1985804&wc=M6C1-YTG%3A264175701%2C264722601%2C265191101
 593,III,s.,Sipoteni,Шипотены,,392-426,392,426,,,,,308,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-VG97?i=307&cc=1985804&wc=M6C1-YTG%3A264175701%2C264722601%2C265191101
 593,III,s.,Stolniceni,Стольничень,,427-448,427,448,,,,,,
 593,III,s.,Secăreni,Секэрены,,449-460,449,460,,,,,,
