@@ -5419,9 +5419,9 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 388,,s.,Abaclia,Абаклия,,1-64v,1,64,,,,,,
 389,I,s.,Bălţaţi,Бэлцаць,,1-8,1,8,,,,,,
 389,I,s.,Bardar,Бардар,,9-59,9,59,,,,,13,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-KY24?i=12&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
-389,I,s.,Bălăneşti,Бэлэнешть,,60-101,60,101,,,,,,
+389,I,s.,Bălăneşti,Бэлэнешть,,60-101,60,101,,,,,1096,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-V9M7-5?i=1095&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
 389,II,s.,Băcioi,Бэчой,,102-200,102,200,,,,,,
-389,II,s.,Bărboieni,Бэрбоень,,201-214,201,214,,,,,1057,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-V9MR-1?i=1056&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
+389,II,s.,Bărboieni,Бэрбоень,,201-214,201,214,,,,,,
 389,II,s.,Bălăureşti,Бэлэурешть,,215-245,215,245,,,,,366,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-K1X4?i=365&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
 389,II,s.,Bălăbăneşti,Бэлэбэнешть,,246-257,246,257,,,,,415,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-K1BL?i=414&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
 389,III,s.,Bolţun,Бэлцун,,258-289,258,289,,,,,,
@@ -5429,7 +5429,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 389,III,s.,Boghiceni,Богичень,,312-378v,312,378,,,,,,
 389,,s.,Negrea Răzeşi,Негря Рэзешь,,379v-413,379,413,,,,,,
 389,III,s.,Nemţeni,Немцень,,414-445,414,445,,,,,730,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-KT1N?i=729&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
-389,III,s.,Nisporeni,Ниспорены,,446-597,446,597,,,,,770,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-KB7F?i=769&cc=1985804&wc=M6ZS-9TL%3A264175701%2C264722601%2C265558101
+389,III,s.,Nisporeni,Ниспорены,,446-597,446,597,,,,,,
 389,V,s.,Nimoreni,Нимореий,,598-635,598,635,,,,,,
 389,V,s.,Novaci,Новаки,,636-658,636,658,,,,,,
 389,,s.,Oneşti,Онешты,,658a-660,658,660,,,,,,
