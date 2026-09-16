@@ -2754,8 +2754,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 117,I,s.,Cucioaia,Кучоая,Iaşi,72-85v,72,85,,,,,,
 117,I,s.,Condrăteşti,Кондрэтешть,Iaşi,86-102v,86,102,,,,,,
 117,I,s.,Cunicea,Куничя,Iaşi,103-114,103,114,,,,,,
-117,II,s.,Cuhneşti,Кухнешты,Iaşi,116-118v,116,118,,,,,,
-117,II,s.,Chirileni,Кирилены,Iaşi,119-122v,119,122,,,,,,
+117,II,s.,Cuhneşti,Кухнешты,Iaşi,116-118v,116,118,,,,,186,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-BNC2?i=185&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
+117,II,s.,Chirileni,Кирилены,Iaşi,119-122v,119,122,,,,,190,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-BN2Z?i=189&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Căinarii Vechi,Кэинарий Векь,Iaşi,124-127,124,127,,,,,196,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-BNNY?i=195&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Căinarii Noi,Кэинарий Ной,Iaşi,128-133v,128,133,,,,,199,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BXNH?i=198&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Camenca,Каменка,Iaşi,134-136v,134,136,,,,,210,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BN7V?i=209&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
@@ -2763,7 +2763,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 117,II,s.,Cobîlea Veche,Кобыля Веке,Iaşi,140-144v,140,144,,,,,,
 117,II,,Cobani (Cubani),Кобаны,Iaşi,45-146,45,146,,,,,226,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BN9R?i=225&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Climăuţi,Климэуцы,Iaşi,147-149v,147,149,,,,,231,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BF15?i=230&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
-117,II,s.,Corneşti,Корнешть,Iaşi,150-159,150,159,,,,,,
+117,II,s.,Corneşti,Корнешть,Iaşi,150-159,150,159,,,,,235,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BN9V?i=234&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Cureşniţa,Курешница,Iaşi,160-165,160,165,,,,,,
 117,II,s.,Chiţcani,Кицканы,Iaşi,168-171v,168,171,,,,,,
 117,II,s.,Coşcodeni,Кошкодены,Iaşi,172-192v,172,192,,,,,,
@@ -3348,7 +3348,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 166,,s.,Bălăşeşti,Бэлэшешть,,71-86,71,86,,,,,,
 167,,s.,Hîrtop,Хыртоп,,1-12,1,12,,,,,,
 167,,s.,Unchiteşti,Унчитешты,,13-16,13,16,,,,,23,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-Y997?i=22&cc=1985804&wc=M6ZM-CZS%3A264175701%2C264722601%2C265266001
-167,,s.,Frăteştii de Sus,Фрэтештий де Сус,,17-24,17,24,,,,,,
+167,,s.,Frăteştii de Sus,Фрэтештий де Сус,,17-24,17,24,,,,,28,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-Y93C?i=27&cc=1985804&wc=M6ZM-CZS%3A264175701%2C264722601%2C265266001
 168,,s.,Rediul Mare,Редиул Маре,,1-14,1,14,,,,,,
 168,,s.,Bîrnova de Jos,Бырнова-де-Жос,,15-28,15,28,,,,,,
 168,,s.,Tîrnova,Тырново,,29-34,29,34,,,,,,
