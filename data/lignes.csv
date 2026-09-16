@@ -3011,10 +3011,10 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 125,II,s.,Revcăuţi,Ревкэуць,Hotin,163-173,163,173,,,,,,
 125,II,s.,Răchitna,Рэкитна,Hotin,174-201,174,201,,,,,,
 125,II,s.,Rîngaci,Рынгачь,Hotin,202-224,202,224,,,,,,
-125,III,s.,Rosoşani,Росошани,Hotin,225-249,225,249,,,,,,
+125,III,s.,Rosoşani,Росошани,Hotin,225-249,225,249,,,,,402,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-R7R1?i=401&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,III,s.,Revcăuţi,Ревкэуць,Hotin,250-253,250,253,,,,,,
 125,III,s.,Rotunda,Ротунда,Hotin,254-268,254,268,,,,,,
-125,III,s.,Răspopinţi,Распопинцы,Hotin,269-293,269,293,,,,,,
+125,III,s.,Răspopinţi,Распопинцы,Hotin,269-293,269,293,,,,,476,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-R7NR?i=475&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,III,s.,Romîncăuţi,Роминкэуци,Hotin,294-339,294,339,,,,,519,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-R7SD?i=518&cc=1985804&wc=M6C1-PM9%3A264175701%2C264722601%2C265161301
 125,IV,s.,Restev (Resteo),Рестев (Рестео),Hotin,340-341,340,341,,,,,,
 125,IV,s.,"Restev-Atachi (Ataci, Otaci) (Vîrstova)",Рестев-Атачи (Отачь) (Вырстова),Hotin,342-376,342,376,,,,,,
@@ -3253,7 +3253,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 148,III,s.,Romîncăuţi,Роминкэуци,Hotin,390-400,390,400,,,,,659,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-YNCR?i=658&cc=1985804&wc=M6ZM-WZ9%3A264175701%2C264722601%2C265263401
 148,III,s.,Mereşeuca,Мерешеука,Soroca,401-405,401,405,,,,,678,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YNQV?i=677&cc=1985804&wc=M6ZM-WZ9%3A264175701%2C264722601%2C265263401
 148,III,s.,Prepeliţa,Препелица,Soroca,406-409,406,409,,,,,685,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-YFBY?i=684&cc=1985804&wc=M6ZM-WZ9%3A264175701%2C264722601%2C265263401
-148,III,s.,Copăceni,Копэчень,Soroca,410-412,410,412,,,,,,
+148,III,s.,Copăceni,Копэчень,Soroca,410-412,410,412,,,,,690,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-YF1F?i=689&cc=1985804&wc=M6ZM-WZ9%3A264175701%2C264722601%2C265263401
 148,III,s.,Pepeni,Пепень,Soroca,413-416,413,416,,,,,,
 149,I,tîrgul,Raşcov (Rîşcu),Рашков (Рышку),,1-72,1,72,,,,,,
 149,I,tîrgul,"Otaci (Ataci, Atachi) Movilău",Атаки (Могилёв),,73-150,73,150,,,,,,
@@ -4571,7 +4571,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 273,I,s.,Cubolta,Куболта,,156-156v,156,156,,,,,,
 273,,s.,Drojdieşti (Lunga),Дрождиешты (Лунга),,156v-156v,156,156,,,,,,
 273,,s.,Frumuşica,Фрумушица,,156v-157,156,157,,,,,,
-273,I,s.,Zgura,Згура,,157-157v,157,157,,,,,,
+273,I,s.,Zgura,Згура,,157-157v,157,157,,,,,63,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93B-S71K?i=62&cc=1985804&wc=M6Z9-9Z9%3A264175701%2C264722601%2C265379301
 273,,s.,Chetrosu,Кетросу,,157v-158v,157,158,,,,,,
 273,,s.,Mărculeşti,Мэркулешть,,158v-160v,158,160,,,,,,
 273,,s.,Ciripcău,Чирипкэу,,160v-161,160,161,,,,,,
