@@ -4017,7 +4017,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 231,III,s.,Cruzeşti,Крузешты,,354-363,354,363,,,,,1027,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93B-SSX8?i=1026&cc=1985804&wc=M6ZM-GM9%3A264175701%2C264722601%2C265329601
 231,III,s.,Chirca,Кирка,,364-370,364,370,,,,,,
 231,III,s.,Cricova (Cricău),Крикова (Крикэу),,371-385,371,385,,,,,,
-231,III,s.,Cristeşti,Кристешты,,386-405,386,405,,,,,,
+231,III,s.,Cristeşti,Кристешты,,386-405,386,405,,,,,22,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-R4RH?i=21&cc=1985804&wc=M6ZM-GM9%3A264175701%2C264722601%2C265329601
 231,III,s.,Căţeleni,Кэцелень,,406-422,406,422,,,,,,
 231,III,s.,Călmăţui,Кэлмэцуй,,423-447,423,447,,,,,87,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-R4SJ?i=86&cc=1985804&wc=M6ZM-GM9%3A264175701%2C264722601%2C265329601
 231,IV,s.,Cojuşna,Кожушна,,448-545,448,545,,,,,,
@@ -7097,7 +7097,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 597,,s.,Bulboci,Булбочь,,104-106,104,106,,,,,,
 598,,s.,Bordiug,Бордюг,,1-14,1,14,,,,,,
 598,,s.,Babin,Бабин,,15-48,15,48,,,,,,
-598,,s.,Buzdugeni,Буздугень,,49-55,49,55,,,,,,
+598,,s.,Buzdugeni,Буздугень,,49-55,49,55,,,,,92,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-XN5K?i=91&cc=1985804&wc=M6ZM-M38%3A264175701%2C264722601%2C265196801
 598,,s.,Burlăneşti,Бурлэнешты,,56-68v,56,68,,,,,103,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-XN19?i=102&cc=1985804&wc=M6ZM-M38%3A264175701%2C264722601%2C265196801
 599,,s.,Vadul Ţîrii,Вадул Цырий,Soroca,4-5,4,5,,,,,,
 599,,s.,Dubna,Дубна,Soroca,6-7,6,7,,,,,,
@@ -9257,8 +9257,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 783,,s.,Costiceni,Костичень,,61-64,61,64,,,,,,
 784,,or.,Hotin,Хотин,,1-24,1,24,,,,,,
 784,,tîrgul,Briceni,Бричаны,,25-26,25,26,,,,,,
-785,,or.,Hotin,Хотин,,1-4,1,4,,,,,,
-785,,s.,Buzoviţa,Бузовица,,5-6,5,6,,,,,,
+785,,or.,Hotin,Хотин,,1-4,1,4,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-KLDW?i=4&cc=1985804&wc=M6Z9-X29%3A264175701%2C264722601%2C265448001
+785,,s.,Buzoviţa,Бузовица,,5-6,5,6,,,,,8,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-K2YC?i=7&cc=1985804&wc=M6Z9-X29%3A264175701%2C264722601%2C265448001
 785,,s.,Hilovăţ (Beleavinţi),Хиловэц (Белявинць),,7-7v,7,7,,,,,,
 785,,s.,Gruşoviţa,Грушовица,,8-9,8,9,,,,,,
 785,,s.,Zarojeni,Зарожены,,10-11,10,11,,,,,16,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-K25F?i=15&cc=1985804&wc=M6Z9-X29%3A264175701%2C264722601%2C265448001
