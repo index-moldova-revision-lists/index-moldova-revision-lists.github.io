@@ -656,7 +656,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 55,I,s.,Paicu,Пайку,Leova,77-78,77,78,,,,,,
 55,I,s.,Badicul,Бадикул,Leova,79-86,79,86,2360603,984–996,13,exacte,,
 55,I,s.,Borceag (Borceac),Борчаг (Борчак),Leova,87-104,87,104,,,,,,
-55,I,s.,Baimaclia Mare,Баймаклия Маре,Leova,105-118,105,118,2360603,1033–1055,23,sur,,
+55,I,s.,Baimaclia Mare,Баймаклия Маре,Leova,105-118,105,118,2360603,1033–1055,23,sur,199,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-Z8L6?i=198&cc=1985804&wc=M6C1-7WL%3A264175701%2C264722601%2C265021001
 55,I,s.,Baimaclia Mică,Баймаклия Мика,Leova,119-123,119,123,2360603,1033–1055,23,sur,,
 55,I,s.,Broscoşeşti,Броскошешты,Leova,124-127,124,127,,,,,,
 55,,moşia,Bobolici,Боболица,,128-130,128,130,,,,,,
@@ -4666,7 +4666,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 279,III,s.,Grumăzeni,Грумэзень,,441-461,441,461,,,,,836,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-RNRK?i=835&cc=1985804&wc=M6Z9-SNL%3A264175701%2C264722601%2C265389601
 279,III,s.,Grimeşti,Гримешть,,462-476,462,476,,,,,873,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-RJ2M?i=872&cc=1985804&wc=M6Z9-SNL%3A264175701%2C264722601%2C265389601
 279,III,s.,Grimeştii de Sus,Гримештий де Сус,,477-489,477,489,,,,,897,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-RJ8L?i=896&cc=1985804&wc=M6Z9-SNL%3A264175701%2C264722601%2C265389601
-279,III,s.,Grimeştii de Jos,Гримештий де Жос,,490-491,490,491,,,,,,
+279,III,s.,Grimeştii de Jos,Гримештий де Жос,,490-491,490,491,,,,,921,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-RN6Z?i=920&cc=1985804&wc=M6Z9-SNL%3A264175701%2C264722601%2C265389601
 280,,tîrgul,Noua Suliţă,Новосулица,,2-36,2,36,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-RJ86?i=4&cc=1985804&wc=M6Z9-9WL%3A264175701%2C264722601%2C265391701
 280,,s.,Nedibăuţi,Недибэуць,,37-104,37,104,,,,,63,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-RNJC?i=62&cc=1985804&wc=M6Z9-9WL%3A264175701%2C264722601%2C265391701
 280,,s.,Nesfoaia,Несфоая,,105-139,105,139,,,,,165,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-RFRD?i=164&cc=1985804&wc=M6Z9-9WL%3A264175701%2C264722601%2C265391701
