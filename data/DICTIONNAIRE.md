@@ -28,7 +28,7 @@ inside it, open the file and read the folio numbers, then jump forward or
 back. The `folios` field tells you which folio to stop at, and the
 neighbouring villages in the same file tell you which way to go.
 
-1378 inventory lines out of 9725 do have their own verified
+1380 inventory lines out of 9725 do have their own verified
 `image` and a direct `familysearch_url`. The rest deliberately have none: an
 estimate was measured to be off by 260 images once in ten, which is worse
 than useless.
