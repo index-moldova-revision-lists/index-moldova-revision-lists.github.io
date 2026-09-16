@@ -3031,7 +3031,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 126,I,s.,"Rudii din Deal, de Sus","Рудий-дин-Дял, де Сус",Hotin,51-81,51,81,,,,,,
 126,I,s.,"Rudii din Vale, de Jos","Рудий-дин-Вале, де Жос",Hotin,82-91,82,91,,,,,,
 126,I,s.,Rediul Mare,Редиул Маре,Hotin,92-114,92,114,,,,,,
-126,I,s.,Slobozia Vălcineţ,Слобозия-Вэлчинец,Hotin,115-131,115,131,,,,,,
+126,I,s.,Slobozia Vălcineţ,Слобозия-Вэлчинец,Hotin,115-131,115,131,,,,,185,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-R7W9?i=184&cc=1985804&wc=M6C1-PZ9%3A264175701%2C264722601%2C265166001
 126,I,s.,Samoileuca,Самойлеука,Hotin,132-141,132,141,,,,,,
 126,II,s.,Sauca,Саука,Hotin,142-160,142,160,,,,,,
 126,II,s.,Sudarca,Сударка,Hotin,161-177,161,177,,,,,,
@@ -3710,7 +3710,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 210,I,or.,Chilia,Килия,,1-135,1,135,,,,,,
 210,II,or.,Chilia,Килия,,136-237,136,237,,,,,228,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BV6V?i=227&cc=1985804&wc=M6Z9-C29%3A264175701%2C264722601%2C265431101
 210,II,or.,Chilia,Килия,,238-364,238,364,,,,,,
-211,,or.,Ismail,Измаил,,1-100,1,100,,,,,,
+211,,or.,Ismail,Измаил,,1-100,1,100,,,,,2,https://www.familysearch.org/ark:/61903/3:1:3QS7-993B-R3KW?i=1&cc=1985804&wc=M6Z9-CP8%3A264175701%2C264722601%2C265431801
 211,II,s.,Cuhurlui,Кухурлуй,,101-160,101,160,,,,,,
 211,II,or.,Ismail,Измаил,,162-254,162,254,,,,,,
 211,III,or.,Ismail,Измаил,,255-328,255,328,,,,,606,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93B-R34H?i=605&cc=1985804&wc=M6Z9-CP8%3A264175701%2C264722601%2C265431801
@@ -6044,7 +6044,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 447,I,s.,Cuhneşti,Кухнешты,,1-51,1,51,,,,,,
 447,I,s.,Cîrpiţi,Кырпицы,,52-78,52,78,,,,,,
 447,I,s.,Cucioaia,Кучоая,,79-112,79,112,,,,,,
-447,II,s.,Copăceanca,Копэчанка,,113-211,113,211,,,,,,
+447,II,s.,Copăceanca,Копэчанка,,113-211,113,211,,,,,205,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-JDJ7?i=204&cc=1985804&wc=M6ZS-ZPD%3A264175701%2C264722601%2C265731801
 447,II,s.,Chetroşica Nouă,Кетрошица Ноуэ,,212-247,212,247,,,,,,
 447,II,s.,Cozeşti,Козешты,,248-260,248,260,,,,,529,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-JVJ8?i=528&cc=1985804&wc=M6ZS-ZPD%3A264175701%2C264722601%2C265731801
 447,II,s.,Chetroşica Veche,Кетрошица Веке,,261-273,261,273,,,,,489,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-J8LY?i=488&cc=1985804&wc=M6ZS-ZPD%3A264175701%2C264722601%2C265731801
