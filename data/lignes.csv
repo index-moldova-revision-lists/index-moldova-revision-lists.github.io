@@ -149,7 +149,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 9,I,colonia,Borodino,Бородино,,1-59,1,59,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BL7V?i=4&cc=1985804&wc=M6CB-538%3A264175701%2C264722601%2C264904501
 9,I,colonia,Berezina,Березина,,60-99,60,99,,,,,,
 9,I,colonia,Brieni,Бриены,,100-120,100,120,,,,,,
-9,I,colonia,Gnadental,Гнаденталь,,122-137,122,137,,,,,,
+9,I,colonia,Gnadental,Гнаденталь,,122-137,122,137,,,,,234,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-B5BH?i=233&cc=1985804&wc=M6CB-538%3A264175701%2C264722601%2C264904501
 9,II,colonia,Crasna,Красна,,138-181,138,181,,,,,265,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-B5P4?i=264&cc=1985804&wc=M6CB-538%3A264175701%2C264722601%2C264904501
 9,II,colonia,Cleastiţi,Кляштицы,,182-231,182,231,,,,,351,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BGNK?i=350&cc=1985804&wc=M6CB-538%3A264175701%2C264722601%2C264904501
 9,III,colonia,Cleastiţi,Кляштицы,,232-239,232,239,,,,,,
@@ -2529,7 +2529,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 107,III,s.,Horodiştea de Jos,Городиштя-де-Жос,Hotin,279-295,279,295,,,,,,
 107,III,s.,Dîngenii de Sus,Дынжений-де-Сус,Hotin,296-301,296,301,,,,,,
 107,III,s.,Donduşeni,Дондюшаны,Hotin,302-322,302,322,,,,,394,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-Y9SS-G?i=393&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
-107,III,s.,Dîngenii de Jos,Дынжений-де-Жос,Hotin,323-338,323,338,,,,,,
+107,III,s.,Dîngenii de Jos,Дынжений-де-Жос,Hotin,323-338,323,338,,,,,425,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-Y99G-9?i=424&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
 108,I,s.,Sculeni,Скуляны,,1-4,1,4,,,,,,
 108,I,s.,Gherman,Герман,,5-8,5,8,,,,,,
 108,I,s.,Dănuţeni,Дэнуцень,,9-12,9,12,,,,,,
