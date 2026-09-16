@@ -3052,8 +3052,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 126,III,s.,Stoicani,Стойкань,Iaşi,480-521,480,521,,,,,,
 126,III,s.,Schineni,Скинены,Iaşi,522-534,522,534,,,,,,
 126,III,s.,Soloneţ,Солонец,Iaşi,535-555,535,555,,,,,,
-126,III,s.,Sevirova,Севирова,Iaşi,556-581,556,581,,,,,,
-126,V,s.,Ştefăneşti,Штефэнешты,Iaşi,582-607,582,607,,,,,,
+126,III,s.,Sevirova,Севирова,Iaşi,556-581,556,581,,,,,904,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-PV89?i=903&cc=1985804&wc=M6C1-PZ9%3A264175701%2C264722601%2C265166001
+126,V,s.,Ştefăneşti,Штефэнешты,Iaşi,582-607,582,607,,,,,948,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-PJJS?i=947&cc=1985804&wc=M6C1-PZ9%3A264175701%2C264722601%2C265166001
 126,V,s.,Scăieni,Скэены,Iaşi,608-654,608,654,,,,,,
 126,V,s.,Slobozia Ţipordei,Слобозия-Цыпордей,Iaşi,655-664,655,664,,,,,,
 127,,s.,Abaclia,Абаклия,,1-5,1,5,,,,,,
@@ -3330,7 +3330,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 165,,col.,Vertiujeni,Вертюжень,Soroca,72-74,72,74,,,,,101,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-TPSF?i=100&cc=1985804&wc=M6ZM-HTL%3A264175701%2C264722601%2C265265201
 165,,col.,Dumbrăveni,Думбрэвены,Soroca,75-93,75,93,,,,,,
 165,,col.,Liublin,Люблин,Soroca,94-96,94,96,,,,,128,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-TGTK?i=127&cc=1985804&wc=M6ZM-HTL%3A264175701%2C264722601%2C265265201
-165,,tîrgul,Hînceşti,Хынчешты,Chişinău,97-100,97,100,,,,,,
+165,,tîrgul,Hînceşti,Хынчешты,Chişinău,97-100,97,100,,,,,133,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-T5J9?i=132&cc=1985804&wc=M6ZM-HTL%3A264175701%2C264722601%2C265265201
 165,,col.,Constantinovca,Константиновка,Chişinău,101-111,101,111,,,,,,
 165,,,Constantinovca Căpriana,Константиновка Кэприана,Chişinău,112-116,112,116,,,,,,
 165,,mănăstirea,Căpriana,Кэприана,,112-116,112,116,,,,,,
@@ -4407,7 +4407,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 258,V,s.,Hîrjauca,Хыржаука,,753-770,753,770,,,,,1852,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93B-M4FL?i=1851&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
 258,V,s.,Găleşti,Гэлешть,,771-805,771,805,,,,,,
 258,VI,s.,Hirişeni,Хиришень,,806-857,806,857,,,,,1929,https://www.familysearch.org/ark:/61903/3:1:3QS7-893B-MW8Z?i=1928&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
-258,VI,s.,Schitul Horodişte,Скит Городиште,,858-860,858,860,,,,,,
+258,VI,s.,Schitul Horodişte,Скит Городиште,,858-860,858,860,,,,,78,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-PTY9?i=77&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
 258,VI,s.,Hogineşti,Хоргинешты,,861-902,861,902,,,,,81,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-PB67?i=80&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
 258,VI,s.,Hligeni,Хлигень,,903-927,903,927,,,,,160,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-PR18?i=159&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
 258,VI,s.,Slobozia-Hodorogea,Слобозия-Ходорожа,,928-942,928,942,,,,,207,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-PBMD?i=206&cc=1985804&wc=M6ZM-YPD%3A264175701%2C264722601%2C265357901
@@ -7024,7 +7024,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 593,II,s.,Rădeni,Рэдень,,206-221v,206,221,,,,,,
 593,II,s.,Străşeni,Стрэшень,,222-269v,222,269,,,,,,
 593,II,s.,Scoreni,Скорены,,270-287,270,287,,,,,,
-593,II,s.,Sadova,Садова,,288-313,288,313,,,,,,
+593,II,s.,Sadova,Садова,,288-313,288,313,,,,,109,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-VPH7?i=108&cc=1985804&wc=M6C1-YTG%3A264175701%2C264722601%2C265191101
 593,II,s.,Sîngera,Сынджера,,314-330,314,330,,,,,,
 593,III,s.,Suruceni,Суручень,,331-351,331,351,,,,,,
 593,III,s.,Sociteni,Сочитень,,352-359,352,359,,,,,,
