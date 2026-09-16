@@ -170,7 +170,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 9,VII,colonia,Şabo,Шабо,,791-802,791,802,,,,,,
 10,,s.,"Penico, filele …..2",Пенико,,4-7,4,7,,,,,,
 10,,s.,Băhrineşti,Бэхринешть,Iaşi,3-11,3,11,,,,,,
-10,,s.,Nădejdea,Надежда,Akkerman,12-21,12,21,,,,,,
+10,,s.,Nădejdea,Надежда,Akkerman,12-21,12,21,,,,,19,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-YQ67?i=18&cc=1985804&wc=M6CB-5WL%3A264175701%2C264722601%2C264914501
 10,,s.,Purcari,Пуркары,Akkerman,22-54,22,54,,,,,37,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YQFT?i=36&cc=1985804&wc=M6CB-5WL%3A264175701%2C264722601%2C264914501
 10,,s.,Răscăieţi,Раскаец,Akkerman,55-84,55,84,,,,,,
 11,,or.,Akkerman,Аккерман,,1-38,1,38,,,,,3,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YHZD?i=2&cc=1985804&wc=M6CB-529%3A264175701%2C264722601%2C264915201
@@ -2705,7 +2705,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 113,II,s.,Stîngineni,Стынджинень,Iaşi,220-243,220,243,,,,,,
 113,II,s.,Scumpia,Скумпия,Iaşi,244-268,244,268,,,,,,
 113,II,s.,Stolniceni,Стольничень,Iaşi,269-283,269,283,,,,,,
-113,III,s.,Stîncăuţi,Стынкэуць,Iaşi,284-301v,284,301,,,,,,
+113,III,s.,Stîncăuţi,Стынкэуць,Iaşi,284-301v,284,301,,,,,492,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-YN3S?i=491&cc=1985804&wc=M6C1-LP8%3A264175701%2C264722601%2C265126401
 113,III,s.,Slobozia Copăceni Răcăria,Слобозия Копэчень Рэкэрия,Iaşi,302-314v,302,314,,,,,,
 113,III,s.,Sărata,Сэрата,Iaşi,315-370v,315,370,,,,,,
 113,III,s.,Sineşti,Синешты,Iaşi,371-412v,371,412,,,,,638,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-YX6Q?i=637&cc=1985804&wc=M6C1-LP8%3A264175701%2C264722601%2C265126401
@@ -3193,7 +3193,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 141,,tîrgul,Hînceşti,Хынчешты,,1-43,1,43,,,,,,
 142,,or.,Chilia,Килия,,1-44,1,44,,,,,3,https://www.familysearch.org/ark:/61903/3:1:33SQ-G5Y5-GPC?i=2&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,or.,Bender,Бендеры,Bender,45-77,45,77,,,,,,
-142,,or.,Chişinău,Кишинёв,Bender,78-90,78,90,,,,,,
+142,,or.,Chişinău,Кишинёв,Bender,78-90,78,90,,,,,121,https://www.familysearch.org/ark:/61903/3:1:33SQ-G5Y5-LLF?i=120&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,s.,Căuşeni,Каушаны,Bender,91-92,91,92,,,,,139,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-LRY?i=138&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,tîrgul,Crasna,Красна,Bender,93-94,93,94,,,,,142,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-LKM?i=141&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,tîrgul,Ladîjina,Ладыжина,Gaisina,95-96,95,96,,,,,145,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-L5Y?i=144&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
