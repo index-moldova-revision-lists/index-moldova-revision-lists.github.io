@@ -541,7 +541,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 46,I,colonia,Banova,Банова,,2-43,2,43,,,,,,
 46,I,colonia,Burgugi,Бургуй,,44-70,44,70,,,,,512,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-BCLZ?i=511&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,I,colonia,Hasan Batîr,Хасан-Батыр,,71-112,71,112,,,,,,
-46,II,colonia,Glavan,Главан,,113-127,113,127,,,,,,
+46,II,colonia,Glavan,Главан,,113-127,113,127,,,,,642,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-BHWN?i=641&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,II,colonia,Goliţa,Голица,,128-141,128,141,,,,,,
 46,II,colonia,Devlet Agaci,Девлет-Агач,,142-178,142,178,,,,,697,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-B4K7?i=696&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,II,colonia,Diulmeni,Дюльмень,,179-219,179,219,,,,,,
@@ -1177,7 +1177,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 75,II,s.,Buţeni,Буцень,,142-180,142,180,,,,,335,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-ZQSS?i=334&cc=1985804&wc=M6C1-D29%3A264175701%2C264722601%2C265050601
 75,II,s.,Bilieşti,Билиешты,,181-192,181,192,,,,,,
 75,II,s.,Bujor,Бужор,,193-232,193,232,,,,,,
-75,II,s.,Bălăureşti,Бэлэурешть,,233-247,233,247,,,,,,
+75,II,s.,Bălăureşti,Бэлэурешть,,233-247,233,247,,,,,450,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-ZWDY?i=449&cc=1985804&wc=M6C1-D29%3A264175701%2C264722601%2C265050601
 75,II,s.,Bărboieni,Бэрбоень,,248-255,248,255,,,,,,
 75,II,s.,Budeşti,Будешты,,256-284,256,284,,,,,,
 75,III,s.,Bubuieşti (Bubuieci),Бубуешты (Бубуечи),,285-303,285,303,,,,,548,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-ZWNR?i=547&cc=1985804&wc=M6C1-D29%3A264175701%2C264722601%2C265050601
@@ -2514,7 +2514,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 106,,s.,Ţaul (Gorodici),Цауль (Городичи),,94-114,94,114,,,,,,
 107,I,s.,Ghindeşti,Гиндешть,Iaşi,1-12,1,12,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YQCS?i=4&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
 107,I,s.,Hîrtop,Хыртоп,Iaşi,13-31,13,31,,,,,25,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-Y35T?i=24&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
-107,I,s.,Gura Camencii,Гура-Каменчий,Iaşi,32-46,32,46,,,,,,
+107,I,s.,Gura Camencii,Гура-Каменчий,Iaşi,32-46,32,46,,,,,52,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-Y3DX?i=51&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
 107,I,s.,Gura Căinarului  (Gura Căinari),Гура-Кэинарулуй (Гура-Кэинарь),Iaşi,47-69,47,69,,,,,,
 107,I,s.,Ghizdita,Гиздица,Iaşi,70-110,70,110,,,,,,
 107,I,s.,Hăsnăşenii de Sus (Odaia Hăsnăşeni),Хэснэшений-де-Сус (Одая-Хэснэшень),Iaşi,111-113,111,113,,,,,189,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-YYXX?i=188&cc=1985804&wc=M6C1-2TL%3A264175701%2C264722601%2C265114001
@@ -3161,7 +3161,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 135,I,s.,Nebidăuţi,Небидэуць,,88-121,88,121,,,,,344,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-TCWB?i=343&cc=1985804&wc=M6C1-5TL%3A264175701%2C264722601%2C265175401
 135,I,s.,Nesfoia,Несфоя,,122-149,122,149,,,,,,
 135,II,s.,Neporotova,Непоротова,,150-188,150,188,,,,,448,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-TCYS?i=447&cc=1985804&wc=M6C1-5TL%3A264175701%2C264722601%2C265175401
-135,II,s.,Nagoreni,Нагорены,,189-203,189,203,,,,,,
+135,II,s.,Nagoreni,Нагорены,,189-203,189,203,,,,,516,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-TC15?i=515&cc=1985804&wc=M6C1-5TL%3A264175701%2C264722601%2C265175401
 135,II,s.,Negrinţi,Негринць,,204-226,204,226,,,,,546,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-THN2?i=545&cc=1985804&wc=M6C1-5TL%3A264175701%2C264722601%2C265175401
 135,II,s.,Onut,Онут,,227-237,227,237,,,,,,
 135,II,s.,Pol-Onuta de Sus,Пол-Онута-де-Сус,,238-247,238,247,,,,,,
@@ -7346,10 +7346,10 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 610,I,s.,Rubleniţa,Рубленица,,77-78,77,78,,,,,,
 610,I,s.,Răduleni,Рэдулень,,79-85,79,85,,,,,,
 610,I,s.,Receşti,Речешть,,86-94,86,94,,,,,,
-610,I,s.,Recea,Речя,,95-97,95,97,,,,,,
-610,I,s.,Rădoaia,Рэдоая,,98-102,98,102,,,,,,
-610,I,s.,Salcia,Сальча,,103-106,103,106,,,,,,
-610,I,tîrgul,Sculeni,Скуляны,,107-115,107,115,,,,,,
+610,I,s.,Recea,Речя,,95-97,95,97,,,,,147,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2VP8?i=146&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
+610,I,s.,Rădoaia,Рэдоая,,98-102,98,102,,,,,150,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2VL7?i=149&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
+610,I,s.,Salcia,Сальча,,103-106,103,106,,,,,157,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2VJH?i=156&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
+610,I,tîrgul,Sculeni,Скуляны,,107-115,107,115,,,,,162,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2V5K?i=161&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
 610,I,s.,Scumpia,Скумпия,,116-117,116,117,,,,,172,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2VTP?i=171&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
 610,I,s.,Stînjeneni,Стынженень,,118-121,118,121,,,,,,
 610,II,s.,Sănătăuca,Сэнэтэука,,122-127,122,127,,,,,181,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2VJ4?i=180&cc=1985804&wc=M6ZM-MP8%3A264175701%2C264722601%2C265221701
