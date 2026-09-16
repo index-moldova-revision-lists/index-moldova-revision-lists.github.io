@@ -317,7 +317,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 22,I,s.,Abaclia (Abaclîdjaba),Абаклия (Абаклыджаба),,1-27,1,27,,,,,,
 22,I,s.,Opaci,Опач,,28-63,28,63,,,,,49,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-TH38?i=48&cc=1985804&wc=M6CB-BM9%3A264175701%2C264722601%2C264941901
 22,I,s.,Bulboaca,Булбоака,,64-83,64,83,,,,,,
-22,I,s.,Batîr,Батыр,,84-113,84,113,,,,,,
+22,I,s.,Batîr,Батыр,,84-113,84,113,,,,,141,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-T4SD?i=140&cc=1985804&wc=M6CB-BM9%3A264175701%2C264722601%2C264941901
 22,I,s.,Baimaclia,Баймаклия,,114-135,114,135,,,,,,
 22,II,s.,Varniţa,Варница,,137-163,137,163,,,,,,
 22,II,s.,Hîrbovăţ,Хырбовэц,,165-203,165,203,,,,,,
@@ -3649,8 +3649,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 203,,or.,Bender,Бендеры,,1-125v,1,125,2361985,657–890,234,exacte,4,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-R4HS?i=3&cc=1985804&wc=M6ZM-26X%3A264175701%2C264722601%2C265310501
 204,I,or.,Bender,Бендеры,,1-112,1,112,2361986,6–217,212,sur,,
 204,II,or.,Bender,Бендеры,,113-211,113,211,2361986,6–217,212,sur,,
-205,,s.,Opaci,Опач,,1-2v,1,2,2361986,218–220,3,exacte,,
-205,,s.,Tănătari,Тэнэтарь,,3-5v,3,5,2361986,221–224,4,exacte,,
+205,,s.,Opaci,Опач,,1-2v,1,2,2361986,218–220,3,exacte,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-5KPV?i=4&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
+205,,s.,Tănătari,Тэнэтарь,,3-5v,3,5,2361986,221–224,4,exacte,7,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-52MN?i=6&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
 205,,s.,Cobusca Veche,Кобуска Веке,,6-8,6,8,2361986 · 2361986,225–227 · 228–235,11,sur,10,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-5KTD?i=9&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
 205,,s.,Cobusca Nouă,Кобуска Ноуэ,,9-19,9,19,2361986 · 2361986,225–227 · 228–235,11,sur,15,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-52WN?i=14&cc=1985804&wc=M6ZM-L38%3A264175701%2C264722601%2C265311601
 205,,or.,Bender,Бендеры,,20-24v,20,24,2361986,236–247,12,exacte,,
@@ -7227,7 +7227,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 605,I,tîrgul,Briceni,Бричаны,,59-165,59,165,,,,,98,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-VWPV?i=97&cc=1985804&wc=M6CB-FM9%3A264175701%2C264722601%2C264843001
 605,II,s.,Gvozdăuţi,Гвоздэуць,,166-171,166,171,,,,,,
 605,II,s.,Hîjdău,Хыждэу,,172-184,172,184,,,,,,
-605,II,s.,Gruşoviţa,Грушовица,,185-215,185,215,,,,,,
+605,II,s.,Gruşoviţa,Грушовица,,185-215,185,215,,,,,350,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-V7DG?i=349&cc=1985804&wc=M6CB-FM9%3A264175701%2C264722601%2C264843001
 605,II,s.,Grumezeni,Грумезень,,216-225,216,225,,,,,,
 605,II,s.,Grubna,Грубна,,226-238,226,238,,,,,,
 605,II,s.,Grimăncăuţi,Гриманкэуць,,239-287,239,287,,,,,,
