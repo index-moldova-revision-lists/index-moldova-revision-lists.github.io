@@ -539,7 +539,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 45,VII,colonia,Cioc-Maidan,Чок-Майдан,,610-640,610,640,,,,,,
 45,VIII,colonia,Ciadîr-Lunga,Чадыр-Лунга,,642-701,642,701,,,,,,
 46,I,colonia,Banova,Банова,,2-43,2,43,,,,,,
-46,I,colonia,Burgugi,Бургуй,,44-70,44,70,,,,,,
+46,I,colonia,Burgugi,Бургуй,,44-70,44,70,,,,,512,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-BCLZ?i=511&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,I,colonia,Hasan Batîr,Хасан-Батыр,,71-112,71,112,,,,,,
 46,II,colonia,Glavan,Главан,,113-127,113,127,,,,,,
 46,II,colonia,Goliţa,Голица,,128-141,128,141,,,,,,
@@ -2756,13 +2756,13 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 117,I,s.,Cunicea,Куничя,Iaşi,103-114,103,114,,,,,,
 117,II,s.,Cuhneşti,Кухнешты,Iaşi,116-118v,116,118,,,,,,
 117,II,s.,Chirileni,Кирилены,Iaşi,119-122v,119,122,,,,,,
-117,II,s.,Căinarii Vechi,Кэинарий Векь,Iaşi,124-127,124,127,,,,,,
+117,II,s.,Căinarii Vechi,Кэинарий Векь,Iaşi,124-127,124,127,,,,,196,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-BNNY?i=195&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Căinarii Noi,Кэинарий Ной,Iaşi,128-133v,128,133,,,,,199,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-BXNH?i=198&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Camenca,Каменка,Iaşi,134-136v,134,136,,,,,210,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BN7V?i=209&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Gura Camencii,Гура-Каменчий,Iaşi,137-139v,137,139,,,,,213,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BNCL?i=212&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Cobîlea Veche,Кобыля Веке,Iaşi,140-144v,140,144,,,,,,
 117,II,,Cobani (Cubani),Кобаны,Iaşi,45-146,45,146,,,,,226,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BN9R?i=225&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
-117,II,s.,Climăuţi,Климэуцы,Iaşi,147-149v,147,149,,,,,,
+117,II,s.,Climăuţi,Климэуцы,Iaşi,147-149v,147,149,,,,,231,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-BF15?i=230&cc=1985804&wc=M6C1-G38%3A264175701%2C264722601%2C265138501
 117,II,s.,Corneşti,Корнешть,Iaşi,150-159,150,159,,,,,,
 117,II,s.,Cureşniţa,Курешница,Iaşi,160-165,160,165,,,,,,
 117,II,s.,Chiţcani,Кицканы,Iaşi,168-171v,168,171,,,,,,
@@ -3194,7 +3194,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 142,,or.,Chilia,Килия,,1-44,1,44,,,,,3,https://www.familysearch.org/ark:/61903/3:1:33SQ-G5Y5-GPC?i=2&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,or.,Bender,Бендеры,Bender,45-77,45,77,,,,,,
 142,,or.,Chişinău,Кишинёв,Bender,78-90,78,90,,,,,,
-142,,s.,Căuşeni,Каушаны,Bender,91-92,91,92,,,,,,
+142,,s.,Căuşeni,Каушаны,Bender,91-92,91,92,,,,,139,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-LRY?i=138&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,tîrgul,Crasna,Красна,Bender,93-94,93,94,,,,,142,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-LKM?i=141&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,tîrgul,Ladîjina,Ладыжина,Gaisina,95-96,95,96,,,,,145,https://www.familysearch.org/ark:/61903/3:1:33S7-95Y5-L5Y?i=144&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
 142,,tîrgul,Grinova,Гринова,gubernia Podolsc,97-98,97,98,,,,,129,https://www.familysearch.org/ark:/61903/3:1:33SQ-G5Y5-L8P?i=128&cc=1985804&wc=M6ZM-WT5%3A264175701%2C264722601%2C265258801
