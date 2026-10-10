@@ -34,7 +34,7 @@
      recensements disponibles » (genere_site.py, GROUPES, qui les ecrit dans
      la page) : un dossier va dans le groupe de son annee de DEBUT. */
   var GROUPES = window.GROUPES || [[1834, 1836], [1848, 1851], [1854, 1857], [1858, 1859]];
-  var D = null, LF = null, T = window.TEXTES || {};
+  var D = null, LF = null, LU = {}, T = window.TEXTES || {};
   var LANG = document.documentElement.lang || "en";
   var G = [];        /* les graphies d'inventaire : {nom, fold, fam, pre, dos, juds, a1, a2} */
   var NOMS = [];     /* pour « vouliez-vous dire » : {fold, nom} (noms entiers et mots) */
@@ -208,6 +208,10 @@
   function indexe() {
     var c = D.col, L = D.lig, cle = {}, folds = {}, mots = {}, vusNoms = {};
     LF = L.nom.map(plie);
+    /* 2026-10-11 : le nom lu sur l'image (D.lu) repond aussi a la recherche,
+       sans devenir une graphie de l'inventaire (pas de puce, pas de suggestion) */
+    LU = {};
+    Object.keys(D.lu || {}).forEach(function (k) { LU[k] = D.lu[k].map(plie); });
     DOS_DE = new Array(L.nom.length);
     NB_VILLAGES = 0;
     for (var i = 0; i < D.n; i++) {
@@ -426,14 +430,14 @@
            prefixe filtre aussi (lot 8), sinon « colonia Tomai » rouvrait
            tout « Tomai » y compris « s. Tomai » */
         for (k = c.l0[i]; k < c.l0[i] + c.ln[i]; k++) {
-          if (L.nom[k] === S.nom && (!S.fam || familleDe(L.pre[k]) === S.fam)) hits.push(k);
+          if ((L.nom[k] === S.nom || (D.lu && D.lu[k] && D.lu[k][0] === S.nom)) && (!S.fam || familleDe(L.pre[k]) === S.fam)) hits.push(k);
         }
         if (!hits.length) continue;
       } else if (num) {
         if (c.dosar[i].toLowerCase() !== num) continue;
       } else if (pq) {
         for (k = c.l0[i]; k < c.l0[i] + c.ln[i]; k++) {
-          if (LF[k].indexOf(pq) !== -1) hits.push(k);
+          if (LF[k].indexOf(pq) !== -1 || (LU[k] && (LU[k][0].indexOf(pq) !== -1 || LU[k][1].indexOf(pq) !== -1))) hits.push(k);
         }
         if (!hits.length && c.fold[i].indexOf(pq) === -1) continue;
       }
