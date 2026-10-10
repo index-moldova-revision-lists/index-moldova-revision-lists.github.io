@@ -158,11 +158,64 @@
       champ.focus();
     });
   });
-  lit("lignes_proposees?select=dosar,village,lien&village=eq.%2A&order=recu_le.desc&limit=1000").then(function (rows) {
+  /* ---- les dossiers sans village place : le lien d'une ligne (comme le lot 22) ---- */
+  Array.prototype.forEach.call(document.querySelectorAll("ul.aide-lignes > li"), function (li) {
+    var cle = li.dataset.d + "|" + li.dataset.v + "|" + li.dataset.f;
+    LIGNES[cle] = li;
+    var b = el("button", "lien film-q", T.contribQ);
+    b.type = "button";
+    li.appendChild(document.createTextNode(" "));
+    li.appendChild(b);
+    b.addEventListener("click", function () {
+      if (li.querySelector("form")) return;
+      var f = el("form", "q-form"), champ = el("input"), img = el("input", "petit"), msg = el("span", "q-msg");
+      champ.type = "url";
+      champ.maxLength = 400;
+      champ.placeholder = T.contribPh;
+      img.type = "text";
+      img.inputMode = "numeric";
+      img.maxLength = 5;
+      img.placeholder = T.contribImage;
+      var ok = el("button", "", T.envoyer);
+      ok.type = "submit";
+      var non = el("button", "lien", T.annuler);
+      non.type = "button";
+      non.addEventListener("click", function () { f.remove(); });
+      [champ, img, ok, non, msg].forEach(function (x) { f.appendChild(x); });
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var url = champ.value.trim();
+        msg.className = "q-msg erreur";
+        if (!RE_ARK.test(url)) { msg.textContent = T.invalide; return; }
+        ok.disabled = true;
+        var corps = { dosar: li.dataset.d, village: li.dataset.v, feuillet: li.dataset.f, langue: LANGUE, lien: url };
+        var n = parseInt(img.value, 10);
+        if (n >= 1 && n <= 20000) corps.image = n;
+        envoie("propositions", corps)
+          .then(function () {
+            f.remove();
+            montreLien(li, url);
+            li.appendChild(el("span", "q-msg", " " + T.merciLien));
+            compte("aide/ligne/" + li.dataset.d + "/f" + li.dataset.f, li.dataset.v);
+          })
+          .catch(function () { ok.disabled = false; msg.textContent = T.erreur; });
+      });
+      li.appendChild(f);
+      champ.focus();
+    });
+  });
+
+  lit("lignes_proposees?select=dosar,village,feuillet,lien&order=recu_le.desc&limit=5000").then(function (rows) {
     var vus = {};
     rows.forEach(function (r) {
-      var li = LIGNES[r.dosar];
-      if (!li || r.village !== "*") return;
+      var cle = r.village === "*" ? r.dosar : r.dosar + "|" + r.village + "|" + (r.feuillet || "");
+      var li = LIGNES[cle];
+      if (!li) return;
+      if (li.parentNode.className === "aide-lignes") {
+        var det = li.closest("details"), s = det && det.querySelector("summary");
+        if (s && !s.querySelector(".a-propose")) s.appendChild(el("span", "a-propose", " · " + T.propose));
+      }
+      r = { dosar: cle, lien: r.lien };
       vus[r.dosar] = (vus[r.dosar] || 0) + 1;
       if (vus[r.dosar] <= 3) montreLien(li, r.lien);
     });
