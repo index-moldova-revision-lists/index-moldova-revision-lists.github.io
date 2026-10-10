@@ -794,6 +794,11 @@
     }
     var tin = tinutDe(k);
     if (tin) texte.appendChild(el("span", "tinut", ", " + tinutAff(tin)));
+    /* 2026-10-11 : le nom lu sur l'image quand il contredit l'inventaire
+       (lectures_image.json). Le nom de l'inventaire n'est pas change. */
+    if (D.lu && D.lu[k]) {
+      texte.appendChild(el("span", "lu", " · " + fmt("luImage", { n: D.lu[k][LANG === "ru" ? 1 : 0] || D.lu[k][0] })));
+    }
     if (L.bis && L.bis[k]) texte.appendChild(el("span", "bis", " · " + L.bis[k]));
     if (L.fa[k]) texte.appendChild(el("span", "fil", ", " + (T.filele || "f.") + " " + feuillets(k)));
     li.appendChild(texte);

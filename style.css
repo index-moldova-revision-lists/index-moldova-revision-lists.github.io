@@ -326,7 +326,8 @@ li.ligne[hidden] { display: none; }
 li.ligne.hit { background: var(--violet-soft); }
 li.ligne .vol { color: var(--dim); font-weight: 600; font-variant-numeric: tabular-nums; }
 li.ligne .texte { min-width: 0; }
-li.ligne .pre, li.ligne .tinut, li.ligne .fil, li.ligne .bis { color: var(--dim); }
+li.ligne .pre, li.ligne .tinut, li.ligne .fil, li.ligne .bis, li.ligne .lu { color: var(--dim); }
+li.ligne .lu { font-style: italic; }
 li.ligne .fil { font-variant-numeric: tabular-nums; white-space: nowrap; }
 li.ligne em { font-style: normal; font-weight: 500; background: var(--violet-bg); color: var(--violet-txt); border-radius: 3px; padding: 0 3px; }
 li.ligne .face { font-size: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; color: var(--dim); }
