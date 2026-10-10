@@ -27,6 +27,13 @@
 </header>
 <main>
 <div class="textes">
+<h2 id="liste">You already have a list of links?</h2>
+<p>If you already have lists of links and do not feel like pasting them one by one, put everything here and I will sort them out. Any form will do: a spreadsheet, a document, notes copied from an e-mail.</p>
+<form id="envoi" class="envoi" hidden>
+  <textarea id="envoi-texte" maxlength="20000" rows="6" placeholder="Paste your list here, as it is"></textarea>
+  <label class="envoi-fichier">or send a file (Excel, Word, CSV, text, PDF, 5 MB at most): <input type="file" id="envoi-fichier" accept=".xlsx,.xls,.docx,.doc,.ods,.odt,.csv,.txt,.pdf"></label>
+  <div class="envoi-pied"><button type="submit" class="btn">Send</button> <span id="envoi-msg" class="q-msg"></span></div>
+</form>
 <h2 id="lectures">Readings to settle (11)</h2>
 <p>On these images two readings contradict each other, and we cannot decide. Open the image on FamilySearch (a free account is needed), look at the village name at the top of the page and the folio number in the top right corner, then say what you read. The count next to each answer shows what others have already said.</p>
 <div class="question" id="q-591-389" data-id="591-389" data-choix='[[&quot;Slobozia Horodca&quot;, &quot;Slobozia Horodca&quot;], [&quot;Ghidighici&quot;, &quot;Ghidighici&quot;], [&quot;Horodca&quot;, &quot;Horodca&quot;], [&quot;autre&quot;, &quot;something else&quot;], [&quot;illisible&quot;, &quot;unreadable&quot;]]'><p class="q-ctx">File 591 · Slobozia Horodca · folio 389</p><p class="q-texte">Which village name do you read at the top of this page?</p><p class="q-pq">Two readings of this image contradict each other on the village name.</p><p class="q-liens"><a href="https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2PBQ?i=670&amp;cc=1985804&amp;wc=M6C1-YTL%3A264175701%2C264722601%2C265188501" target="_blank" rel="noopener">open the image</a></p><div class="q-rep"></div></div>
@@ -361,7 +368,7 @@
 <footer class="textes">
 <p><a href="index.html">← Back to the index</a></p>
 </footer>
-<script>window.TEXTES_AIDE={autre:"something else",notePh:"what you read (optional)",envoyer:"Send",annuler:"Cancel",merci:"Thank you, your answer is counted.",erreur:"It could not be sent. Try again later.",comptes:"answers already given",ajouterFilm:"+ add the link of the film",phFilm:"FamilySearch link of an image of this volume",invalide:"This is not a FamilySearch image link: it must contain ark:/61903/3:1:…",propose:"link proposed by a visitor",nonVerifie:"not yet checked",merciLien:"Thank you! Your link shows as not checked until we have verified it.",contribQ:"+ add the link",contribPh:"FamilySearch link of the image where this village begins",contribImage:"image number (optional)"};window.CONTRIB={"url": "https://tanwrwmofpxsssismaqx.supabase.co", "cle": "sb_publishable_qESNKnFYlNkSaOBwNtZyHg_ZC3t4bn9"};window.PREFIXE="F134-2-";</script>
+<script>window.TEXTES_AIDE={autre:"something else",notePh:"what you read (optional)",envoyer:"Send",annuler:"Cancel",merci:"Thank you, your answer is counted.",erreur:"It could not be sent. Try again later.",comptes:"answers already given",ajouterFilm:"+ add the link of the film",phFilm:"FamilySearch link of an image of this volume",invalide:"This is not a FamilySearch image link: it must contain ark:/61903/3:1:…",propose:"link proposed by a visitor",nonVerifie:"not yet checked",merciLien:"Thank you! Your link shows as not checked until we have verified it.",d_merci:"Thank you, it has arrived. I will sort it out.",d_vide:"Paste a list or choose a file first.",d_trop:"This file is over 5 MB.",d_type:"This file type is not accepted: Excel, Word, CSV, text or PDF only.",contribQ:"+ add the link",contribPh:"FamilySearch link of the image where this village begins",contribImage:"image number (optional)"};window.CONTRIB={"url": "https://tanwrwmofpxsssismaqx.supabase.co", "cle": "sb_publishable_qESNKnFYlNkSaOBwNtZyHg_ZC3t4bn9"};window.PREFIXE="F134-2-";</script>
 <script src="aider.js"></script>
 <script data-goatcounter="https://imrl.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>

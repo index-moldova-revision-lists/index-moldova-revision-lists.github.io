@@ -697,3 +697,11 @@ ul.aide-lignes { list-style: none; margin: 0 0 10px 1.2rem; padding: 0; font-siz
 .encours h2 { flex: 1 1 100%; margin: 0; font-size: 17px; font-weight: 600; color: var(--violet-txt); }
 .encours p { flex: 1 1 24rem; margin: 0; }
 .encours .btn { flex: 0 0 auto; text-decoration: none; }
+/* lot 24 : envoyer une liste entiere */
+form.envoi { display: flex; flex-direction: column; gap: 10px; margin: 12px 0 0; }
+form.envoi[hidden] { display: none; }
+form.envoi textarea { font: inherit; font-size: 14px; padding: 8px 10px; border: 1px solid var(--dim); border-radius: 6px; background: transparent; color: inherit; resize: vertical; }
+form.envoi .envoi-fichier { font-size: 13.5px; color: var(--dim); }
+form.envoi .envoi-fichier input { font: inherit; font-size: 13px; max-width: 100%; }
+form.envoi .envoi-pied { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+form.envoi .q-msg { margin: 0; }

@@ -114,6 +114,54 @@
     });
   });
 
+  /* ---- envoyer une liste entiere (lot 24) : un texte colle, un fichier, ou
+     les deux. Le fichier part dans le stockage prive « envois » sous un nom
+     tire au hasard ; la table `envois` garde le texte, le chemin et le nom
+     d'origine. Le visiteur ne peut rien relire. ---- */
+  var TYPES = {
+    xlsx: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    xls: "application/vnd.ms-excel",
+    docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    doc: "application/msword",
+    ods: "application/vnd.oasis.opendocument.spreadsheet",
+    odt: "application/vnd.oasis.opendocument.text",
+    pdf: "application/pdf", csv: "text/csv", txt: "text/plain"
+  };
+  var fEnvoi = document.getElementById("envoi");
+  if (fEnvoi) {
+    fEnvoi.hidden = false;
+    var zTexte = document.getElementById("envoi-texte"), zFichier = document.getElementById("envoi-fichier");
+    var zMsg = document.getElementById("envoi-msg"), bEnvoi = fEnvoi.querySelector("button");
+    var dit = function (texte, erreur) { zMsg.className = "q-msg" + (erreur ? " erreur" : ""); zMsg.textContent = texte; };
+    fEnvoi.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var texte = zTexte.value.trim(), fichier = zFichier.files && zFichier.files[0];
+      if (!texte && !fichier) { dit(T.d_vide, true); return; }
+      var corps = { langue: LANGUE }, depot = Promise.resolve();
+      if (texte) corps.texte = texte.slice(0, 20000);
+      if (fichier) {
+        var ext = (fichier.name.split(".").pop() || "").toLowerCase();
+        if (!TYPES[ext]) { dit(T.d_type, true); return; }
+        if (fichier.size > 5242880) { dit(T.d_trop, true); return; }
+        var hasard = (window.crypto && crypto.randomUUID) ? crypto.randomUUID()
+          : String(Date.now()) + "-" + Math.random().toString(36).slice(2);
+        corps.fichier = new Date().toISOString().slice(0, 10) + "/" + hasard + "." + ext;
+        corps.nom = fichier.name.slice(0, 200);
+        depot = fetch(SB.url + "/storage/v1/object/envois/" + corps.fichier, {
+          method: "POST", headers: { apikey: SB.cle, "Content-Type": TYPES[ext] }, body: fichier
+        }).then(function (r) { if (!r.ok) throw new Error(r.status); });
+      }
+      bEnvoi.disabled = true;
+      dit("");
+      depot.then(function () { return envoie("envois", corps); }).then(function () {
+        fEnvoi.reset();
+        bEnvoi.disabled = false;
+        dit(T.d_merci);
+        compte("aide/envoi/" + (fichier ? "fichier" : "texte"), "envoi");
+      }).catch(function () { bEnvoi.disabled = false; dit(T.erreur, true); });
+    });
+  }
+
   /* ---- les dossiers sans film : coller le lien du volume ---- */
   var LIGNES = {};
   function montreLien(li, lien) {
