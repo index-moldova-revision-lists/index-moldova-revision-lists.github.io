@@ -4,7 +4,7 @@
 > Bessarabian poll tax censuses (*catagrafii*, Russian *ревизские сказки*)
 > and to its images on FamilySearch. Covers fond 134 opis 2 of the
 > National Archives of the Republic of Moldova (ANRM): 812 archival files,
-> 9725 inventory lines, 2226 village spellings, 1824-1886.
+> 9733 inventory lines, 2226 village spellings, 1824-1886.
 > Public domain (CC0).
 
 The search page runs in the browser, so fetching the HTML will NOT give you
@@ -16,7 +16,7 @@ they are regenerated from the same source as the page.
 - [data/index.jsonl](https://index-moldova-revision-lists.github.io/data/index.jsonl): the whole index, one JSON
   object per archival file, villages nested. Start here.
 - [data/lignes.csv](https://index-moldova-revision-lists.github.io/data/lignes.csv): one row per inventory line
-  (9725 rows) -- the file to search when you have a village name.
+  (9733 rows) -- the file to search when you have a village name.
 - [data/dossiers.csv](https://index-moldova-revision-lists.github.io/data/dossiers.csv): one row per archival file
   (812 rows).
 - [data/DICTIONNAIRE.md](https://index-moldova-revision-lists.github.io/data/DICTIONNAIRE.md): what every field
@@ -48,7 +48,7 @@ they are regenerated from the same source as the page.
 - **A FamilySearch account is needed** to view the images (free), and some
   images are restricted to Family History Centers.
 - **The inventory can be wrong or incomplete**, and so can this index.
-  59 files have no link yet. Nothing here replaces looking at
+  46 files have no link yet. Nothing here replaces looking at
   the page.
 
 ## What is not here
