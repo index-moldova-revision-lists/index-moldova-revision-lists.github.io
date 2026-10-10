@@ -332,6 +332,17 @@ li.ligne em { font-style: normal; font-weight: 500; background: var(--violet-bg)
 li.ligne .face { font-size: 12px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: flex-end; color: var(--dim); }
 li.ligne .face .plage { color: var(--teal); font-weight: 500; white-space: nowrap; }
 li.ligne .autre-bobine { color: var(--dim); }
+/* lot 22 (2026-10-10) : lien propose par un visiteur, et sa saisie */
+li.ligne .face .propose { color: var(--teal); white-space: nowrap; border-bottom: 1px dashed currentColor; text-decoration: none; }
+li.ligne .non-verifie { font-style: italic; white-space: nowrap; }
+li.ligne button.contrib-q { font-size: 12px; color: var(--dim); }
+li.ligne button.contrib-q:hover { color: var(--teal); }
+li.ligne .contrib-form { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 4px 0 6px 2rem; font-size: 12.5px; }
+li.ligne .contrib-form input { font: inherit; padding: 3px 6px; border: 1px solid var(--dim); border-radius: 4px; background: transparent; color: inherit; min-width: 0; }
+li.ligne .contrib-form input.contrib-lien { flex: 1 1 22rem; }
+li.ligne .contrib-form input.contrib-petit { flex: 0 1 13rem; }
+li.ligne .contrib-msg { grid-column: 1 / -1; margin-left: 2rem; font-size: 12.5px; font-style: italic; color: var(--teal); }
+li.ligne .contrib-msg.erreur { color: #b3261e; }
 /* pouce haut / bas sur le lien vers la vue (2026-09-13) */
 li.ligne .avis { display: inline-flex; gap: 2px; align-items: center; white-space: nowrap; }
 li.ligne .avis[hidden] { display: none; }

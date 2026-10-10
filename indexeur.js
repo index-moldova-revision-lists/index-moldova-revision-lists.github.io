@@ -584,7 +584,11 @@
      (localStorage, facultatif : s'il manque, le vote part quand meme). */
   function avisLien(k) {
     var L = D.lig, dos = D.col.dosar[DOS_DE[k]];
-    var cle = "avis|" + dos + "|" + L.fa[k] + "|" + L.i[k];
+    return avisBoite("avis|" + dos + "|" + L.fa[k] + "|" + L.i[k],
+                     "avis-lien/{v}/" + dos + "/f" + L.fa[k] + "/v" + L.i[k], L.nom[k]);
+  }
+  /* `chemin` porte « {v} », remplace par ok ou ko. */
+  function avisBoite(cle, chemin, titre) {
     var box = el("span", "avis");
     var merci = function () {
       box.textContent = "";
@@ -605,10 +609,7 @@
       b.addEventListener("click", function (ev) {
         ev.stopPropagation();
         if (window.goatcounter && window.goatcounter.count) {
-          window.goatcounter.count({
-            path: "avis-lien/" + v[0] + "/" + dos + "/f" + L.fa[k] + "/v" + L.i[k],
-            title: L.nom[k], event: true
-          });
+          window.goatcounter.count({ path: chemin.replace("{v}", v[0]), title: titre, event: true });
         }
         try { localStorage.setItem(cle, v[0]); } catch (e) { /* navigateur sans stockage */ }
         merci();
@@ -616,6 +617,136 @@
       box.appendChild(b);
     });
     return box;
+  }
+
+  /* Les liens proposes par les visiteurs (lot 22, 2026-10-10). Une ligne sans
+     image verifiee porte « vous avez trouve l'image ? ajoutez le lien ». Le
+     lien part dans une base Supabase (window.CONTRIB), et la page relit a
+     chaque visite la vue publique `lignes_proposees` pour l'afficher tout de
+     suite, etiquete « pas encore verifie ». Supabase absent ou en panne : la
+     page marche comme avant, sans saisie ni liens proposes. La verification
+     et l'entree dans l'index se font hors ligne (traite_propositions.py). */
+  var SB = window.CONTRIB || null;
+  var PROP = null;          /* cle de ligne -> [{id, lien}], null tant que pas lu */
+  var PROP_ATTENTE = [];    /* lignes deja a l'ecran avant l'arrivee de PROP */
+  var RE_ARK = /^https:\/\/(www\.)?familysearch\.org\/.*ark:\/61903\/3:[12]:[A-Za-z0-9-]+/;
+
+  function dosarRef(k) {
+    return ("F" + D.fond + "-" + D.opis + "-" + D.col.dosar[DOS_DE[k]]).slice(0, 40);
+  }
+  function contribCle(k) {
+    var L = D.lig;
+    return dosarRef(k) + "|" + String(L.nom[k] || "").slice(0, 120) + "|" + (L.fa[k] ? feuillets(k).slice(0, 20) : "");
+  }
+  function sbEntetes() {
+    return { apikey: SB.cle, "Content-Type": "application/json", Prefer: "return=minimal" };
+  }
+  function chargePropositions() {
+    if (!SB || !window.fetch) return;
+    fetch(SB.url + "/rest/v1/lignes_proposees?select=id,dosar,village,feuillet,lien&order=recu_le.desc&limit=5000",
+          { headers: { apikey: SB.cle } })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (rows) {
+        PROP = {};
+        rows.forEach(function (r) {
+          if (!RE_ARK.test(r.lien)) return;
+          var c = r.dosar + "|" + r.village + "|" + (r.feuillet || "");
+          (PROP[c] = PROP[c] || []).push({ id: r.id, lien: r.lien });
+        });
+        PROP_ATTENTE.forEach(function (f) { f(); });
+        PROP_ATTENTE = [];
+      })
+      .catch(function () { /* base muette : pas de saisie, la page reste entiere */ });
+  }
+
+  function lienPropose(k, p) {
+    var frag = document.createDocumentFragment();
+    var a = el("a", "propose", "→ " + t("contribLien"));
+    a.href = p.lien; a.target = "_blank"; a.rel = "noopener nofollow ugc";
+    a.title = T.contribNonVerifieTitre || "";
+    var nv = el("span", "non-verifie", t("contribNonVerifie"));
+    nv.title = T.contribNonVerifieTitre || "";
+    frag.appendChild(a);
+    frag.appendChild(nv);
+    if (p.id) {
+      var avis = avisBoite("avisp|" + p.id, "avis-propose/{v}/" + dosarRef(k) + "/p" + p.id, D.lig.nom[k]);
+      a.addEventListener("click", function () { if (avis.dataset.vote !== "1") avis.hidden = false; });
+      frag.appendChild(avis);
+    }
+    return frag;
+  }
+
+  /* Remplit `face` (liens proposes + bouton de saisie) pour la ligne k. */
+  function contribLigne(k, li, face) {
+    if (!SB || !window.fetch) return;
+    var L = D.lig, cle = contribCle(k), zone = el("span", "contrib");
+    face.appendChild(zone);
+    var dessine = function () {
+      zone.textContent = "";
+      ((PROP && PROP[cle]) || []).slice(0, 3).forEach(function (p) { zone.appendChild(lienPropose(k, p)); });
+      var b = bouton("lien contrib-q", t("contribQ"), function (ev) {
+        ev.stopPropagation();
+        if (li.querySelector(".contrib-form")) return;
+        ouvreSaisie();
+      });
+      zone.appendChild(b);
+    };
+    var message = function (texte, erreur) {
+      var m = li.querySelector(".contrib-msg");
+      if (m) m.remove();
+      if (!texte) return;
+      li.appendChild(el("div", "contrib-msg" + (erreur ? " erreur" : ""), texte));
+    };
+    var ouvreSaisie = function () {
+      message("");
+      var f = el("form", "contrib-form");
+      var champ = function (cls, ph, max) {
+        var i = el("input", cls);
+        i.type = "text"; i.placeholder = ph; i.maxLength = max;
+        i.setAttribute("aria-label", ph);
+        f.appendChild(i);
+        return i;
+      };
+      var lien = champ("contrib-lien", t("contribPh"), 400);
+      lien.type = "url"; lien.required = true;
+      /* le numero affiche par la visionneuse (« image 438 sur 1055 ») : il
+         donne le rang dans le volume, meme si le volume n'est pas moissonne */
+      var img = champ("contrib-petit", t("contribImage"), 5);
+      img.inputMode = "numeric";
+      var ok = el("button", "", t("contribEnvoyer"));
+      ok.type = "submit";
+      f.appendChild(ok);
+      f.appendChild(bouton("lien", t("contribAnnuler"), function () { f.remove(); message(""); }));
+      f.addEventListener("click", function (ev) { ev.stopPropagation(); });
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var url = lien.value.trim();
+        if (!RE_ARK.test(url)) { message(t("contribInvalide"), true); return; }
+        ok.disabled = true;
+        var corps = { dosar: dosarRef(k), village: String(L.nom[k] || "").slice(0, 120),
+                      feuillet: L.fa[k] ? feuillets(k).slice(0, 20) : "", langue: LANG, lien: url };
+        if (["ro", "en", "ru", "fr"].indexOf(LANG) < 0) delete corps.langue;
+        var nImg = parseInt(img.value, 10);
+        if (nImg >= 1 && nImg <= 20000) corps.image = nImg;
+        fetch(SB.url + "/rest/v1/propositions", { method: "POST", headers: sbEntetes(), body: JSON.stringify(corps) })
+          .then(function (r) {
+            if (!r.ok) throw new Error(r.status);
+            PROP = PROP || {};
+            (PROP[cle] = PROP[cle] || []).unshift({ id: 0, lien: url });
+            if (window.goatcounter && window.goatcounter.count) {
+              window.goatcounter.count({ path: "contrib/" + dosarRef(k) + "/f" + L.fa[k], title: L.nom[k], event: true });
+            }
+            f.remove();
+            dessine();
+            message(t("contribMerci"));
+          })
+          .catch(function () { ok.disabled = false; message(t("contribErreur"), true); });
+      });
+      li.appendChild(f);
+      lien.focus();
+    };
+    dessine();
+    if (!PROP) PROP_ATTENTE.push(dessine);
   }
 
   function numeroASaisir(n) {
@@ -683,14 +814,18 @@
       faceV.appendChild(lienV);
       faceV.appendChild(avis);
       li.appendChild(faceV);
-    } else if (L.plage[k] && !fsDos) {
+    } else {
       var face = el("span", "face");
-      face.appendChild(el("span", "plage", "→ " + (T.imgs || "images") + " " + plageAff(L.plage[k])));
-      /* « (sur une autre bobine NNNN) » retire le 2026-09-10 : le lien mene
-         deja au bon endroit, le numero de bobine ne sert qu'a nous. */
-      var p = pastille(L.cf[k]);
-      if (p) face.appendChild(p);
-      li.appendChild(face);
+      if (L.plage[k] && !fsDos) {
+        face.appendChild(el("span", "plage", "→ " + (T.imgs || "images") + " " + plageAff(L.plage[k])));
+        /* « (sur une autre bobine NNNN) » retire le 2026-09-10 : le lien mene
+           deja au bon endroit, le numero de bobine ne sert qu'a nous. */
+        var p = pastille(L.cf[k]);
+        if (p) face.appendChild(p);
+      }
+      /* lot 22 : toute ligne sans image verifiee peut recevoir un lien */
+      contribLigne(k, li, face);
+      if (face.firstChild) li.appendChild(face);
     }
     return li;
   }
@@ -1084,6 +1219,7 @@
     lance();
   }
 
+  chargePropositions();
   fetch("donnees.json").then(function (r) { return r.json(); })
     .then(function (j) { D = j; pret(); })
     .catch(function () {
