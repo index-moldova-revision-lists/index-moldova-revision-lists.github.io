@@ -611,6 +611,14 @@
         if (window.goatcounter && window.goatcounter.count) {
           window.goatcounter.count({ path: chemin.replace("{v}", v[0]), title: titre, event: true });
         }
+        /* et dans la base du site (table `reponses`), ou les « ko » se relevent
+           avec le reste : question = « avis-<dossier>-<feuillet>-<vue> » */
+        if (SB && window.fetch) {
+          fetch(SB.url + "/rest/v1/reponses", { method: "POST", headers: sbEntetes(),
+            body: JSON.stringify({ question: cle.replace(/\|/g, "-").slice(0, 40), choix: v[0],
+                                   langue: document.documentElement.lang || null }) })
+            .catch(function () { /* hors ligne : le vote GoatCounter suffit */ });
+        }
         try { localStorage.setItem(cle, v[0]); } catch (e) { /* navigateur sans stockage */ }
         merci();
       });
