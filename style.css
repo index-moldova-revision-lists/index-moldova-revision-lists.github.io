@@ -693,6 +693,7 @@ ul.aide-lignes { list-style: none; margin: 0 0 10px 1.2rem; padding: 0; font-siz
 .question .q-pq { font-size: 13px; color: var(--dim); }
 #deja-repondu { margin-top: 28px; opacity: .8; }
 /* le bandeau « travail en cours » de la page principale (2026-10-10) */
-.encours { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; margin: 36px 0 0; padding: 14px 16px; border: 1px solid var(--border); border-radius: 8px; font-size: 14.5px; line-height: 1.55; }
+.encours { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; margin: 36px 0 0; padding: 16px 18px; border: 2px solid var(--violet); border-radius: 10px; background: var(--violet-soft); font-size: 14.5px; line-height: 1.55; }
+.encours h2 { flex: 1 1 100%; margin: 0; font-size: 17px; font-weight: 600; color: var(--violet-txt); }
 .encours p { flex: 1 1 24rem; margin: 0; }
 .encours .btn { flex: 0 0 auto; text-decoration: none; }
