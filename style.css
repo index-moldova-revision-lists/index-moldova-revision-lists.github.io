@@ -712,3 +712,5 @@ form.envoi .q-msg { margin: 0; }
 .film-signale { color: #b4541a; }
 form.film-faux { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 4px 0 8px 1.2rem; font-size: 13px; }
 form.film-faux input { font: inherit; flex: 1 1 260px; padding: 5px 8px; border: 1px solid var(--dim); border-radius: 6px; background: transparent; color: inherit; }
+.debut-dossier { font-size: 13px; color: var(--teal); flex-basis: 100%; text-align: right; }
+@media (max-width: 700px) { .debut-dossier { text-align: left; } }

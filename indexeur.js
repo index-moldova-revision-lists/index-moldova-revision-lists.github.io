@@ -945,6 +945,25 @@
     if (p) actions.appendChild(p);
     if (c.fs[i]) {
       actions.appendChild(lienFS(c.fs[i], t("ouvrirFS")));
+      /* FamilySearch coupe certains dossiers en plusieurs volumes de meme
+         numero : les autres se proposent a cote (`fs2`, volumes_dossier.py). */
+      ((c.fs2 && c.fs2[i]) || []).forEach(function (v) {
+        actions.appendChild(lienFS(v[1], fmt("autreVolume", { a: v[0] })));
+      });
+      /* Film monte a l'envers (dosar 231 : la seconde bobine d'abord) : le
+         bouton ouvre alors le volume au milieu du dossier. Quand le feuillet 1
+         du premier tome a ete LU sur une vue eloignee du debut, on la donne.
+         Lien definitif, comme ceux des lignes : la vue a ete sondee. */
+      var L0 = D.lig;
+      for (var kd = c.l0[i]; kd < c.l0[i] + c.ln[i]; kd++) {
+        if (L0.fa[kd] === 1 && (!L0.vol[kd] || L0.vol[kd] === "I") && L0.ark[kd] && L0.i[kd] > 30
+            && L0.ark[kd].split("?")[1] === c.fs[i].split("?")[1].replace(/^i=\d+&/, "")) {
+          var deb = lienFSVue(L0.ark[kd], L0.i[kd], fmt("debutDossier", { n: L0.i[kd] }));
+          deb.className = "debut-dossier";
+          actions.appendChild(deb);
+          break;
+        }
+      }
     } else if (c.bob[i]) {
       actions.appendChild(nonRelie(c.bob[i].split(" · ")[0]));
     }
