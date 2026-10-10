@@ -706,3 +706,9 @@ form.envoi .envoi-fichier input { font: inherit; font-size: 13px; max-width: 100
 form.envoi .envoi-pied { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 form.envoi .q-msg { margin: 0; }
 .envoi-format { font-size: 14px; color: var(--dim); }
+/* « ce n'est pas le bon film ? » */
+.lien-bouton { font: inherit; background: none; border: 0; padding: 0; color: var(--dim); text-decoration: underline; cursor: pointer; }
+.lien-bouton:disabled { text-decoration: none; cursor: default; }
+.film-signale { color: #b4541a; }
+form.film-faux { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 4px 0 8px 1.2rem; font-size: 13px; }
+form.film-faux input { font: inherit; flex: 1 1 260px; padding: 5px 8px; border: 1px solid var(--dim); border-radius: 6px; background: transparent; color: inherit; }

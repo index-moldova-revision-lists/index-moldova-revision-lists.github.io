@@ -98,8 +98,53 @@
     var deja = relit(cle);
     if (deja) fini(deja);
   });
+  /* ---- « ce n'est pas le bon film ? » : sous le lien du film d'un dossier
+     relie. Le signalement part dans `reponses` (question « film-<dossier> »,
+     choix « mauvais », le bon lien ou une remarque en note) et son compte
+     s'affiche, pour que le suivant sache que c'est deja dit. ---- */
+  var FILMS = {};       /* « film-<dossier> » -> span du compte */
+  Array.prototype.forEach.call(document.querySelectorAll("p.aide-film[data-dosar]"), function (p) {
+    var q = "film-" + p.dataset.dosar, cle = "rep|" + q;
+    var b = el("button", "lien-bouton", T.pasBon), vu = el("span", "film-signale");
+    b.type = "button";
+    FILMS[q] = vu;
+    p.appendChild(document.createTextNode(" · "));
+    p.appendChild(b);
+    p.appendChild(vu);
+    function merci() { b.disabled = true; b.textContent = T.pasBonMerci; }
+    if (relit(cle)) merci();
+    b.addEventListener("click", function () {
+      if (p.nextElementSibling && p.nextElementSibling.className === "film-faux") return;
+      var f = el("form", "film-faux"), i = el("input"), ok = el("button", "btn", T.envoyer);
+      var non = el("button", "lien-bouton", T.annuler), msg = el("span", "q-msg");
+      i.type = "text"; i.maxLength = 300; i.placeholder = T.pasBonPh;
+      ok.type = "submit"; non.type = "button";
+      f.appendChild(i); f.appendChild(ok); f.appendChild(non); f.appendChild(msg);
+      p.parentNode.insertBefore(f, p.nextSibling);
+      i.focus();
+      non.addEventListener("click", function () { f.remove(); });
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        var corps = { question: q, choix: "mauvais", langue: LANGUE }, note = i.value.trim();
+        if (note) corps.note = note.slice(0, 300);
+        ok.disabled = true;
+        envoie("reponses", corps).then(function () {
+          garde(cle, "1");
+          f.remove();
+          merci();
+          compte("aide/mauvais-film/" + p.dataset.dosar, "mauvais film");
+        }).catch(function () { ok.disabled = false; msg.className = "q-msg erreur"; msg.textContent = T.erreur; });
+      });
+    });
+  });
+
   lit("reponses_comptes?select=question,choix,n").then(function (rows) {
     rows.forEach(function (r) {
+      if (r.choix === "mauvais" && FILMS[r.question]) {
+        FILMS[r.question].textContent = " " + T.pasBonSignale + " " + r.n;
+        var d = FILMS[r.question].closest("details");
+        if (d) d.querySelector("summary").classList.add("a-film-faux");
+      }
       var c = COMPTES[r.question] && COMPTES[r.question][r.choix];
       if (c) c.textContent = String(r.n);
     });
