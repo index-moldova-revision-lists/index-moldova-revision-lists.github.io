@@ -103,6 +103,15 @@
       var c = COMPTES[r.question] && COMPTES[r.question][r.choix];
       if (c) c.textContent = String(r.n);
     });
+    /* Deux reponses identiques : la carte descend dans « deja repondu », pour
+       que les visiteurs aillent d'abord vers ce que personne n'a regarde
+       (Monica, 2026-10-10). Elle reste lisible, et on peut encore y repondre. */
+    var bas = document.getElementById("deja-repondu"), faites = {};
+    rows.forEach(function (r) { if (r.n >= 2 && COMPTES[r.question]) faites[r.question] = 1; });
+    Object.keys(faites).forEach(function (id) {
+      var carte = document.getElementById("q-" + id);
+      if (carte && bas) { bas.appendChild(carte); bas.hidden = false; }
+    });
   });
 
   /* ---- les dossiers sans film : coller le lien du volume ---- */
