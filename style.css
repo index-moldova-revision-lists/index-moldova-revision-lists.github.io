@@ -705,3 +705,4 @@ form.envoi .envoi-fichier { font-size: 13.5px; color: var(--dim); }
 form.envoi .envoi-fichier input { font: inherit; font-size: 13px; max-width: 100%; }
 form.envoi .envoi-pied { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
 form.envoi .q-msg { margin: 0; }
+.envoi-format { font-size: 14px; color: var(--dim); }
