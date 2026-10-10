@@ -24,4 +24,28 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://index-moldova-revision-lists.github.io/fr.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://index-moldova-revision-lists.github.io/ru.html"/>
   </url>
+  <url><loc>https://index-moldova-revision-lists.github.io/help.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://index-moldova-revision-lists.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://index-moldova-revision-lists.github.io/help-ro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://index-moldova-revision-lists.github.io/help-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://index-moldova-revision-lists.github.io/help-ru.html"/>
+  </url>
+  <url><loc>https://index-moldova-revision-lists.github.io/help-ro.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://index-moldova-revision-lists.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://index-moldova-revision-lists.github.io/help-ro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://index-moldova-revision-lists.github.io/help-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://index-moldova-revision-lists.github.io/help-ru.html"/>
+  </url>
+  <url><loc>https://index-moldova-revision-lists.github.io/help-fr.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://index-moldova-revision-lists.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://index-moldova-revision-lists.github.io/help-ro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://index-moldova-revision-lists.github.io/help-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://index-moldova-revision-lists.github.io/help-ru.html"/>
+  </url>
+  <url><loc>https://index-moldova-revision-lists.github.io/help-ru.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://index-moldova-revision-lists.github.io/help.html"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://index-moldova-revision-lists.github.io/help-ro.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://index-moldova-revision-lists.github.io/help-fr.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://index-moldova-revision-lists.github.io/help-ru.html"/>
+  </url>
 </urlset>
