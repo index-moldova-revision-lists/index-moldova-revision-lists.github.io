@@ -47,7 +47,7 @@ than useless.
 | `image_range` | image numbers of the file inside the reel, one range per reel |
 | `image_count` | number of images in the file |
 | `confidence` | how the range was established: see below |
-| `familysearch_url` | direct link to the file in the FamilySearch viewer (805 of 812) |
+| `familysearch_url` | direct link to the file in the FamilySearch viewer (806 of 812) |
 | `inventory_page` | page of the ANRM inventory PDF where this line is printed: https://doc.arhiva.gov.md/inventare/Fondul%20134/F.%20134%20inv.%202%20p.%20I%20%C8%99i%20II.pdf |
 
 ## lignes.csv -- one inventory line (one village) per row
@@ -83,12 +83,12 @@ number of archival files carrying each:
 
 | value | files |
 |---|---|
-| `sur` | 552 |
-| `probable` | 139 |
-| `deduit` | 41 |
-| `estime` | 38 |
-| `volum` | 23 |
+| `sur` | 605 |
+| `probable` | 127 |
+| `deduit` | 38 |
+| `estime` | 16 |
 | `certain` | 13 |
+| `volum` | 7 |
 | `incertain` | 6 |
 
 `exacte` and `sur` are anchored on a separation card or a read folio;
@@ -106,4 +106,4 @@ page does not display it. Do not present it to a reader as a probability.
 - It does not host any image. Every link points to FamilySearch, where
   viewing usually requires a free account, and where access to some images
   is restricted by contract.
-- It is not complete: 7 files have no FamilySearch link yet.
+- It is not complete: 6 files have no FamilySearch link yet.
