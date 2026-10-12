@@ -83,13 +83,13 @@ number of archival files carrying each:
 
 | value | files |
 |---|---|
-| `sur` | 618 |
+| `sur` | 619 |
 | `probable` | 124 |
 | `deduit` | 38 |
 | `certain` | 13 |
 | `estime` | 10 |
 | `incertain` | 6 |
-| `volum` | 3 |
+| `volum` | 2 |
 
 `exacte` and `sur` are anchored on a separation card or a read folio;
 `probable` and `deduit` are inferred from the neighbouring files on the same
