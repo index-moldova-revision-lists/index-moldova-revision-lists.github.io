@@ -979,7 +979,7 @@
       var L0 = D.lig;
       for (var kd = c.l0[i]; kd < c.l0[i] + c.ln[i]; kd++) {
         if (L0.fa[kd] === 1 && (!L0.vol[kd] || L0.vol[kd] === "I") && L0.ark[kd] && L0.i[kd] > 30
-            && L0.ark[kd].split("?")[1] === c.fs[i].split("?")[1].replace(/^i=\d+&/, "")) {
+            && L0.ark[kd].split("?")[1] === (c.fs[i].split("?")[1] || "").replace(/^i=\d+&/, "")) {
           var deb = lienFSVue(L0.ark[kd], L0.i[kd], fmt("debutDossier", { n: L0.i[kd] }));
           deb.className = "debut-dossier";
           actions.appendChild(deb);
