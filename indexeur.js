@@ -532,7 +532,12 @@
      FamilySearch sur cette bobine. Remplace, le 2026-09-10, la consigne
      « cherchez le DGS N dans le catalogue » : le visiteur n'a plus de
      recherche a faire, seulement le numero d'image affiche a atteindre. */
-  function nonRelie(dgs) {
+  /* Le numero attendu par la recherche d'images est celui de la pellicule
+     FamilySearch (D.dgs), pas notre numero de bobine, qui ouvrait une page
+     vide (2026-10-12). Pellicule inconnue : pas de bouton. */
+  function nonRelie(bobine) {
+    var dgs = (D.dgs || {})[bobine];
+    if (!dgs) return document.createDocumentFragment();
     var a = el("a", "btn", t("chercherCatalogue", dgs));
     a.href = BOBINE + encodeURIComponent(dgs);
     a.target = "_blank";
