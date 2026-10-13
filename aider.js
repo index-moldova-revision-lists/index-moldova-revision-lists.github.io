@@ -9,6 +9,9 @@
   var SB = window.CONTRIB, T = window.TEXTES_AIDE || {};
   if (!SB || !window.fetch) return;
   var LANGUE = document.documentElement.lang || "en";
+  /* la base n'accepte que ces quatre codes (contrainte check) : une autre
+     langue de page (uk) s'envoie sans langue plutot que d'etre refusee */
+  var LANGUE_SB = ["ro", "en", "ru", "fr"].indexOf(LANGUE) < 0 ? null : LANGUE;
   var RE_ARK = /^https:\/\/(www\.)?familysearch\.org\/.*ark:\/61903\/3:[12]:[A-Za-z0-9-]+/;
 
   function el(tag, cls, texte) {
@@ -53,7 +56,7 @@
       if (f) f.remove();
     }
     function repond(code, note) {
-      var corps = { question: id, choix: code, langue: LANGUE };
+      var corps = { question: id, choix: code, langue: LANGUE_SB };
       if (note) corps.note = note.slice(0, 300);
       msg.className = "q-msg";
       msg.textContent = "";
@@ -125,7 +128,7 @@
       non.addEventListener("click", function () { f.remove(); });
       f.addEventListener("submit", function (ev) {
         ev.preventDefault();
-        var corps = { question: q, choix: "mauvais", langue: LANGUE }, note = i.value.trim();
+        var corps = { question: q, choix: "mauvais", langue: LANGUE_SB }, note = i.value.trim();
         if (note) corps.note = note.slice(0, 300);
         ok.disabled = true;
         envoie("reponses", corps).then(function () {
@@ -182,7 +185,7 @@
       ev.preventDefault();
       var texte = zTexte.value.trim(), fichier = zFichier.files && zFichier.files[0];
       if (!texte && !fichier) { dit(T.d_vide, true); return; }
-      var corps = { langue: LANGUE }, depot = Promise.resolve();
+      var corps = { langue: LANGUE_SB }, depot = Promise.resolve();
       if (texte) corps.texte = texte.slice(0, 20000);
       if (fichier) {
         var ext = (fichier.name.split(".").pop() || "").toLowerCase();
@@ -247,7 +250,7 @@
         msg.className = "q-msg erreur";
         if (!RE_ARK.test(url)) { msg.textContent = T.invalide; return; }
         ok.disabled = true;
-        envoie("propositions", { dosar: window.PREFIXE + d, village: "*", langue: LANGUE, lien: url })
+        envoie("propositions", { dosar: window.PREFIXE + d, village: "*", langue: LANGUE_SB, lien: url })
           .then(function () {
             f.remove();
             montreLien(li, url);
@@ -290,7 +293,7 @@
         msg.className = "q-msg erreur";
         if (!RE_ARK.test(url)) { msg.textContent = T.invalide; return; }
         ok.disabled = true;
-        var corps = { dosar: li.dataset.d, village: li.dataset.v, feuillet: li.dataset.f, langue: LANGUE, lien: url };
+        var corps = { dosar: li.dataset.d, village: li.dataset.v, feuillet: li.dataset.f, langue: LANGUE_SB, lien: url };
         var n = parseInt(img.value, 10);
         if (n >= 1 && n <= 20000) corps.image = n;
         envoie("propositions", corps)

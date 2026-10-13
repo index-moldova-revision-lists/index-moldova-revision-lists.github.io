@@ -36,6 +36,8 @@
   var GROUPES = window.GROUPES || [[1834, 1836], [1848, 1851], [1854, 1857], [1858, 1859]];
   var D = null, LF = null, LU = {}, T = window.TEXTES || {};
   var LANG = document.documentElement.lang || "en";
+  /* pages en cyrillique (russe, ukrainien) : noms de villages en russe */
+  var CYR = LANG === "ru" || LANG === "uk";
   var G = [];        /* les graphies d'inventaire : {nom, fold, fam, pre, dos, juds, a1, a2} */
   var NOMS = [];     /* pour « vouliez-vous dire » : {fold, nom} (noms entiers et mots) */
   var DOS_DE = [];   /* ligne k -> indice du dossier */
@@ -164,7 +166,7 @@
       var mm = /^(.*?)( pentru anul \d+)$/.exec(m);
       var base = mm ? mm[1] : m, suf = mm ? mm[2] : "", r = R[base];
       if (r === undefined) { out.push(m); return; }
-      if (/ский$/.test(r)) {
+      if (/(ский|ький)$/.test(r)) {
         if (suf) { out.push(r + " " + R._uezd + suf); return; }
         adj.push(out.length);
       }
@@ -312,7 +314,7 @@
        c'est lui qui separe les homonymes que le judet ne separe pas */
     if (g.pre) nom.appendChild(document.createTextNode(g.pre + " "));
     nom.appendChild(document.createTextNode(g.nom));
-    if (LANG === "ru" && D.noms_ru && D.noms_ru[g.nom]) {
+    if (CYR && D.noms_ru && D.noms_ru[g.nom]) {
       nom.appendChild(document.createTextNode(" (" + D.noms_ru[g.nom] + ")"));
     }
     li.appendChild(nom);
@@ -798,7 +800,7 @@
     /* nom russe entre parentheses, page russe seulement (lot 6) : le roumain
        reste seul dans le texte surligne (l'em ci-dessus), la recherche et le
        lien ne changent pas. */
-    if (LANG === "ru" && D.noms_ru && D.noms_ru[L.nom[k]]) {
+    if (CYR && D.noms_ru && D.noms_ru[L.nom[k]]) {
       texte.appendChild(document.createTextNode(" (" + D.noms_ru[L.nom[k]] + ")"));
     }
     var tin = tinutDe(k);
@@ -806,7 +808,7 @@
     /* 2026-10-11 : le nom lu sur l'image quand il contredit l'inventaire
        (lectures_image.json). Le nom de l'inventaire n'est pas change. */
     if (D.lu && D.lu[k]) {
-      texte.appendChild(el("span", "lu", " · " + fmt("luImage", { n: D.lu[k][LANG === "ru" ? 1 : 0] || D.lu[k][0] })));
+      texte.appendChild(el("span", "lu", " · " + fmt("luImage", { n: D.lu[k][CYR ? 1 : 0] || D.lu[k][0] })));
     }
     if (L.bis && L.bis[k]) texte.appendChild(el("span", "bis", " · " + L.bis[k]));
     if (L.fa[k]) texte.appendChild(el("span", "fil", ", " + (T.filele || "f.") + " " + feuillets(k)));

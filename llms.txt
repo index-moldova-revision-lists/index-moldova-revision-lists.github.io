@@ -60,6 +60,6 @@ here.
 ## Pages
 
 - [English](https://index-moldova-revision-lists.github.io/) - [Română](https://index-moldova-revision-lists.github.io/ro.html) - [Français](https://index-moldova-revision-lists.github.io/fr.html) -
-  [Русский](https://index-moldova-revision-lists.github.io/ru.html)
+  [Русский](https://index-moldova-revision-lists.github.io/ru.html) - [Українська](https://index-moldova-revision-lists.github.io/uk.html)
 - [Source code and issues](https://github.com/index-moldova-revision-lists/index-moldova-revision-lists.github.io)
 - [The ANRM inventory itself, as a PDF](https://doc.arhiva.gov.md/inventare/Fondul%20134/F.%20134%20inv.%202%20p.%20I%20%C8%99i%20II.pdf)
