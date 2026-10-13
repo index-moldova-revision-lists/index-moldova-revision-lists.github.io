@@ -744,7 +744,7 @@
         ok.disabled = true;
         var corps = { dosar: dosarRef(k), village: String(L.nom[k] || "").slice(0, 120),
                       feuillet: L.fa[k] ? feuillets(k).slice(0, 20) : "", langue: LANG, lien: url };
-        if (["ro", "en", "ru", "fr"].indexOf(LANG) < 0) delete corps.langue;
+        if (["ro", "en", "ru", "fr", "uk"].indexOf(LANG) < 0) delete corps.langue;
         var nImg = parseInt(img.value, 10);
         if (nImg >= 1 && nImg <= 20000) corps.image = nImg;
         fetch(SB.url + "/rest/v1/propositions", { method: "POST", headers: sbEntetes(), body: JSON.stringify(corps) })

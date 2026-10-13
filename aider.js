@@ -9,9 +9,9 @@
   var SB = window.CONTRIB, T = window.TEXTES_AIDE || {};
   if (!SB || !window.fetch) return;
   var LANGUE = document.documentElement.lang || "en";
-  /* la base n'accepte que ces quatre codes (contrainte check) : une autre
+  /* la base n'accepte que ces cinq codes (contrainte check) : une autre
      langue de page (uk) s'envoie sans langue plutot que d'etre refusee */
-  var LANGUE_SB = ["ro", "en", "ru", "fr"].indexOf(LANGUE) < 0 ? null : LANGUE;
+  var LANGUE_SB = ["ro", "en", "ru", "fr", "uk"].indexOf(LANGUE) < 0 ? null : LANGUE;
   var RE_ARK = /^https:\/\/(www\.)?familysearch\.org\/.*ark:\/61903\/3:[12]:[A-Za-z0-9-]+/;
 
   function el(tag, cls, texte) {
