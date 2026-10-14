@@ -11,7 +11,7 @@ opis 2** -- the poll tax censuses (*catagrafii*, Russian *ревизские
 *Moldova, Poll Tax Census (Revision Lists) and Census Lists, 1796-1917*.
 
 Licence: CC0 (public domain). No attribution required.
-Generated: 812 archival files, 9733 inventory lines, 2226 village
+Generated: 815 archival files, 9734 inventory lines, 2227 village
 spellings, 1824-1886.
 
 ## The one thing to know before using this
@@ -28,7 +28,7 @@ inside it, open the file and read the folio numbers, then jump forward or
 back. The `folios` field tells you which folio to stop at, and the
 neighbouring villages in the same file tell you which way to go.
 
-6022 inventory lines out of 9733 do have their own verified
+6163 inventory lines out of 9734 do have their own verified
 `image` and a direct `familysearch_url`. The rest deliberately have none: an
 estimate was measured to be off by 260 images once in ten, which is worse
 than useless.
@@ -47,7 +47,7 @@ than useless.
 | `image_range` | image numbers of the file inside the reel, one range per reel |
 | `image_count` | number of images in the file |
 | `confidence` | how the range was established: see below |
-| `familysearch_url` | direct link to the file in the FamilySearch viewer (810 of 812) |
+| `familysearch_url` | direct link to the file in the FamilySearch viewer (0 of 815) |
 | `inventory_page` | page of the ANRM inventory PDF where this line is printed: https://doc.arhiva.gov.md/inventare/Fondul%20134/F.%20134%20inv.%202%20p.%20I%20%C8%99i%20II.pdf |
 
 ## lignes.csv -- one inventory line (one village) per row
@@ -83,9 +83,9 @@ number of archival files carrying each:
 
 | value | files |
 |---|---|
-| `sur` | 619 |
-| `probable` | 124 |
-| `deduit` | 38 |
+| `sur` | 622 |
+| `probable` | 125 |
+| `deduit` | 37 |
 | `certain` | 13 |
 | `estime` | 10 |
 | `incertain` | 6 |
@@ -106,4 +106,4 @@ page does not display it. Do not present it to a reader as a probability.
 - It does not host any image. Every link points to FamilySearch, where
   viewing usually requires a free account, and where access to some images
   is restricted by contract.
-- It is not complete: 2 files have no FamilySearch link yet.
+- It is not complete: 815 files have no FamilySearch link yet.
