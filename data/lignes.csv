@@ -745,7 +745,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 57,II,colonia,Cioc-Maidan,Чок-Майдан,,169-171,169,171,,,,,,
 57,II,colonia,Giurgiuleşti,Джурджулешть,,172-174,172,174,,,,,,
 58,,tîrgul,Hînceşti,Хынчешты,,1-3,1,3,,,,,6,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-Z2KW?i=5&cc=1985804&wc=M6C1-WP8%3A264175701%2C264722601%2C265031301
-58,,s.,Fundul Galbenei,Фундул Галбеней,,4-5,4,5,,,,,,
+58,,s.,Fundul Galbenei,Фундул Галбеней,,4-5,4,5,,,,,6,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-Z2KW?i=5&cc=1985804&wc=M6C1-WP8%3A264175701%2C264722601%2C265031301
 58,,or.,Chişinău,Кишинёв,,6-32,6,32,,,,,,
 58,,s.,Cinişeuţi,Чинишеуць,,33-44,33,44,,,,,41,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-ZKBP?i=40&cc=1985804&wc=M6C1-WP8%3A264175701%2C264722601%2C265031301
 58,,s.,Suslenii de jos,Суслений де жос,,45-47,45,47,,,,,59,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-ZKNF?i=58&cc=1985804&wc=M6C1-WP8%3A264175701%2C264722601%2C265031301
@@ -821,7 +821,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 60,I,s.,Coropceni (Suhuluceni),Коропчень (Сухулучень),,29-38,29,38,,,,,46,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-ZLWY?i=45&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,I,s.,Cruglic,Круглик,,39-43,39,43,,,,,62,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-Z225?i=61&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,I,s.,Chiperceni,Кипирчены,,44-64,44,64,,,,,70,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-ZL99?i=69&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
-60,I,s.,Camenca,Каменка,,65-66,65,66,,,,,,
+60,I,s.,Camenca,Каменка,,65-66,65,66,,,,,107,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-Z2B4?i=106&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,I,s.,Cruzeşti,Крузешты,,67-73,67,73,,,,,110,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-Z2YF?i=109&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,I,s.,Chiştelniţa,Киштельница,,74-90,74,90,,,,,119,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-ZLH3?i=118&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,I,s.,Cotul Morii,Котул Морий,,91-92,91,92,,,,,146,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-ZLQT?i=145&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
@@ -842,8 +842,8 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 60,II,s.,Micleşti,Миклешть,,172-175,172,175,,,,,283,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-ZL3H?i=282&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,II,s.,Molovata,Моловата,,176-177,176,177,,,,,288,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-Z2LZ?i=287&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,II,s.,Malcoci,Малкоч,,178-180,178,180,,,,,292,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-Z2BP?i=291&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
-60,II,s.,Mihuleni,Михулени,,181-184,181,184,,,,,,
-60,II,s.,Malotohatin,Малотохатин,,185-187,185,187,,,,,,
+60,II,s.,Mihuleni,Михулени,,181-184,181,184,,,,,297,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-Z24G?i=296&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
+60,II,s.,Malotohatin,Малотохатин,,185-187,185,187,,,,,302,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-Z2F9?i=301&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
 60,II,s.,Mănoileşti,Мэноилешть,,188-191,188,191,,,,,,
 60,II,s.,Micleuşeni,Миклеушень,,192-195,192,195,,,,,,
 60,II,s.,Maşcăuţi,Машкауцы,,196-201,196,201,,,,,319,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-ZLMC?i=318&cc=1985804&wc=M6C1-CMS%3A264175701%2C264722601%2C265033301
@@ -9378,7 +9378,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 802,,s.,Măgurele,Мэгуреле,,7-15,7,15,,,,,14,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29HS?i=13&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201
 802,,s.,Măcăreuca,Мэкэреука,,16-17v,16,17,,,,,27,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-29QP?i=26&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201
 802,,s.,Mîndîc,Мындык,,18-23,18,23,,,,,33,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-29S8?i=32&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201
-802,,s.,Mănoileşti,Мэноилешть,,24-30,24,30,,,,,,
+802,,s.,Mănoileşti,Мэноилешть,,24-30,24,30,,,,,41,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-293J?i=40&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201
 802,,s.,Mîndreşti,Мындрешть,,31-33,31,33,,,,,,
 802,,s.,Mînzăteşti,Мынзэтешть,,34-41,34,41,,,,,54,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2ZP?i=53&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201
 802,,s.,Mălăieşti,Мэлэешть,,42-47v,42,47,,,,,63,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BC?i=62&cc=1985804&wc=M6C1-1WL%3A264175701%2C264722601%2C265217201

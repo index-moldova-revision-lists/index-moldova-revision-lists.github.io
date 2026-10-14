@@ -28,7 +28,7 @@ inside it, open the file and read the folio numbers, then jump forward or
 back. The `folios` field tells you which folio to stop at, and the
 neighbouring villages in the same file tell you which way to go.
 
-6163 inventory lines out of 9734 do have their own verified
+6168 inventory lines out of 9734 do have their own verified
 `image` and a direct `familysearch_url`. The rest deliberately have none: an
 estimate was measured to be off by 260 images once in ten, which is worse
 than useless.
@@ -47,7 +47,7 @@ than useless.
 | `image_range` | image numbers of the file inside the reel, one range per reel |
 | `image_count` | number of images in the file |
 | `confidence` | how the range was established: see below |
-| `familysearch_url` | direct link to the file in the FamilySearch viewer (0 of 815) |
+| `familysearch_url` | direct link to the file in the FamilySearch viewer (810 of 815) |
 | `inventory_page` | page of the ANRM inventory PDF where this line is printed: https://doc.arhiva.gov.md/inventare/Fondul%20134/F.%20134%20inv.%202%20p.%20I%20%C8%99i%20II.pdf |
 
 ## lignes.csv -- one inventory line (one village) per row
@@ -106,4 +106,4 @@ page does not display it. Do not present it to a reader as a probability.
 - It does not host any image. Every link points to FamilySearch, where
   viewing usually requires a free account, and where access to some images
   is restricted by contract.
-- It is not complete: 815 files have no FamilySearch link yet.
+- It is not complete: 5 files have no FamilySearch link yet.
