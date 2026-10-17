@@ -387,7 +387,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 25,,suburbia,Broasca,Броаска,,67-85,67,85,,,,,,
 25,,suburbia,Sofiana,Софьяна,,87-107,87,107,,,,,,
 26,,or.,Chilia,Килия,,1-21,1,21,,,,,2,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-YH8Z?i=1&cc=1985804&wc=M6CB-B68%3A264175701%2C264722601%2C264954301
-27,I,or.,Chilia,Килия,,1-111,1,111,,,,,,
+27,I,or.,Chilia,Килия,,1-111,1,111,,,,,3,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-YHHR?i=2&cc=1985804&wc=M6CB-B29%3A264175701%2C264722601%2C264954601
 27,II,or.,Chilia,Килия,,112-192,112,192,,,,,,
 27,II,s.,Vilcov (Vâlcov),Вильков (Вылков),,193-238,193,238,,,,,,
 28,,or.,Chilia,Килия,,1-125,1,125,,,,,,
@@ -2248,7 +2248,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 101,,s.,Rosoşani,Росошани,,156v-157,156,157,,,,,,
 101,,s.,Buzoviţa,Бузовица,,156v-157,156,157,,,,,,
 101,,s.,Noua Suliţă,Новосулица,,156v-157,156,157,,,,,,
-101,,s.,Nagoreni,Нагорены,,158v-159,158,159,,,,,,
+101,,s.,Nagoreni,Нагорены,,158v-159,158,159,,,,,276,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-T32D?i=275&cc=1985804&wc=M6C1-V68%3A264175701%2C264722601%2C265102101
 101,,s.,Gruşoviţa,Грушовица,,158v-159,158,159,,,,,,
 101,,s.,Babin,Бабин,,158v-159,158,159,,,,,,
 101,,s.,Moşineţ,Мошинец,,160v-161,160,161,,,,,,
@@ -2356,7 +2356,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 101,,s.,Larga,Ларга,,238v-239,238,239,,,,,,
 101,,s.,Rucşin,Рукшин,,238v-239,238,239,,,,,,
 101,,s.,Gruşoviţa,Грушовица,,240v-241,240,241,,,,,,
-101,,s.,Nagoreni,Нагорены,,240v-241,240,241,,,,,,
+101,,s.,Nagoreni,Нагорены,,240v-241,240,241,,,,,422,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-TSQ2?i=421&cc=1985804&wc=M6C1-V68%3A264175701%2C264722601%2C265102101
 101,,s.,Chelmineţ,Кельминец,,242v-243,242,243,,,,,,
 101,,s.,Grinăuţi,Гринэуць,,244v-245,244,245,,,,,,
 101,,s.,Vasileuţi,Василеуць,,244v-245,244,245,,,,,,
@@ -5557,7 +5557,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 405,V,s.,Hirova,Хирова,,680-717,680,717,,,,,1247,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-LQ8L?i=1246&cc=1985804&wc=M6ZS-QNP%3A264175701%2C264722601%2C265650802
 405,V,s.,Hulboaca,Хулбоака,,718-751,718,751,,,,,1317,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-L3PS?i=1316&cc=1985804&wc=M6ZS-QNP%3A264175701%2C264722601%2C265650802
 405,V,s.,Ghetlova,Гетлова,,752-761,752,761,,,,,1379,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-L3CH?i=1378&cc=1985804&wc=M6ZS-QNP%3A264175701%2C264722601%2C265650802
-406,I,tîrgul,Rezina,Резина,,1-14,1,14,,,,,,
+406,I,tîrgul,Rezina,Резина,,1-14,1,14,,,,,2,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-G9CW?i=1&cc=1985804&wc=M6ZS-7TL%3A264175701%2C264722601%2C265658401
 406,I,s.,Slobozia Rîşcu,Слобозия Рышку,,15-27v,15,27,,,,,29,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-G9L9?i=28&cc=1985804&wc=M6ZS-7TL%3A264175701%2C264722601%2C265658401
 406,I,s.,Rîşcova,Рышкова,,28-61,28,61,,,,,52,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-G9DP?i=51&cc=1985804&wc=M6ZS-7TL%3A264175701%2C264722601%2C265658401
 406,I,s.,Schitul Răciula,Скит Рэчула,,62-73,62,73,,,,,107,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-G96T?i=106&cc=1985804&wc=M6ZS-7TL%3A264175701%2C264722601%2C265658401
@@ -5957,7 +5957,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 438,III,s.,Cricova,Крикова,,402-411,402,411,,,,,774,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-J6YB?i=773&cc=1985804&wc=M6CB-J68%3A264175701%2C264722601%2C264848201
 438,III,s.,Slobozia Călimăneşti,Слобозия Кэлимэнешть,,412-418,412,418,,,,,792,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-J6DC?i=791&cc=1985804&wc=M6CB-J68%3A264175701%2C264722601%2C264848201
 438,III,s.,Cristeşti,Кристешты,,419-427,419,427,,,,,804,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-J6CY?i=803&cc=1985804&wc=M6CB-J68%3A264175701%2C264722601%2C264848201
-439,,s.,Albineţ,Альбинец,,1-42,1,42,,,,,,
+439,,s.,Albineţ,Альбинец,,1-42,1,42,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-N4WQ?i=4&cc=1985804&wc=M6ZS-Z29%3A264175701%2C264722601%2C265718601
 439,,s.,Alexăndreni,Александрены,,43-108,43,108,,,,,93,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-NWK3?i=92&cc=1985804&wc=M6ZS-Z29%3A264175701%2C264722601%2C265718601
 439,,s.,Avrămeni,Аврэмень,,109-122,109,122,,,,,,
 439,,s.,Aluniş,Алуниш,,123-162,123,162,,,,,,
@@ -6360,7 +6360,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 511,II,s.,Cruglic,Круглик,,232-244,232,244,,,,,377,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-NZGP?i=376&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
 511,II,s.,Mîndîcăuţi,Мындыкэуць,,245-248,245,248,,,,,396,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-NZK2?i=395&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
 511,II,s.,Mărcăuţi,Мэркэуць,,249-267,249,267,,,,,402,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-NZLZ?i=401&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
-511,II,s.,Nagoreni,Нагорены,,268-272,268,272,,,,,,
+511,II,s.,Nagoreni,Нагорены,,268-272,268,272,,,,,438,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-NZPP?i=437&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
 511,II,s.,Ojevo,Ожево,,273-278,273,278,,,,,445,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-NZCC?i=444&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
 511,II,s.,Perebicăuţi,Перебыковцы,,279-282,279,282,,,,,452,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-NZDK?i=451&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
 511,II,s.,Pererîta,Перерыта,,283-288,283,288,,,,,458,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-NZDZ?i=457&cc=1985804&wc=M6ZS-Z6D%3A264175701%2C264722601%2C265866801
@@ -9030,7 +9030,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 780,,s.,Bordiug,Бордюг,,184-185v,184,185,,,,,,
 780,,s.,Burlăneşti,Бурлэнешты,,186-187v,186,187,,,,,,
 780,,s.,Văncicăuţi,Вэнчикэуць,,188-190v,188,190,,,,,,
-780,,s.,Văratic,Вэратик,,191-192v,191,192,,,,,,
+780,,s.,Văratic,Вэратик,,191-192v,191,192,,,,,345,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-FJNB?i=344&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Varticăuţi,Вартикэуць,,193-194v,193,194,,,,,,
 780,,s.,Vasileuţi,Василеуць,,195-198,195,198,,,,,,
 780,,s.,Văscăuţi,Вэскэуць,,199-202,199,202,,,,,,
@@ -9129,7 +9129,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 780,,s.,Molodova,Молодова,,443-445v,443,445,,,,,,
 780,,s.,Moşana,Мошана,,446,446,446,,,,,,
 780,,s.,Moşineţ,Мошинец,,447-448v,447,448,,,,,,
-780,,s.,Nagoreni,Нагорены,,449-450,449,450,,,,,,
+780,,s.,Nagoreni,Нагорены,,449-450,449,450,,,,,773,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-K2Q2?i=772&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Naslavcea,Наславча,,451-454,451,454,,,,,,
 780,,s.,Negrinţi,Негринць,,455-457,455,457,,,,,,
 780,,s.,Nedibăuţi,Недибэуць,,458-460v,458,460,,,,,,
