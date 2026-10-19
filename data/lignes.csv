@@ -38,7 +38,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 2,II,tărgul,Teleneşti,Теленешть,,118-278,118,278,,,,,,
 2,I,s.,Teleneştii Vechi,Теленештий Векь,,279-297,279,297,,,,,,
 2,I,s.,Tîrşiţei,Тыршицей,,298-311,298,311,,,,,585,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-8S5D?i=584&cc=1985804&wc=M6CB-VTL%3A264175701%2C264722601%2C264869701
-3,,s.,Borisovca,Борисовка,,1-2,1,2,,,,,,
+3,,s.,Borisovca,Борисовка,,1-2,1,2,,,,,4,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-8SY2?i=3&cc=1985804&wc=M6ZM-9MS%3A264175701%2C264722601%2C265219201
 3,,s.,Voznesensc,Вознесенск,,3-7,3,7,,,,,8,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-8SBC?i=7&cc=1985804&wc=M6ZM-9MS%3A264175701%2C264722601%2C265219201
 3,,s.,Jevrieni,Жеврьены,,8-11,8,11,,,,,,
 3,,s.,Chebabcea,Кебабча,,12-21,12,21,,,,,23,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-83MZ?i=22&cc=1985804&wc=M6ZM-9MS%3A264175701%2C264722601%2C265219201
@@ -8209,7 +8209,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 662,III,s.,Slobozia Hîşdieni,Слобозия Хыждень,,345-346,345,346,,,,,499,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YBH?i=498&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
 662,III,s.,Slobozia Hodorogea,Слобозия Ходорогя,,347-348,347,348,,,,,503,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BYR?i=502&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
 662,III,s.,Cihoreni,Чихорень,,349-351,349,351,,,,,506,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-21M9?i=505&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
-662,III,s.,Şercani,Шеркани,,352-354,352,354,,,,,,
+662,III,s.,Şercani,Шеркани,,352-354,352,354,,,,,519,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2SR4?i=518&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
 662,III,s.,Bărboieni,Бэрбоень,,365-366,365,366,,,,,535,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-23ZH?i=534&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
 662,III,s.,Bujor,Бужор,,367-372,367,372,,,,,538,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2389?i=537&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
 662,III,s.,Grozeşti,Грозешть,,373-374,373,374,,,,,546,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-23X8?i=545&cc=1985804&wc=M6CB-CNL%3A264175701%2C264722601%2C264779301
@@ -9042,24 +9042,24 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 780,,s.,Vălcineţ,Вэлчинец,,213-216,213,216,,,,,,
 780,,s.,Voronoviţa,Вороновица,,217-218,217,218,,,,,,
 780,,s.,Visoca,Высока,,219-220v,219,220,,,,,,
-780,,s.,Gvăzdăuţi,Гвэздэуць,,221-223,221,223,,,,,,
+780,,s.,Gvăzdăuţi,Гвэздэуць,,221-223,221,223,,,,,395,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-F2BD?i=394&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Hîjdău,Хыждэу,,224-225v,224,225,,,,,,
 780,,s.,Beleavinţi,Белявинцы,,226-227v,226,227,,,,,,
 780,,s.,Hincăuţi,Хинкэуць,,228-229,228,229,,,,,,
 780,,s.,Gheorghiuţă,Георгицэ,,230-231,230,231,,,,,,
 780,,s.,Gîrbova,Гырбова,,232-233,232,233,,,,,,
-780,,s.,Hlinaia,Глинная,,234-236v,234,236,,,,,,
+780,,s.,Hlinaia,Глинная,,234-236v,234,236,,,,,424,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-F2JY?i=423&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Hlinaia de Sus,Глинная-де-Сус,,237-238,237,238,,,,,,
 780,,s.,Horodişte,Городище,,239-242v,239,242,,,,,,
 780,,s.,Gordineşti,Гординешть,,243-244v,243,244,,,,,,
 780,,s.,Gorodici (Ţaul),Городичи (Цаул),,245-246v,245,246,,,,,,
 780,,moşia,Slobozia Gremeşti,Слобозия Гремешть,,247,247,247,,,,,,
-780,,s.,Grimăncăuţi,Гриманкэуць,,248-250v,248,250,,,,,,
+780,,s.,Grimăncăuţi,Гриманкэуць,,248-250v,248,250,,,,,442,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-F2FJ?i=441&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Grinăuţii de Sus,Гринэуций де Сус,,251-251v,251,251,,,,,,
 780,,s.,Grinăuţii de Jos,Гринэуций де Жос,,252-253v,252,253,,,,,,
 780,,s.,Grozniţa,Грозница,,254-257,254,257,,,,,,
 780,,s.,Grubna,Грубна,,258-258v,258,258,,,,,,
-780,,s.,Gruşoviţa,Грушовица,,259-261v,259,261,,,,,,
+780,,s.,Gruşoviţa,Грушовица,,259-261v,259,261,,,,,463,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-F2T6?i=462&cc=1985804&wc=M6CB-8Z9%3A264175701%2C264722601%2C264792801
 780,,s.,Dăncăuţi,Дэнкэуць,,262-263,262,263,,,,,,
 780,,s.,Darabani,Дарабань,,264-264v,264,264,,,,,,
 780,,s.,Dîngenii de Sus,Дынжений-де-Сус,,265,265,265,,,,,,
