@@ -7803,51 +7803,51 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 652,III,oraşul,Chişinău,Кишинёв,,175-290,175,290,,,,,276,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YSX?i=275&cc=1985804&wc=M6Z3-QZ9%3A264175701%2C264722601%2C265957401
 653,I,oraşul,Chişinău,Кишинёв,,1-102,1,102,,,,,3,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2T9C?i=2&cc=1985804&wc=M6ZS-Y3D%3A264175701%2C264722601%2C265932401
 653,II,oraşul,Chişinău,Кишинёв,,103-210,103,210,,,,,130,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29M5-F?i=129&cc=1985804&wc=M6ZS-Y3D%3A264175701%2C264722601%2C265932401
-654,I,or.,Akkerman,Аккерман,,1-4,1,4,,,,,,
-654,I,or.,Bălţi,Бельцы,,5-40,5,40,,,,,,
-654,I,s.,Sagaidac,Сагайдак,,41-45,41,45,,,,,,
-654,I,or.,Chişinău,Кишинёв,,49-95,49,95,,,,,,
-654,I,s.,Buţeni,Буцень,,96-99,96,99,,,,,,
-654,I,s.,Băcşeni,Бэкшень,,100-102,100,102,,,,,,
-654,I,s.,Budăi,Будэй,,103-105,103,105,,,,,,
-654,I,s.,Băcioi,Бэчой,,106-110,106,110,,,,,,
-654,I,s.,Bilieşti,Билиешты,,111-122,111,122,,,,,,
-654,I,s.,Boldureşti,Болдурешть,,123-127,123,127,,,,,,
-654,I,s.,Valea Trestieni,Валя-Трестиени,,128-131,128,131,,,,,,
-654,I,s.,Vînători,Вынэторы,,132-136,132,136,,,,,,
-654,I,s.,Ghidighici,Гидигич,,137-143,137,143,,,,,,
-654,I,s.,Hansca,Ханска,,144-154,144,154,,,,,,
-654,I,s.,Drăguşeni,Драгушены,,155-159,155,159,,,,,,
-654,I,s.,Drimbaşeni,Дримбашены,,160-162,160,162,,,,,,
-654,I,s.,Dănceni,Дэнчень,,163-167,163,167,,,,,,
-654,I,s.,Călimăneşti,Кэлимэнешты,,168-170,168,170,,,,,,
-654,II,s.,Chetrosu,Кетросу,,171-173,171,173,,,,,,
-654,II,s.,Mileşti,Милешть,,174-178,174,178,,,,,,
-654,II,s.,Micăuţi,Микэуць,,179-185,179,185,,,,,,
-654,II,s.,Pojareni,Пожарены,,186-194,186,194,,,,,,
-654,II,s.,Petricani,Петриканы,,195-202,195,202,,,,,,
-654,II,s.,Rădeni,Рэдень,,203-208,203,208,,,,,,
-654,II,s.,Roşcani,Рошкани,,208-209,208,209,,,,,,
-654,II,s.,Sireţi,Сирець,,210-212,210,212,,,,,,
-654,II,s.,Străisteni,Стрэйстень,,213-217,213,217,,,,,,
-654,II,s.,Soroceni,Сорочены,,218-225,218,225,,,,,,
-654,II,s.,Trestieni,Трестиень,,226-230,226,230,,,,,,
-654,II,s.,Frăsineni,Фрэсинень,,231-232,231,232,,,,,,
-654,II,s.,Bălăşeşti,Бэлэшешть,,233-235,233,235,,,,,,
-654,II,s.,Brăneşti,Брэнешты,,236-243,236,243,,,,,,
-654,II,s.,Vîşcăuţi,Выщэуць,,244-246,244,246,,,,,,
-654,II,s.,Văsieni,Вэсиень,,247-252,247,252,,,,,,
-654,II,s.,Găuzeni,Гэузень,,253-255,253,255,,,,,,
-654,II,s.,Ghermăneşti,Гермэнешть,,256-258,256,258,,,,,,
-654,II,s.,Dîşcova,Дышкова,,259-265,259,265,,,,,,
-654,II,s.,Slobozia Duşca,Слобозия Душка,,266-268,266,268,,,,,,
-654,II,s.,Jeloboc,Желобок,,269-271,269,271,,,,,,
-654,II,s.,Jevreni,Жеврены,,272-275,272,275,,,,,,
-654,II,s.,Echimăuţi,Екимоуцы,,276-280,276,280,,,,,,
-654,II,s.,Isacova,Исакова,,281-285,281,285,,,,,,
-654,II,s.,Izbişte,Избиште,,286-288,286,288,,,,,,
-654,II,s.,Cornova,Корнова,,289-291,289,291,,,,,,
-654,II,s.,Camencea,Каменча,,292-297,292,297,,,,,,
+654,I,or.,Akkerman,Аккерман,,1-4,1,4,,,,,5,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29MQ-S?i=4&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,or.,Bălţi,Бельцы,,5-40,5,40,,,,,6,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29MN-2?i=5&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Sagaidac,Сагайдак,,41-45,41,45,,,,,51,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-21YG?i=50&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,or.,Chişinău,Кишинёв,,49-95,49,95,,,,,68,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29M9-Q?i=67&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Buţeni,Буцень,,96-99,96,99,,,,,112,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-21X4?i=111&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Băcşeni,Бэкшень,,100-102,100,102,,,,,118,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2BJT?i=117&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Budăi,Будэй,,103-105,103,105,,,,,120,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2BKG?i=119&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Băcioi,Бэчой,,106-110,106,110,,,,,122,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2B2Y?i=121&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Bilieşti,Билиешты,,111-122,111,122,,,,,127,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-21H6?i=126&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Boldureşti,Болдурешть,,123-127,123,127,,,,,143,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-21Q1?i=142&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Valea Trestieni,Валя-Трестиени,,128-131,128,131,,,,,149,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2BZL?i=148&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Vînători,Вынэторы,,132-136,132,136,,,,,153,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BYB?i=152&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Ghidighici,Гидигич,,137-143,137,143,,,,,157,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BYW?i=156&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Hansca,Ханска,,144-154,144,154,,,,,165,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-21SQ?i=164&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Drăguşeni,Драгушены,,155-159,155,159,,,,,177,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BBZ?i=176&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Drimbaşeni,Дримбашены,,160-162,160,162,,,,,184,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2B5J?i=183&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Dănceni,Дэнчень,,163-167,163,167,,,,,186,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2B56?i=185&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,I,s.,Călimăneşti,Кэлимэнешты,,168-170,168,170,,,,,191,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BNW?i=190&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Chetrosu,Кетросу,,171-173,171,173,,,,,193,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BXL?i=192&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Mileşti,Милешть,,174-178,174,178,,,,,197,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2Y5B?i=196&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Micăuţi,Микэуць,,179-185,179,185,,,,,201,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YGY?i=200&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Pojareni,Пожарены,,186-194,186,194,,,,,208,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BKK?i=207&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Petricani,Петриканы,,195-202,195,202,,,,,221,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BR7?i=220&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Rădeni,Рэдень,,203-208,203,208,,,,,231,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2B7T?i=230&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Roşcani,Рошкани,,208-209,208,209,,,,,237,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YF4?i=236&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Sireţi,Сирець,,210-212,210,212,,,,,239,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BD1?i=238&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Străisteni,Стрэйстень,,213-217,213,217,,,,,242,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2B3W?i=241&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Soroceni,Сорочены,,218-225,218,225,,,,,249,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BMS?i=248&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Trestieni,Трестиень,,226-230,226,230,,,,,256,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2YYG?i=255&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Frăsineni,Фрэсинень,,231-232,231,232,,,,,262,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2YYR?i=261&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Bălăşeşti,Бэлэшешть,,233-235,233,235,,,,,265,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2B6G?i=264&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Brăneşti,Брэнешты,,236-243,236,243,,,,,268,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2B35?i=267&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Vîşcăuţi,Выщэуць,,244-246,244,246,,,,,277,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BMN?i=276&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Văsieni,Вэсиень,,247-252,247,252,,,,,280,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YWK?i=279&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Găuzeni,Гэузень,,253-255,253,255,,,,,286,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2YLG?i=285&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Ghermăneşti,Гермэнешть,,256-258,256,258,,,,,289,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2Y95?i=288&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Dîşcova,Дышкова,,259-265,259,265,,,,,291,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YQV?i=290&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Slobozia Duşca,Слобозия Душка,,266-268,266,268,,,,,302,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YS1?i=301&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Jeloboc,Желобок,,269-271,269,271,,,,,304,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2YFV?i=303&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Jevreni,Жеврены,,272-275,272,275,,,,,307,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2YY3?i=306&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Echimăuţi,Екимоуцы,,276-280,276,280,,,,,312,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2YKJ?i=311&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Isacova,Исакова,,281-285,281,285,,,,,318,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2YJB?i=317&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Izbişte,Избиште,,286-288,286,288,,,,,325,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2YJ9?i=324&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Cornova,Корнова,,289-291,289,291,,,,,327,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2TYT?i=326&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
+654,II,s.,Camencea,Каменча,,292-297,292,297,,,,,330,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2TGJ?i=329&cc=1985804&wc=M6ZS-Y38%3A264175701%2C264722601%2C265932701
 654,II,s.,Cogîlniceni,Когильничены,,298-300,298,300,,,,,7,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29SV-Q?i=6&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,II,s.,Slobozia Căliceni,Слобозия Кэличень,,301-303,301,303,,,,,10,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-29S2-5?i=9&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,II,s.,Crăsnăşeni,Крэснэшены,,304-306,304,306,,,,,13,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-29S2-Q?i=12&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
@@ -7933,41 +7933,41 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 654,V,s.,Beşeni,Бешены,,760-766,760,766,,,,,589,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-L97?i=588&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,V,s.,Buciumeni,Бучумены,,767-772,767,772,,,,,600,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-293H-6?i=599&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,V,s.,Vulpeşti şi Mănoileşti,Вулпешты ши Мэнойлешты,,773-778,773,778,,,,,608,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2937-V?i=607&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
-654,V,s.,Volodeni,Володены,,779-782,779,782,,,,,,
-654,V,s.,Ghiliceni,Гилиčень,,783-786,783,786,,,,,,
+654,V,s.,Volodeni,Володены,,779-782,779,782,,,,,617,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-293X-D?i=616&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Ghiliceni,Гилиčень,,783-786,783,786,,,,,622,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29SK-V?i=621&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,V,s.,Gălăşeni,Гэлэшень,,787-790,787,790,,,,,629,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29SV-H?i=628&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
-654,V,s.,Groseni,Гросень,,791-795,791,795,,,,,,
-654,V,s.,Hîrceşti,Хырчешты,,796-805,796,805,,,,,,
-654,V,s.,Glodeni,Глодень,,806-811,806,811,,,,,,
-654,V,s.,Gherman,Герман,,812-813,812,813,,,,,,
-654,V,s.,Drujineni,Дружинены,,814-823,814,823,,,,,,
-654,V,s.,Dămăşcani,Дэмэшкань,,824-827,824,827,,,,,,
-654,V,s.,Corneşti,Корнешть,,828-839,828,839,,,,,,
-654,V,s.,Copîceanca (Rîşcani),Копычанка (Рышкань),,840-846,840,846,,,,,,
-654,VI,s.,Chişcăreni,Кишкарены,,847-859,847,859,,,,,,
-654,VI,s.,Cuhneşti,Кухнешты,,860-868,860,868,,,,,,
-654,VI,s.,Călineşti,Кэлинешты,,869-870,869,870,,,,,,
-654,VI,s.,Limbenii Noi,Лимбений Ной,,871-876,871,876,,,,,,
-654,VI,s.,Lucăceni,Лукэчень,,877-878,877,878,,,,,,
-654,VI,s.,Medeleni,Меделень,,879-884,879,884,,,,,,
+654,V,s.,Groseni,Гросень,,791-795,791,795,,,,,632,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2937-G?i=631&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Hîrceşti,Хырчешты,,796-805,796,805,,,,,639,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2934-F?i=638&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Glodeni,Глодень,,806-811,806,811,,,,,652,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2938-9?i=651&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Gherman,Герман,,812-813,812,813,,,,,661,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-293M-6?i=660&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Drujineni,Дружинены,,814-823,814,823,,,,,664,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-293M-T?i=663&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Dămăşcani,Дэмэшкань,,824-827,824,827,,,,,678,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29SZ-S?i=677&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Corneşti,Корнешть,,828-839,828,839,,,,,683,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-293M-W?i=682&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,V,s.,Copîceanca (Rîşcani),Копычанка (Рышкань),,840-846,840,846,,,,,698,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2937-C?i=697&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Chişcăreni,Кишкарены,,847-859,847,859,,,,,708,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-293S-5?i=707&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Cuhneşti,Кухнешты,,860-868,860,868,,,,,729,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29S5-4?i=728&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Călineşti,Кэлинешты,,869-870,869,870,,,,,743,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SL-7?i=742&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Limbenii Noi,Лимбений Ной,,871-876,871,876,,,,,746,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SV-1?i=745&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Lucăceni,Лукэчень,,877-878,877,878,,,,,755,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29SQ-9?i=754&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Medeleni,Меделень,,879-884,879,884,,,,,758,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SG-G?i=757&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 654,,moşia,Mătăseni,Мэтэсень,,885-889,885,889,,,,,,
-654,VI,s.,Mirceşti,Мирчешть,,890-898,890,898,,,,,,
-654,VI,s.,Măgura,Мэгура,,899-903,899,903,,,,,,
-654,VI,s.,Năvîrneţ,Навырнец,,904-907,904,907,,,,,,
-654,VI,s.,Obreja,Обря,,908-913,908,913,,,,,,
-654,VI,s.,Pînzăreni,Пынзэрень,,914-919,914,919,,,,,,
-654,VI,s.,Pîrjota şi Işcalău,Пыржота и Искэлэу,,920-925,920,925,,,,,,
-654,VI,s.,Pociumbeni,Почумбены,,926-931,926,931,,,,,,
-654,VI,s.,Chetrosu,Кетросу,,932-935,932,935,,,,,,
-654,VI,s.,Sîngerei,Сынджерей,,936-943,936,943,,,,,,
-654,VI,s.,Stîncăuţi,Стынкэуць,,944-948,944,948,,,,,,
-654,VI,s.,Unţeşti,Унцешты,,949-962,949,962,,,,,,
-654,VI,s.,Funduri,Фундурь,,963-969,963,969,,,,,,
-654,VI,s.,Floreşti,Флорешты,,970-980,970,980,,,,,,
-654,VI,s.,Floriţoaia,Флорицоая,,981-984,981,984,,,,,,
-654,VI,s.,Ciuciueni,Чучуень,,985-996,985,996,,,,,,
-654,VI,s.,Ciuciulea,Чучулея,,997-1002,997,1002,,,,,,
-654,VI,s.,Iabloana,Яблоана,,1003-1006,1003,1006,,,,,,
+654,VI,s.,Mirceşti,Мирчешть,,890-898,890,898,,,,,774,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SN-X?i=773&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Măgura,Мэгура,,899-903,899,903,,,,,788,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29SX-T?i=787&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Năvîrneţ,Навырнец,,904-907,904,907,,,,,795,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29SD-F?i=794&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Obreja,Обря,,908-913,908,913,,,,,800,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SZ-Q?i=799&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Pînzăreni,Пынзэрень,,914-919,914,919,,,,,808,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-29S4-H?i=807&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Pîrjota şi Işcalău,Пыржота и Искэлэу,,920-925,920,925,,,,,818,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SD-T?i=817&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Pociumbeni,Почумбены,,926-931,926,931,,,,,828,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SQ-M?i=827&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Chetrosu,Кетросу,,932-935,932,935,,,,,837,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29S3-Q?i=836&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Sîngerei,Сынджерей,,936-943,936,943,,,,,845,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-29SS-M?i=844&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Stîncăuţi,Стынкэуць,,944-948,944,948,,,,,857,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2992-V?i=856&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Unţeşti,Унцешты,,949-962,949,962,,,,,864,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-299C-M?i=863&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Funduri,Фундурь,,963-969,963,969,,,,,885,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2992-T?i=884&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Floreşti,Флорешты,,970-980,970,980,,,,,894,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2992-T?i=893&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Floriţoaia,Флорицоая,,981-984,981,984,,,,,912,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-299Z-L?i=911&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Ciuciueni,Чучуень,,985-996,985,996,,,,,917,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-299N-F?i=916&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Ciuciulea,Чучулея,,997-1002,997,1002,,,,,935,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29MF-5?i=934&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
+654,VI,s.,Iabloana,Яблоана,,1003-1006,1003,1006,,,,,944,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-29MX-M?i=943&cc=1985804&wc=M6ZS-FWL%3A264175701%2C264722601%2C265776601
 655,I,s.,Olişcani,Ольшканы,,1-65,1,65,,,,,3,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2997-F?i=2&cc=1985804&wc=M6ZS-FWP%3A264175701%2C264722601%2C265778601
 655,I,s.,Piatra,Пятра,,66-105,66,105,,,,,,
 655,I,s.,Păhărniceni,Пэхэрничень,,106-136,106,136,,,,,207,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-23S6?i=206&cc=1985804&wc=M6ZS-FWP%3A264175701%2C264722601%2C265778601
@@ -8787,76 +8787,76 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 774,II,s.,Chircani,Кырканы,,187-190,187,190,,,,,289,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2Y3M?i=288&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Vadul lui Isac,Вадул луй Исак,,191-194,191,194,,,,,296,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TG5?i=295&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Frumoasa,Фрумоаса,,195-199,195,199,,,,,301,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TJ3?i=300&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Roşu,Рошу,,200,200,200,,,,,,
+774,,s.,Roşu,Рошу,,200,200,200,,,,,309,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TXC?i=308&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Pelinei Bulgari,Пелиней Булгарь,,200v-200v,200,200,,,,,,
 774,II,s.,Pelinei Moldoveni,Пелиней Молдовень,,201-203,201,203,,,,,310,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TXM?i=309&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Burlaci (Burlăceni),Бурлачены,,204,204,204,,,,,,
+774,,s.,Burlaci (Burlăceni),Бурлачены,,204,204,204,,,,,316,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TJ7?i=315&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Musait,Мусаит,,204v-204v,204,204,,,,,,
 774,II,s.,Carbaul,Карбаул,,205-206,205,206,,,,,317,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TLG?i=316&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Hagichioi,Гаджикиой,,206v-206v,206,206,,,,,,
+774,,s.,Hagichioi,Гаджикиой,,206v-206v,206,206,,,,,318,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TK2?i=317&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Albota,Альбота,,207-208,207,208,,,,,320,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TVR?i=319&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Chioselia Mare,Киоселия Маре,,208v-208v,208,208,,,,,,
+774,,s.,Chioselia Mare,Киоселия Маре,,208v-208v,208,208,,,,,322,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RPP?i=321&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Ciucur-Miş,Чучур-Миш,,209-210v,209,210,,,,,323,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TN5?i=322&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Cazaclia,Казаклия,,211v-211v,211,211,,,,,,
 774,,s.,Baurci Moldoveni,Баурчи-Молдовень,,211v-212v,211,212,,,,,,
 774,II,s.,Zîrneşti,Зырнешты,,213-213v,213,213,,,,,330,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2T82?i=329&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Paicu,Пайку,,214,214,214,,,,,,
+774,,s.,Paicu,Пайку,,214,214,214,,,,,331,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TT4?i=330&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Larga,Ларга,,214v-217,214,217,,,,,,
-774,,s.,Badicul,Бадикул,,217v-217v,217,217,,,,,,
-774,,s.,Tatar-Baurci,Татар-Баурчи,,218,218,218,,,,,,
+774,,s.,Badicul,Бадикул,,217v-217v,217,217,,,,,336,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TLZ?i=335&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Tatar-Baurci,Татар-Баурчи,,218,218,218,,,,,337,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RYB?i=336&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Coştangalia Mare,Коштангалия Маре,,218v-218v,218,218,,,,,,
 774,II,s.,Chioselia Mică,Киоселия Микэ,,219-219v,219,219,,,,,338,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TBR?i=337&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Borceag,Борчаг,,220-221,220,221,,,,,340,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RRC?i=339&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Greceni,Гречень,,221v-221v,221,221,,,,,,
+774,,s.,Greceni,Гречень,,221v-221v,221,221,,,,,341,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TDF?i=340&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Enichioi,Еникиой,,222-224v,222,224,,,,,343,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2T2H?i=342&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Cîietu,Кыету,,225-225v,225,225,,,,,348,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TH7?i=347&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Măcreşti,Мэкрешть,,226,226,226,,,,,,
 774,II,s.,Tartaul de Larga,Тартаул де Ларга,,226-227v,226,227,,,,,349,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TZ5?i=348&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Ciobalaccia de Larga,Чобалакчия де Ларга,,227v-228,227,228,,,,,,
-774,,s.,Constantinovca (Cîşla Sturzii),Константиновка,,228v-229,228,229,,,,,,
+774,,s.,Ciobalaccia de Larga,Чобалакчия де Ларга,,227v-228,227,228,,,,,351,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2THZ?i=350&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Constantinovca (Cîşla Sturzii),Константиновка,,228v-229,228,229,,,,,352,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TW8?i=351&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Goteşti,Готешть,,230-232v,230,232,,,,,357,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TC7?i=356&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Cotangalia Bejenari,Котангалия Беженарь,,233,233,233,,,,,,
+774,,s.,Cotangalia Bejenari,Котангалия Беженарь,,233,233,233,,,,,360,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TTT?i=359&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Aluat,Алуат,,233v-233v,233,233,,,,,,
-774,,s.,Andruşul,Андрушул,,234,234,234,,,,,,
+774,,s.,Andruşul,Андрушул,,234,234,234,,,,,362,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2THL?i=361&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Broasca,Броаска,,240-240v,240,240,,,,,370,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RN6?i=369&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Covurlui,Ковурлуй,,241-241v,241,241,,,,,371,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TCZ?i=370&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Sofiana,Софьяна,,242,242,242,,,,,,
+774,,s.,Sofiana,Софьяна,,242,242,242,,,,,372,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2TMT?i=371&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Cîşliţa,Кышлица,,242v-243,242,243,,,,,,
-774,,s.,Hagi-Curda,Гаджи-Курда,,243v-244,243,244,,,,,,
-774,,s.,Ceamaşir,Чамашир,,244v-244v,244,244,,,,,,
-774,,s.,Muraşoca,Мурашока,,245,245,245,,,,,,
+774,,s.,Hagi-Curda,Гаджи-Курда,,243v-244,243,244,,,,,374,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2T7R?i=373&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Ceamaşir,Чамашир,,244v-244v,244,244,,,,,376,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RJ2?i=375&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Muraşoca,Мурашока,,245,245,245,,,,,378,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2TJK?i=377&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Hasan-Aspaga,Хасан-Аспага,,245v-246v,245,246,,,,,,
 774,,or,Reni,Рени,,260,260,260,,,,,,
 774,,s.,Hasan Aspaga,Хасан-Аспага,,260,260,260,,,,,,
 774,,s.,Vadul lui Isac,Вадул луй Исак,,260v-260v,260,260,,,,,,
 774,,s.,Chircani,Кырканы,,260v-260v,260,260,,,,,,
 774,,s.,Frumoasa,Фрумоаса,,260v-260v,260,260,,,,,,
-774,,s.,Larga,Ларга,,261,261,261,,,,,,
+774,,s.,Larga,Ларга,,261,261,261,,,,,408,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TSB?i=407&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Baurci Moldoveni,Баурчи-Молдовень,,261,261,261,,,,,,
 774,II,or.,Ismail,Измаил,Ismail,262-283v,262,283,,,,,409,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2TM7?i=408&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,or.,Reni,Рени,Ismail,284-289v,284,289,,,,,446,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2T9N?i=445&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Broasca,Броаска,Ismail,290-290v,290,290,,,,,458,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2RLJ?i=457&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,s.,Cuhurlui (Covurlui),Кухурлуй (Ковурлуй),Ismail,291-291v,291,291,,,,,460,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2RNG?i=459&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,II,,Ismail şi Reni şi din ţinutul Ismail,Измаил и Рени и из Измаильского уезда,Ismail,300-301,300,301,,,,,473,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2RLB?i=472&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Sofisna,Софисна,,292,292,292,,,,,,
+774,,s.,Sofisna,Софисна,,292,292,292,,,,,461,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2RM3?i=460&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Cîşliţa,Кышлица,,292v-293,292,293,,,,,,
-774,,s.,Hagi-Curda,Гаджи-Курда,,293v-294,293,294,,,,,,
-774,,s.,Ceamaşir,Чамашир,,294v-294v,294,294,,,,,,
+774,,s.,Hagi-Curda,Гаджи-Курда,,293v-294,293,294,,,,,462,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2RC6?i=461&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Ceamaşir,Чамашир,,294v-294v,294,294,,,,,464,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2RVD?i=463&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Chircani,Кырканы,,294v-294v,294,294,,,,,,
-774,,s.,Muravieva,Муравьёва,,295,295,295,,,,,,
+774,,s.,Muravieva,Муравьёва,,295,295,295,,,,,466,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2RVJ?i=465&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Hasan-Aspaga,Хасан-Аспага,,295v-296,295,296,,,,,,
-774,,s.,Vadul lui Isac,Вадул луй Исак,,296v-296v,296,296,,,,,,
+774,,s.,Vadul lui Isac,Вадул луй Исак,,296v-296v,296,296,,,,,467,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2RD6?i=466&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Manta,Манта,,296v-296v,296,296,,,,,,
-774,,s.,Frumoasa,Фрумоаса,,297,297,297,,,,,,
+774,,s.,Frumoasa,Фрумоаса,,297,297,297,,,,,468,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2R2P?i=467&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Pelinei Bulgari,Пелиней Булгарь,,297,297,297,,,,,,
 774,,s.,Pelinei Moldoveni,Пелиней Молдовень,,297,297,297,,,,,,
 774,,s.,Greceni,Гречень,,297v-297v,297,297,,,,,,
 774,,s.,Musait,Мусаит,,297v-297v,297,297,,,,,,
 774,,s.,Ciumai,Чумай,,297v-297v,297,297,,,,,,
-774,,s.,Carbaul,Карбаул,,298,298,298,,,,,,
+774,,s.,Carbaul,Карбаул,,298,298,298,,,,,471,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2RC7?i=470&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Hagichioi,Гаджикиой,,298,298,298,,,,,,
 774,,s.,Albota,Альбота,,298,298,298,,,,,,
-774,,s.,Coştangalia Mare,Коштангалия Маре,,299v-299v,299,299,,,,,,
+774,,s.,Coştangalia Mare,Коштангалия Маре,,299v-299v,299,299,,,,,472,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2RC9?i=471&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Cîietu,Кыету,,299v-299v,299,299,,,,,,
 774,,s.,Enichioi,Еникиой,,299v-299v,299,299,,,,,,
 774,,s.,Tartaul,Тартаул,,299v-299v,299,299,,,,,,
@@ -8867,45 +8867,45 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 774,III,s.,Sofiana,Софьяна,Ismail,359-360,359,360,,,,,581,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2R75?i=580&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Cuhurlui (Covurlui),Кухурлуй (Ковурлуй),Ismail,360-362,360,362,,,,,583,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-252N?i=582&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Cîşliţa,Кышлица,Ismail,362-364,362,364,,,,,586,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-25PF?i=585&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Hagi Curda,Хаджи Курда,,364v-366,364,366,,,,,,
-774,,s.,Ceamaşir,Чамашир,,366v-367v,366,367,,,,,,
+774,,s.,Hagi Curda,Хаджи Курда,,364v-366,364,366,,,,,590,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2RM2?i=589&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Ceamaşir,Чамашир,,366v-367v,366,367,,,,,594,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-258Y?i=593&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Muravievca,Муравьевка,Ismail,368-368v,368,368,,,,,598,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-251Y?i=597&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Hasan Aspaga,Хасан-Аспага,Ismail,369-371v,369,371,,,,,600,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2R3H?i=599&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Manta,Манта,Ismail,372-373v,372,373,,,,,605,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-25LH?i=604&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Chircani,Кырканы,Ismail,374-376v,374,376,,,,,609,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-25VW?i=608&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Vadul lui Isac,Вадул луй Исак,Ismail,378-380v,378,380,,,,,615,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-25BH?i=614&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Frumoasa,Фрумоаса,Ismail,381-384v,381,384,,,,,620,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2B5K?i=619&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Roşu,Рошу,,385,385,385,,,,,,
+774,,s.,Roşu,Рошу,,385,385,385,,,,,628,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-21SP?i=627&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Pelinei Bulgari,Пелиней Булгарь,,385v-385v,385,385,,,,,,
 774,III,s.,Pelinei Moldoveni,Пелиней Молдовень,Ismail,386-388,386,388,,,,,630,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BY8?i=629&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Burlaci (Burlăceni),Бурлачены,,388v-388v,388,388,,,,,,
-774,,s.,Musait,Мусаит,,389,389,389,,,,,,
+774,,s.,Burlaci (Burlăceni),Бурлачены,,388v-388v,388,388,,,,,633,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BV7?i=632&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Musait,Мусаит,,389,389,389,,,,,635,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2BWY?i=634&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Carbaul,Карбаул,,389v-390v,389,390,,,,,,
-774,,s.,Hagichioi,Гаджикиой,,391,391,391,,,,,,
+774,,s.,Hagichioi,Гаджикиой,,391,391,391,,,,,639,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BRL?i=638&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Albota,Альбота,,391v-392v,391,392,,,,,,
-774,,s.,Chioselia Mare,Киоселия Маре,,393,393,393,,,,,,
+774,,s.,Chioselia Mare,Киоселия Маре,,393,393,393,,,,,643,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2B32?i=642&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Ciucur-Miş,Чучур-Миш,,393v-395v,393,395,,,,,,
-774,,s.,Baimaclia Mică,Баймаклия Мика,,395v-395v,395,395,,,,,,
+774,,s.,Baimaclia Mică,Баймаклия Мика,,395v-395v,395,395,,,,,645,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BLN?i=644&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Cazaiclia,Казаклия,,395v-396,395,396,,,,,,
-774,,s.,Baurci,Баурчи,,396v-397,396,397,,,,,,
-774,,s.,Zîrneşti,Зырнешты,,397v-398,397,398,,,,,,
-774,,s.,Paicu,Пайку,,398v-398v,398,398,,,,,,
+774,,s.,Baurci,Баурчи,,396v-397,396,397,,,,,647,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2199?i=646&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Zîrneşti,Зырнешты,,397v-398,397,398,,,,,649,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BG2?i=648&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Paicu,Пайку,,398v-398v,398,398,,,,,651,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2B2S?i=650&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Larga,Ларга,Ismail,399-400v,399,400,,,,,653,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YBY?i=652&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Badicul,Бадикул,,401,401,401,,,,,,
+774,,s.,Badicul,Бадикул,,401,401,401,,,,,657,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BF5?i=656&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Tatar-Baurci,Татар-Баурчи,,401v-401v,401,401,,,,,,
-774,,s.,Coştangalia,Коштангалия,,402,402,402,,,,,,
+774,,s.,Coştangalia,Коштангалия,,402,402,402,,,,,658,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BG1?i=657&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Chioselia Mică,Киоселия Микэ,,402,402,402,,,,,,
 774,,s.,Burlaci (Burlăceni),Бурлачены,,402v-403v,402,403,,,,,,
-774,,s.,Greceni,Гречень,,403v-403v,403,403,,,,,,
+774,,s.,Greceni,Гречень,,403v-403v,403,403,,,,,660,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2B2Z?i=659&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,s.,Enichioi,Еникиой,Ismail,404-405v,404,405,,,,,662,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BKN?i=661&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,s.,Cîietu,Кыету,,406,406,406,,,,,,
+774,,s.,Cîietu,Кыету,,406,406,406,,,,,664,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BLJ?i=663&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Măcăreşti,Мэкэрешть,,406v-406v,406,406,,,,,,
 774,,s.,Tartaul,Тартаул,,406v-407,406,407,,,,,,
-774,,s.,Ciobalaccia,Чобалакчия,,407v-408,407,408,,,,,,
-774,,s.,Constantinovca,Константиновка,,408v-408v,408,408,,,,,,
+774,,s.,Ciobalaccia,Чобалакчия,,407v-408,407,408,,,,,666,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BV4?i=665&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Constantinovca,Константиновка,,408v-408v,408,408,,,,,667,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BRD?i=666&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Goteşti,Готешть,,408v-410,408,410,,,,,,
-774,,s.,Ţîganca,Цыганка,,410v-411v,410,411,,,,,,
-774,,s.,Coştangalia,Коштангалия,,411v-411v,411,411,,,,,,
+774,,s.,Ţîganca,Цыганка,,410v-411v,410,411,,,,,670,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BNQ?i=669&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Coştangalia,Коштангалия,,411v-411v,411,411,,,,,671,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BN2?i=670&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,or.,Ismail,Измаил,Ismail,414-416,414,416,,,,,676,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BGL?i=675&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,or.,Reni,Рени,,416v-416v,416,416,,,,,,
 774,,s.,Ceamaşir,Чамашир,,416v-416v,416,416,,,,,,
@@ -8921,9 +8921,9 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 774,,s.,Baurci Moldoveni,Баурчи-Молдовень,,421,421,421,,,,,,
 774,,s.,Zîrneşti,Зырнешты,,421v-421v,421,421,,,,,,
 774,,s.,Tatar-Baurci,Татар-Баурчи,,421v-421v,421,421,,,,,,
-774,,s.,Coştangalia Mare,Коштангалия Маре,,423,423,423,,,,,,
+774,,s.,Coştangalia Mare,Коштангалия Маре,,423,423,423,,,,,689,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BL8?i=688&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Enichioi,Еникиой,,423v-423v,423,423,,,,,,
-774,,s.,Căietu,Кэету,,424,424,424,,,,,,
+774,,s.,Căietu,Кэету,,424,424,424,,,,,690,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BNF?i=689&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Măcreşti,Мэкрешть,,424,424,424,,,,,,
 774,,s.,Tartaul,Тартаул,,424v-424v,424,424,,,,,,
 774,III,s.,Constantinovca,Константиновка,Ismail,425-426v,425,426,,,,,693,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-2YY5?i=692&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
@@ -8932,15 +8932,15 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 774,,s.,Aluat,Алуат,,427v-427v,427,427,,,,,,
 774,III,or.,Ismail,Измаил,Ismail,429-433v,429,433,,,,,699,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2BCR?i=698&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,III,or.,Reni,Рени,Ismail,433-436v,433,436,,,,,706,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BK9?i=705&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,,cătunul,Musa-Murza,Муса-Мурза,,437-438,437,438,,,,,,
-774,,s.,Pelinei Bulgari,Пелиней Булгарь,,438,438,438,,,,,,
+774,,cătunul,Musa-Murza,Муса-Мурза,,437-438,437,438,,,,,714,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9QM-2BNL?i=713&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
+774,,s.,Pelinei Bulgari,Пелиней Булгарь,,438,438,438,,,,,716,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-2B7X?i=715&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Chircani,Кырканы,,438,438,438,,,,,,
 774,,s.,Carbaul,Карбаул,,438v-438v,438,438,,,,,,
 774,,s.,Aluat,Алуат,,438v-439,438,439,,,,,,
-774,,cătunul,Burda,Бурда,,439-439v,439,439,,,,,,
+774,,cătunul,Burda,Бурда,,439-439v,439,439,,,,,718,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BNG?i=717&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,cătunul,Carataulac,Каратаулак,,439v-440,439,440,,,,,,
 774,III,s.,Cunduc,Кундук,Ismail,440-440v,440,440,,,,,720,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BKV?i=719&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
-774,III,s.,Chioselia Mare,Киоселия Маре,Ismail,440-441,440,441,,,,,,
+774,III,s.,Chioselia Mare,Киоселия Маре,Ismail,440-441,440,441,,,,,720,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BKV?i=719&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Ciucur-Miş,Чучур-Миш,,441,441,441,,,,,,
 774,III,s.,Baimaclia Mică,Баймаклия Мика,Ismail,441-441v,441,441,,,,,722,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-2BKC?i=721&cc=1985804&wc=M6CB-ZTL%3A264175701%2C264722601%2C264785001
 774,,s.,Tartaul,Тартаул,,441v-441v,441,441,,,,,,
