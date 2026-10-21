@@ -6866,10 +6866,10 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 570,,,Palat de stat a Basarabiei,Дворец государственный Бессарабии,,1-23,1,23,,,,,,
 571,,tîrgul,Făleşti,Фалешты,,1-66,1,66,,,,,4,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-VSTM?i=3&cc=1985804&wc=M6Z3-7TL%3A264175701%2C264722601%2C266016001
 572,I,or.,Bender,Бендеры,,1-153,1,153,,,,,,
-572,II,or.,Bender,Бендеры,,154-303,154,303,,,,,,
-572,III,or.,Bender,Бендеры,,304-454,304,454,,,,,,
-572,IV,or.,Bender,Бендеры,,455-609,455,609,,,,,,
-572,V,or.,Bender,Бендеры,,610-751,610,751,,,,,,
+572,II,or.,Bender,Бендеры,,154-303,154,303,,,,,9,https://www.familysearch.org/ark:/61903/3:1:S3HY-D4B9-YMC?i=8&cc=1985804&wc=M6ZS-229%3A264175701%2C264722601%2C265817001
+572,III,or.,Bender,Бендеры,,304-454,304,454,,,,,250,https://www.familysearch.org/ark:/61903/3:1:S3HY-D4B9-Y3B?i=249&cc=1985804&wc=M6ZS-229%3A264175701%2C264722601%2C265817001
+572,IV,or.,Bender,Бендеры,,455-609,455,609,,,,,463,https://www.familysearch.org/ark:/61903/3:1:S3HY-D4B9-YCM?i=462&cc=1985804&wc=M6ZS-229%3A264175701%2C264722601%2C265817001
+572,V,or.,Bender,Бендеры,,610-751,610,751,,,,,689,https://www.familysearch.org/ark:/61903/3:1:S3HY-D4B9-T85?i=688&cc=1985804&wc=M6ZS-229%3A264175701%2C264722601%2C265817001
 573,I,or.,Bender,Бендеры,,1-167,1,167,,,,,,
 573,II,or.,Bender,Бендеры,,168-335,168,335,,,,,,
 573,III,or.,Bender,Бендеры,,336-500,336,500,,,,,,
@@ -8740,7 +8740,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 755,,,Dumbrăvni,,,1-29,1,29,,,,,,
 755,,,coloniaDumbrăvni,колония Думбравень,,1-29,1,29,,,,,,
 756,,or.,Soroca,Сорока,,1-117,1,117,,,,,2,https://www.familysearch.org/ark:/61903/3:1:33S7-95YP-RD6?i=1&cc=1985804&wc=M6Z9-G29%3A264175701%2C264722601%2C265495901
-756,,col.,Vertiujeni,Вертюжень,,118-134,118,134,,,,,,
+756,,col.,Vertiujeni,Вертюжень,,118-134,118,134,,,,,148,https://www.familysearch.org/ark:/61903/3:1:33SQ-G5YR-XV4?i=147&cc=1985804&wc=M6Z9-GMS%3A264175701%2C264722601%2C265503201
 757,I,tîrgul,"Ataci (Otaci, Atachi)","Атаки (Отачь, Атачь)",,1-114,1,114,,,,,,
 757,II,tîrgul,"Ataci (Otaci, Atachi)","Атаки (Отачь, Атачь)",,115-230,115,230,,,,,,
 758,,colonia,Liublin,Люблин,,1-16,1,16,,,,,,
