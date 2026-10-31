@@ -550,23 +550,23 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 46,IV,colonia,Enichioi,Еникиой,,298-384,298,384,,,,,147,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-5ZNK?i=146&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,V,colonia,Zadunaevca,Задунаевка,,385-424,385,424,,,,,305,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-5HWW?i=304&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
 46,V,colonia,Ivanova,Иванова,,425-456,425,456,,,,,368,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-546F?i=367&cc=1985804&wc=M6C1-SZ9%3A264175701%2C264722601%2C264993801
-47,I,colonia,Ivanova,Иванова,,1-2,1,2,,,,,,
-47,I,colonia,Iserlia,Изерлия,,3-29,3,29,,,,,,
-47,I,colonia,Cod Chitai,Код-Китай,,31-77,31,77,,,,,,
-47,I,colonia,Pocrovca Nouă,Покровка Ноуэ,,78-88,78,88,,,,,,
-47,I,colonia,Cuporani,Купорань,,89-113,89,113,,,,,,
-47,II,colonia,Camcic,Камчик,,114-140,114,140,,,,,,
-47,II,colonia,Caragaciul Nou,Новый Карагач,,141-154,141,154,,,,,,
-47,II,colonia,Culevca,Кулевка,,156-192,156,192,,,,,,
-47,II,colonia,Pandaclia,Пандаклия,,193-233,193,233,,,,,,
-47,III,colonia,Satalîc Hagi,Саталык Хаджи,,243-277,243,277,,,,,,
-47,III,colonia,Selioglo,Селиогло,,278-336,278,336,,,,,,
+47,I,colonia,Ivanova,Иванова,,1-2,1,2,,,,,4,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-5W1F?i=3&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,I,colonia,Iserlia,Изерлия,,3-29,3,29,,,,,9,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-54HX?i=8&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,I,colonia,Cod Chitai,Код-Китай,,31-77,31,77,,,,,56,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-5WBH?i=55&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,I,colonia,Pocrovca Nouă,Покровка Ноуэ,,78-88,78,88,,,,,135,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-5W69?i=134&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,I,colonia,Cuporani,Купорань,,89-113,89,113,,,,,156,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-5W2C?i=155&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,II,colonia,Camcic,Камчик,,114-140,114,140,,,,,200,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-5WHW?i=199&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,II,colonia,Caragaciul Nou,Новый Карагач,,141-154,141,154,,,,,246,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-57YJ?i=245&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,II,colonia,Culevca,Кулевка,,156-192,156,192,,,,,273,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-57KG?i=272&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,II,colonia,Pandaclia,Пандаклия,,193-233,193,233,,,,,331,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-57F7?i=330&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,III,colonia,Satalîc Hagi,Саталык Хаджи,,243-277,243,277,,,,,403,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-573V?i=402&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,III,colonia,Selioglo,Селиогло,,278-336,278,336,,,,,477,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-5ZHK?i=476&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
 47,IV,colonia,Selioglo,Селиогло,,335-336,335,336,,,,,,
-47,IV,colonia,Traianul Nou,Траянул Ноу,,337-385,337,385,,,,,,
-47,IV,colonia,Tropoclo,Трополо,,386-393,386,393,,,,,,
-47,IV,colonia,Fîntîna Zînelor,Фынтына Зынелор,,394-435,394,435,,,,,,
-47,V,colonia,Ciumlechioi,Чумлекиой,,436-480,436,480,,,,,,
-47,V,colonia,Şichirlichitai,Шикирличитай,,481-575,481,575,,,,,,
+47,IV,colonia,Traianul Nou,Траянул Ноу,,337-385,337,385,,,,,570,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-5C43?i=569&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,IV,colonia,Tropoclo,Трополо,,386-393,386,393,,,,,660,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-5417?i=659&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,IV,colonia,Fîntîna Zînelor,Фынтына Зынелор,,394-435,394,435,,,,,675,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-5H92?i=674&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,V,colonia,Ciumlechioi,Чумлекиой,,436-480,436,480,,,,,751,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-CKVG?i=750&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
+47,V,colonia,Şichirlichitai,Шикирличитай,,481-575,481,575,,,,,832,https://www.familysearch.org/ark:/61903/3:1:3QS7-993Y-CVGT?i=831&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
 48,I,s.,Larga,Ларга,,1-11,1,11,2360600,288–306,19,exacte,997,https://www.familysearch.org/ark:/61903/3:1:3QS7-L93Y-CVWZ?i=996&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
 48,I,s.,Leca,Лека,,12-27,12,27,2360600,307–327,21,exacte,1016,https://www.familysearch.org/ark:/61903/3:1:3QSQ-G93Y-CJ5J?i=1015&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
 48,I,s.,Lărguţa,Ларгуца,,28-56,28,56,2360600,328–376,49,exacte,1037,https://www.familysearch.org/ark:/61903/3:1:3QS7-893Y-CV4Z?i=1036&cc=1985804&wc=M6C1-STL%3A264175701%2C264722601%2C264998201
@@ -8417,7 +8417,7 @@ dosar,volume,prefix,village,village_ru,county,folios,folio_from,folio_to,microfi
 716,,s.,Ruseşti,Русешти,,86-93v,86,93,,,,,,
 717,,s.,Bălăşeşti,Бэлэшешть,,1-6,1,6,,,,,,
 718,,s.,Butuceni,Бутучень,,1-6,1,6,,,,,,
-719,,s.,Furceni,Фурчень,,1-19,1,19,,,,,,
+719,,s.,Furceni,Фурчень,,1-19,1,19,,,,,3,https://www.familysearch.org/ark:/61903/3:1:3QS7-89QM-PDF?i=2&cc=1985804&wc=M6C1-YN5%3A264175701%2C264722601%2C265210301
 719,,s.,Făureşti,Фэурешть,,20-29,20,29,,,,,30,https://www.familysearch.org/ark:/61903/3:1:3QS7-L9QM-P8G?i=29&cc=1985804&wc=M6C1-YN5%3A264175701%2C264722601%2C265210301
 719,,,Făureşti Frumuşica,,,30-35,30,35,,,,,47,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-PFX?i=46&cc=1985804&wc=M6C1-YN5%3A264175701%2C264722601%2C265210301
 719,,mănăstirea,Frumuşica,Фрумушица,,30-35,30,35,,,,,47,https://www.familysearch.org/ark:/61903/3:1:3QS7-99QM-PFX?i=46&cc=1985804&wc=M6C1-YN5%3A264175701%2C264722601%2C265210301
